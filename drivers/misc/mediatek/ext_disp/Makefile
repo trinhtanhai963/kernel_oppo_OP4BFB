@@ -25,3 +25,4 @@ obj-y += common/
 else
 obj-y += dummy/
 endif
+ccflags-y += -I$(src)

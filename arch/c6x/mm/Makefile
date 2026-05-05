@@ -3,3 +3,4 @@
 #
 
 obj-y := init.o dma-coherent.o
+ccflags-y += -I$(src)

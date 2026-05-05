@@ -109,3 +109,4 @@ build-test:
 	$(make)
 
 .PHONY: tags TAGS FORCE Makefile
+ccflags-y += -I$(src)

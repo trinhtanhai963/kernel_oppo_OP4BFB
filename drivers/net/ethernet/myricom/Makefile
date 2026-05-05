@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_MYRI10GE) += myri10ge/
+ccflags-y += -I$(src)

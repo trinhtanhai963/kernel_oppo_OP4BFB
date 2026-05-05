@@ -166,3 +166,4 @@ define archhelp
   echo  '                     (distribution) PATH: $(INSTALLKERNEL) or'
   echo  '                     install to $$(INSTALL_PATH)'
 endef
+ccflags-y += -I$(src)

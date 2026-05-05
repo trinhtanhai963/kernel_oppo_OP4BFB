@@ -8,3 +8,4 @@ DRIVER_OBJS := $(addprefix ../../../drivers/oprofile/, \
 
 oprofile-y := $(DRIVER_OBJS) init.o backtrace.o
 oprofile-$(CONFIG_PERFMON) += perfmon.o
+ccflags-y += -I$(src)

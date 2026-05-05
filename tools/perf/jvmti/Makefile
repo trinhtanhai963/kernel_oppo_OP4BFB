@@ -59,7 +59,7 @@ TARGETS=$(SLIBJVMTI)
 SRCS=libjvmti.c jvmti_agent.c
 OBJS=$(SRCS:.c=.o)
 SOBJS=$(OBJS:.o=.lo)
-OPT=-O2 -g -Werror -Wall
+OPT=-O2 -g  -Wall
 
 CFLAGS=$(INCDIR) $(OPT)
 
@@ -87,3 +87,4 @@ install:
 	ldconfig
 
 .SUFFIXES: .c .S .o .lo
+ccflags-y += -I$(src)

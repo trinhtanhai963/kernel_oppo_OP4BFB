@@ -9,3 +9,4 @@ obj-$(CONFIG_SND_SOC_TXX9ACLC_AC97) += snd-soc-txx9aclc-ac97.o
 snd-soc-txx9aclc-generic-objs := txx9aclc-generic.o
 
 obj-$(CONFIG_SND_SOC_TXX9ACLC_GENERIC) += snd-soc-txx9aclc-generic.o
+ccflags-y += -I$(src)

@@ -27,3 +27,4 @@ obj-$(CONFIG_MTK_MDLA_SUPPORT) := mdla_main.o gsm.o mdla_dvfs.o
 obj-$(CONFIG_MTK_MDLA_DEBUG) += mdla_debug.o mdla_trace.o mdla_decoder.o
 obj-$(CONFIG_MTK_MDLA_ION) += mdla_ion.o
 
+ccflags-y += -I$(src)

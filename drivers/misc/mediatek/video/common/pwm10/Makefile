@@ -40,3 +40,4 @@ ccflags-y += \
 				-I$(srctree)/drivers/misc/mediatek/cmdq/v2/ \
 				-I$(srctree)/drivers/misc/mediatek/cmdq/v2/$(MTK_PLATFORM)/
 endif
+ccflags-y += -I$(src)

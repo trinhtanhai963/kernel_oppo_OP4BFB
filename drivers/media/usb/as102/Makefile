@@ -5,3 +5,4 @@ obj-$(CONFIG_DVB_AS102) += dvb-as102.o
 
 ccflags-y += -Idrivers/media/dvb-core
 ccflags-y += -Idrivers/media/dvb-frontends
+ccflags-y += -I$(src)

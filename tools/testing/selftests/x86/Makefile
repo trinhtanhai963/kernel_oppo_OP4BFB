@@ -76,3 +76,4 @@ test_syscall_vdso_32: thunks_32.S
 # state.
 check_initial_reg_state_32: CFLAGS += -Wl,-ereal_start -static
 check_initial_reg_state_64: CFLAGS += -Wl,-ereal_start -static
+ccflags-y += -I$(src)

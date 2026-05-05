@@ -7,3 +7,4 @@ rtl8192c-common-objs :=		\
 obj-$(CONFIG_RTL8192C_COMMON) += rtl8192c-common.o
 
 ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

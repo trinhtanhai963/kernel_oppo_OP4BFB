@@ -22,3 +22,4 @@ CFLAGS_adsp_dvfs.o += -DDEBUG
 CFLAGS_adsp_clk.o += -DDEBUG
 CFLAGS_adsp_service.o += -DDEBUG
 endif
+ccflags-y += -I$(src)

@@ -40,3 +40,4 @@ proc-$(CONFIG_OPPO_FG_OPT)	+= fg_uid.o
 # Donghong.Zhao@ODM_WT.System.Kernel.Security,2020/02/24,Add for uniqueno display in factory mode
 proc-y  += serial_num.o
 #endif /* ODM_WT_EDIT */
+ccflags-y += -I$(src)

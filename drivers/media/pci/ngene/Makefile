@@ -12,3 +12,4 @@ ccflags-y += -Idrivers/media/tuners/
 
 # For the staging CI driver cxd2099
 ccflags-y += -Idrivers/staging/media/cxd2099/
+ccflags-y += -I$(src)

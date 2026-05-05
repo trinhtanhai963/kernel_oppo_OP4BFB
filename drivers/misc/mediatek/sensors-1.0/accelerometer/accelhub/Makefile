@@ -8,3 +8,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/vibrator/$(MTK_PLATFORM)
 #endif
 obj-y	:=  accelhub.o
 
+ccflags-y += -I$(src)

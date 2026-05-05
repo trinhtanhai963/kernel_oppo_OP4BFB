@@ -12,3 +12,4 @@ obj-$(CONFIG_MODULES)		+= module.o
 obj-$(CONFIG_OF)		+= prom.o
 
 clean:
+ccflags-y += -I$(src)

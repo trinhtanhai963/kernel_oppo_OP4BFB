@@ -16,3 +16,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/mdla/1.0
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/$(MTK_PLATFORM)/
 
 obj-$(CONFIG_MTK_MDLA_SUPPORT) := mdla_pmu.o mdla_qos.o
+ccflags-y += -I$(src)

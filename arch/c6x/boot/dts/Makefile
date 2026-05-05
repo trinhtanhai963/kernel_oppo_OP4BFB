@@ -18,3 +18,4 @@ $(obj)/builtin.dtb: $(obj)/$(DTB).dtb
 $(obj)/linked_dtb.o: $(obj)/builtin.dtb
 
 clean-files := *.dtb
+ccflags-y += -I$(src)

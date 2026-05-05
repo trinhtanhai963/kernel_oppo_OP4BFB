@@ -8,3 +8,4 @@ tile_net-y := tilegx.o
 else
 tile_net-y := tilepro.o
 endif
+ccflags-y += -I$(src)

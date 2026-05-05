@@ -3,3 +3,4 @@
 #
 
 obj-y	:= fault.o tlb.o init.o ioremap.o
+ccflags-y += -I$(src)

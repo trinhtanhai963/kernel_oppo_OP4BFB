@@ -20,3 +20,4 @@ POWER_MGR = amd_powerplay.o
 AMD_PP_POWER = $(addprefix $(AMD_PP_PATH)/,$(POWER_MGR))
 
 AMD_POWERPLAY_FILES += $(AMD_PP_POWER)
+ccflags-y += -I$(src)

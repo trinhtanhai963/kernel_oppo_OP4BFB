@@ -3,3 +3,4 @@
 #
 
 obj-y  = string.o delay.o
+ccflags-y += -I$(src)

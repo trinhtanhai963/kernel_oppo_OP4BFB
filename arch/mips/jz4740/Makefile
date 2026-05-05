@@ -18,3 +18,4 @@ obj-$(CONFIG_JZ4740_QI_LB60)	+= board-qi_lb60.o
 # PM support
 
 obj-$(CONFIG_PM) += pm.o
+ccflags-y += -I$(src)

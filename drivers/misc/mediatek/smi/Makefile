@@ -140,3 +140,4 @@ endif
 else
 obj-y += $(subst ",,variant)/
 endif
+ccflags-y += -I$(src)

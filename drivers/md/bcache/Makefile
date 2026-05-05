@@ -6,3 +6,4 @@ bcache-y		:= alloc.o bset.o btree.o closure.o debug.o extents.o\
 	util.o writeback.o
 
 CFLAGS_request.o	+= -Iblock
+ccflags-y += -I$(src)

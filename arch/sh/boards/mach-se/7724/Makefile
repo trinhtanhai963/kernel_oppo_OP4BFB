@@ -8,3 +8,4 @@
 #
 
 obj-y	 := setup.o irq.o sdram.o
+ccflags-y += -I$(src)

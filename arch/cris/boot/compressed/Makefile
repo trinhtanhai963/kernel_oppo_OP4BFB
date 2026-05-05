@@ -36,3 +36,4 @@ $(obj)/vmlinux: $(obj)/piggy.gz $(obj)/decompress.bin FORCE
 
 $(obj)/piggy.gz: $(obj)/../Image FORCE
 	$(call if_changed,gzip)
+ccflags-y += -I$(src)

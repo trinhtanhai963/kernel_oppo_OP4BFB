@@ -4,3 +4,4 @@
 
 obj-$(CONFIG_MTK_BLOCK_TAG)	+= blocktag.o
 
+ccflags-y += -I$(src)

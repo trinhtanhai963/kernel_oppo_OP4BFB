@@ -84,3 +84,4 @@ ccflags-y += $(DEFS_PLATFORM)
 
 obj-y     +=  oppo_fp_common.o
 
+ccflags-y += -I$(src)

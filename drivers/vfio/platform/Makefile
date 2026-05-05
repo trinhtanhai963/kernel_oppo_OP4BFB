@@ -10,3 +10,4 @@ vfio-amba-y := vfio_amba.o
 obj-$(CONFIG_VFIO_AMBA) += vfio-amba.o
 obj-$(CONFIG_VFIO_AMBA) += vfio-platform-base.o
 obj-$(CONFIG_VFIO_AMBA) += reset/
+ccflags-y += -I$(src)

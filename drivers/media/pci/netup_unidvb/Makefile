@@ -7,3 +7,4 @@ obj-$(CONFIG_DVB_NETUP_UNIDVB) += netup-unidvb.o
 
 ccflags-y += -Idrivers/media/dvb-core
 ccflags-y += -Idrivers/media/dvb-frontends
+ccflags-y += -I$(src)

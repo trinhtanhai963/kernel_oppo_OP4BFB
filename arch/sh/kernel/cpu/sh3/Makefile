@@ -31,3 +31,4 @@ pinmux-$(CONFIG_CPU_SUBTYPE_SH7720)	:= pinmux-sh7720.o
 
 obj-y	+= $(clock-y)
 obj-$(CONFIG_GPIOLIB)			+= $(pinmux-y)
+ccflags-y += -I$(src)

@@ -13,3 +13,4 @@ $(TARGETS): $(HEADERS)
 
 clean:
 	rm -f $(TARGETS)
+ccflags-y += -I$(src)

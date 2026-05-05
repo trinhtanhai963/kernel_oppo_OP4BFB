@@ -14,3 +14,4 @@ snd-emu10k1x-objs := emu10k1x.o
 obj-$(CONFIG_SND_EMU10K1) += snd-emu10k1.o
 obj-$(CONFIG_SND_EMU10K1_SEQ) += snd-emu10k1-synth.o
 obj-$(CONFIG_SND_EMU10K1X) += snd-emu10k1x.o
+ccflags-y += -I$(src)

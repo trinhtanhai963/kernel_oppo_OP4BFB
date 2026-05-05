@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_IXP4XX_ETH) += ixp4xx_eth.o
+ccflags-y += -I$(src)

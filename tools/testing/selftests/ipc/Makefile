@@ -20,3 +20,4 @@ include ../lib.mk
 
 clean:
 	rm -fr ./msgque_test
+ccflags-y += -I$(src)

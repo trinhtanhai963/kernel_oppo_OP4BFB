@@ -20,3 +20,4 @@ obj-$(CONFIG_MTD_POWERNV_FLASH)	+= powernv_flash.o
 
 
 CFLAGS_docg3.o			+= -I$(src)
+ccflags-y += -I$(src)

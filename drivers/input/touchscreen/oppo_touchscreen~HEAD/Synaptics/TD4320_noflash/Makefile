@@ -14,3 +14,4 @@ obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TD4330_NOFLASH) += synaptics_tcm_device.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TD4330_NOFLASH) += synaptics_tcm_recovery.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TD4330_NOFLASH) += synaptics_tcm_zeroflash.o
 
+ccflags-y += -I$(src)

@@ -50,3 +50,4 @@ obj-$(CONFIG_THERMAL) += mtk_change_policy.o
 obj-y += thermal_zones/
 obj-y += coolers/
 obj-y += mtk_thermal_timer.o
+ccflags-y += -I$(src)

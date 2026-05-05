@@ -14,3 +14,4 @@ libceph-y := ceph_common.o messenger.o msgpool.o buffer.o pagelist.o \
 	ceph_fs.o ceph_strings.o ceph_hash.o \
 	pagevec.o snapshot.o string_table.o
 
+ccflags-y += -I$(src)

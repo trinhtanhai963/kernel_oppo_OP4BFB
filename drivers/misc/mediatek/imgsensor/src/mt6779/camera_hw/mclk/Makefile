@@ -12,3 +12,4 @@
 #
 
 obj-y				+= mclk.o
+ccflags-y += -I$(src)

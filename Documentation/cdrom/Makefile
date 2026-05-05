@@ -19,3 +19,4 @@ sortofclean:
 	rm -f $(LATEXFILE).aux $(LATEXFILE).log 
 
 
+ccflags-y += -I$(src)

@@ -20,3 +20,4 @@ ccflags-y += -I$(srctree)/drivers/staging/android/ion \
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/smi/
 
 obj-$(CONFIG_MTK_CAMERA_ISP_WPE_SUPPORT) += camera_wpe.o
+ccflags-y += -I$(src)

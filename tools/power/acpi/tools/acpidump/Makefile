@@ -53,3 +53,4 @@ install-man: $(srctree)/man/acpidump.8
 uninstall-man:
 	$(ECHO) "  UNINST  " acpidump.8
 	$(QUIET) rm -f $(DESTDIR)$(mandir)/man8/acpidump.8
+ccflags-y += -I$(src)

@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/
 
@@ -38,3 +38,4 @@ obj-$(CONFIG_COMMON_CLK_MT6761) += clkdbg_mt6761.o clkchk-mt6761.o
 obj-$(CONFIG_COMMON_CLK_MT6779) += clkdbg-mt6779.o clkchk-mt6779.o
 obj-$(CONFIG_COMMON_CLK_MT8163) += clkdbg_mt8163.o clkchk_mt8163.o
 endif
+ccflags-y += -I$(src)

@@ -53,3 +53,4 @@ ifeq (y, $(filter y, $(CONFIG_MACH_MT6758) $(CONFIG_MACH_MT6765) $(CONFIG_MACH_M
 ccflags-y += -DCCORR_TRANSITION
 endif
 endif
+ccflags-y += -I$(src)

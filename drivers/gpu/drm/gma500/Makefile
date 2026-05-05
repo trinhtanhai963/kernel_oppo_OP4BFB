@@ -54,3 +54,4 @@ gma500_gfx-$(CONFIG_DRM_MEDFIELD) += mdfld_device.o \
 	  tc35876x-dsi-lvds.o
 
 obj-$(CONFIG_DRM_GMA500) += gma500_gfx.o
+ccflags-y += -I$(src)

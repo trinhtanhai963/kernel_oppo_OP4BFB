@@ -130,3 +130,4 @@ vmlinuz.srec: vmlinuz
 	$(call cmd,objcopy)
 
 clean-files := $(objtree)/vmlinuz $(objtree)/vmlinuz.{32,ecoff,bin,srec}
+ccflags-y += -I$(src)

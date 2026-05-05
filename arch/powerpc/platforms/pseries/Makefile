@@ -25,3 +25,4 @@ obj-$(CONFIG_LPARCFG)		+= lparcfg.o
 ifeq ($(CONFIG_PPC_PSERIES),y)
 obj-$(CONFIG_SUSPEND)		+= suspend.o
 endif
+ccflags-y += -I$(src)

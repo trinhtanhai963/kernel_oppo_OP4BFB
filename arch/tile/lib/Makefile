@@ -16,3 +16,4 @@ obj-$(CONFIG_MODULES) += exports.o
 # have -pg added, since they both rely on being leaf functions.
 CFLAGS_REMOVE_cacheflush.o = -pg
 CFLAGS_REMOVE_memcpy_user_64.o = -pg
+ccflags-y += -I$(src)

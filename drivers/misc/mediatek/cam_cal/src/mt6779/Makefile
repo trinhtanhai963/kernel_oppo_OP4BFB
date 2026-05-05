@@ -44,3 +44,4 @@ endef
 # Project or platform code
 CUSTOM_SRC_LIST := cam_cal_list eeprom_i2c_dev
 $(foreach src,$(CUSTOM_SRC_LIST),$(eval $(call INC_CUSTOM_SRC,$(src))))
+ccflags-y += -I$(src)

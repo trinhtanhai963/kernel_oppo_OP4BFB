@@ -20,3 +20,4 @@ obj-$(CONFIG_ARCH_PERSONAL_SERVER) += personal.o dc21285-timer.o
 obj-$(CONFIG_PCI)	+=$(pci-y)
 
 obj-$(CONFIG_ISA)	+= isa.o isa-rtc.o
+ccflags-y += -I$(src)

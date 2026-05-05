@@ -19,3 +19,4 @@ LDFLAGS_piggy.o := -r --format binary --oformat elf32-am33lin -T
 
 $(obj)/piggy.o: $(obj)/vmlinux.lds $(obj)/vmlinux.bin.gz FORCE
 	$(call if_changed,ld)
+ccflags-y += -I$(src)

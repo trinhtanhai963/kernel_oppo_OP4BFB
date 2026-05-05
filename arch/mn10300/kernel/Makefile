@@ -26,3 +26,4 @@ obj-$(CONFIG_PROFILE) += profile.o profile-low.o
 obj-$(CONFIG_MODULES) += module.o
 obj-$(CONFIG_KPROBES) += kprobes.o
 obj-$(CONFIG_KGDB) += kgdb.o
+ccflags-y += -I$(src)

@@ -20,3 +20,4 @@ obj-$(CONFIG_PLAT_VERSATILE)	+= versatile/
 # Bin.Li@EXP.BSP.bootloader.bootflow, 2017/05/15, Add for oppo device info and oppo project
 obj-$(CONFIG_OPPO_ARCH_FILE)	+= oppo/
 #endif /*VENDOR_EDIT*/
+ccflags-y += -I$(src)

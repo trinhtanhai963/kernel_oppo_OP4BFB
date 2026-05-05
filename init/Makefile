@@ -2,7 +2,7 @@
 # Makefile for the linux kernel.
 #
 #subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/mtprof
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 ccflags-y := -fno-function-sections -fno-data-sections
 
 ifdef CONFIG_MTPROF
@@ -47,3 +47,4 @@ include/generated/compile.h: FORCE
 	@$($(quiet)chk_compile.h)
 	$(Q)$(CONFIG_SHELL) $(srctree)/scripts/mkcompile_h $@ \
 	"$(UTS_MACHINE)" "$(CONFIG_SMP)" "$(CONFIG_PREEMPT)" "$(CC) $(KBUILD_CFLAGS)"
+ccflags-y += -I$(src)

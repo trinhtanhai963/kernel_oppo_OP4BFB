@@ -73,3 +73,4 @@ ifneq (,$(filter $(CONFIG_MTK_PLATFORM), "mt6799"))
 ccflags-y += \
 	-DPLATFORM_SUPPORT_ARR
 endif
+ccflags-y += -I$(src)

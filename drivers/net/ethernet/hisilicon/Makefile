@@ -7,3 +7,4 @@ obj-$(CONFIG_HIP04_ETH) += hip04_eth.o
 obj-$(CONFIG_HNS_MDIO) += hns_mdio.o
 obj-$(CONFIG_HNS) += hns/
 obj-$(CONFIG_HISI_FEMAC) += hisi_femac.o
+ccflags-y += -I$(src)

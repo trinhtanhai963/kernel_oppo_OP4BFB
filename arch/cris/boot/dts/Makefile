@@ -4,3 +4,4 @@ obj-$(CONFIG_OF) += $(BUILTIN_DTB)
 endif
 
 clean-files := *.dtb.S
+ccflags-y += -I$(src)

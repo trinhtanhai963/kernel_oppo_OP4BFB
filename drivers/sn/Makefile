@@ -4,3 +4,4 @@
 #
 
 obj-$(CONFIG_SGI_IOC3) += ioc3.o
+ccflags-y += -I$(src)

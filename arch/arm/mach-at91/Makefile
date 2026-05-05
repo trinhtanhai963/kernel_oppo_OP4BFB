@@ -18,3 +18,4 @@ endif
 ifeq ($(CONFIG_PM_DEBUG),y)
 CFLAGS_pm.o += -DDEBUG
 endif
+ccflags-y += -I$(src)

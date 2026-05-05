@@ -40,3 +40,4 @@ obj-y += mtk_eem_platform.o
 obj-y += mtk_eem_internal.o
 obj-y += mtk_eem_api.o
 
+ccflags-y += -I$(src)

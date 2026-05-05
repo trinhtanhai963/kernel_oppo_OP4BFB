@@ -30,3 +30,4 @@ obj-$(CONFIG_MTK_FREE_FALLHUB)		+=	free_fallhub/
 obj-$(CONFIG_MTK_PICKUP_MOTIONHUB)	+=	pickup_motionhub/
 obj-$(CONFIG_MTK_ACTION_DETECTHUB)	+=	action_detecthub/
 obj-$(CONFIG_MTK_LUX_AODHUB)	    +=	lux_aodhub/
+ccflags-y += -I$(src)

@@ -13,3 +13,4 @@ usnic_ib_qp_grp.o \
 usnic_ib_sysfs.o \
 usnic_ib_verbs.o \
 usnic_debugfs.o \
+ccflags-y += -I$(src)

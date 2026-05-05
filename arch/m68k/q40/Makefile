@@ -3,3 +3,4 @@
 #
 
 obj-y		:= config.o q40ints.o
+ccflags-y += -I$(src)

@@ -18,3 +18,4 @@ $(OFILES): *.h */*.h ../../../include/linux/radix-tree.h ../../include/linux/*.h
 
 radix-tree.c: ../../../lib/radix-tree.c
 	sed -e 's/^static //' -e 's/__always_inline //' -e 's/inline //' < $< > $@
+ccflags-y += -I$(src)

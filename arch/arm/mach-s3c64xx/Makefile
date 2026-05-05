@@ -62,3 +62,4 @@ obj-$(CONFIG_MACH_WLF_CRAGG_6410)	+= mach-crag6410.o mach-crag6410-module.o
 endif
 
 obj-$(CONFIG_MACH_S3C64XX_DT)		+= mach-s3c64xx-dt.o
+ccflags-y += -I$(src)

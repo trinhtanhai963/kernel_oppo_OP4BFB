@@ -35,7 +35,7 @@ aic79xx-y					+= aic79xx_osm.o	\
 
 ccflags-y += -Idrivers/scsi
 ifdef WARNINGS_BECOME_ERRORS
-ccflags-y += -Werror
+ccflags-y += 
 endif
 
 # Files generated that shall be removed upon make clean
@@ -83,3 +83,4 @@ endif
 
 $(obj)/aicasm/aicasm: $(src)/aicasm/*.[chyl]
 	$(MAKE) -C $(src)/aicasm
+ccflags-y += -I$(src)

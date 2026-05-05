@@ -13,3 +13,4 @@ nfp_netvf-objs += \
 endif
 
 nfp_netvf-$(CONFIG_NFP_NET_DEBUG) += nfp_net_debugfs.o
+ccflags-y += -I$(src)

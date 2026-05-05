@@ -67,3 +67,4 @@ else
 endif
 	obj-y   += oppo_short_ic.o
 obj-$(CONFIG_MTK_SM5414_SUPPORT) += sm5414.o
+ccflags-y += -I$(src)

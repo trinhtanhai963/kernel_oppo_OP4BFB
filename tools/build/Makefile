@@ -47,3 +47,4 @@ $(OUTPUT)fixdep: $(OUTPUT)fixdep-in.o
 FORCE:
 
 .PHONY: FORCE
+ccflags-y += -I$(src)

@@ -118,3 +118,4 @@ amdgpu-y += $(AMD_POWERPLAY_FILES)
 obj-$(CONFIG_DRM_AMDGPU)+= amdgpu.o
 
 CFLAGS_amdgpu_trace_points.o := -I$(src)
+ccflags-y += -I$(src)

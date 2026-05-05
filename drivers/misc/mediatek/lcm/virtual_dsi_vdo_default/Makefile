@@ -18,3 +18,4 @@
 obj-y += virtual_dsi_vdo_default.o
 
 ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
+ccflags-y += -I$(src)

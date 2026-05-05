@@ -15,3 +15,4 @@ obj-$(CONFIG_CRYPTO_DEV_FSL_CAAM_PKC_API) += caam_pkc.o
 caam-objs := ctrl.o
 caam_jr-objs := jr.o key_gen.o error.o
 caam_pkc-y := caampkc.o pkc_desc.o
+ccflags-y += -I$(src)

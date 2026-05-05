@@ -7,3 +7,4 @@ zfcp-objs := zfcp_aux.o zfcp_ccw.o zfcp_dbf.o zfcp_erp.o \
 	     zfcp_unit.o
 
 obj-$(CONFIG_ZFCP) += zfcp.o
+ccflags-y += -I$(src)

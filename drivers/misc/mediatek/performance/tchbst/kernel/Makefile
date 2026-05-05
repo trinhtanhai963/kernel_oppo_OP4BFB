@@ -14,3 +14,4 @@
 
 obj-y +=ktch.o
 
+ccflags-y += -I$(src)

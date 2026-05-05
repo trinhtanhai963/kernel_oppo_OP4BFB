@@ -19,3 +19,4 @@ CFLAGS_scp_irq.o += -DDEBUG
 CFLAGS_scp_dvfs.o += -DDEBUG
 CFLAGS_scp_scpctl.o += -DDEBUG
 #endif
+ccflags-y += -I$(src)

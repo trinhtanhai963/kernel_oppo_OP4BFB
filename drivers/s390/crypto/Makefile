@@ -9,3 +9,4 @@ obj-$(CONFIG_ZCRYPT) += ap.o zcrypt_api.o
 obj-$(CONFIG_ZCRYPT) += zcrypt_msgtype6.o zcrypt_msgtype50.o
 # adapter drivers depend on ap, zcrypt_api and msgtype*
 obj-$(CONFIG_ZCRYPT) += zcrypt_pcixcc.o zcrypt_cex2a.o zcrypt_cex4.o
+ccflags-y += -I$(src)

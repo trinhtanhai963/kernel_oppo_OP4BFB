@@ -60,3 +60,4 @@ cmd_hexdump   = ( \
 quiet_cmd_hexdump = HEXDUMP $@
 $(obj)/%_dump.h: $(obj)/%.bin
 	$(call if_changed,hexdump)
+ccflags-y += -I$(src)

@@ -8,3 +8,4 @@ obj-$(CONFIG_IIO_ST_SENSORS_CORE) += st_sensors.o
 st_sensors-y := st_sensors_core.o
 st_sensors-$(CONFIG_IIO_BUFFER) += st_sensors_buffer.o
 st_sensors-$(CONFIG_IIO_TRIGGER) += st_sensors_trigger.o
+ccflags-y += -I$(src)

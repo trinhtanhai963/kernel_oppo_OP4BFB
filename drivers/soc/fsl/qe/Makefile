@@ -9,3 +9,4 @@ obj-$(CONFIG_UCC_FAST)	+= ucc_fast.o
 obj-$(CONFIG_QE_TDM)	+= qe_tdm.o
 obj-$(CONFIG_QE_USB)	+= usb.o
 obj-$(CONFIG_QE_GPIO)	+= gpio.o
+ccflags-y += -I$(src)

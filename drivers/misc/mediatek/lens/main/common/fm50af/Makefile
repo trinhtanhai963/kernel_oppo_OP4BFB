@@ -18,3 +18,4 @@
 obj-y += FM50AF.o
 
 
+ccflags-y += -I$(src)

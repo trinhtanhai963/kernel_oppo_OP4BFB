@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_BFIN609_EZKIT)            += ezkit.o
+ccflags-y += -I$(src)

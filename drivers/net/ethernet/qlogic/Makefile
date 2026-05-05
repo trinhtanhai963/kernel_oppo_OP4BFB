@@ -8,3 +8,4 @@ obj-$(CONFIG_QLGE) += qlge/
 obj-$(CONFIG_NETXEN_NIC) += netxen/
 obj-$(CONFIG_QED) += qed/
 obj-$(CONFIG_QEDE)+= qede/
+ccflags-y += -I$(src)

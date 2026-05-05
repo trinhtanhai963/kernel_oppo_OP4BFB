@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_DM9000) += dm9000.o
+ccflags-y += -I$(src)

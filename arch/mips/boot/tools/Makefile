@@ -6,3 +6,4 @@ relocs-objs	+= relocs_main.o
 PHONY += relocs
 relocs: $(obj)/relocs
 	@:
+ccflags-y += -I$(src)

@@ -20,3 +20,4 @@ obj-$(CONFIG_SND_SOC_CS43130) +=mtk-cs43130-machine-ops.o
 obj-y +=mtk-hw-component.o
 
 
+ccflags-y += -I$(src)

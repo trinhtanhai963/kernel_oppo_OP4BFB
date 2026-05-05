@@ -276,3 +276,4 @@ cleandocs:
 # information in a variable se we can use it in if_changed and friends.
 
 .PHONY: $(PHONY)
+ccflags-y += -I$(src)

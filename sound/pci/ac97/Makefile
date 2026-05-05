@@ -8,3 +8,4 @@ snd-ac97-codec-$(CONFIG_SND_PROC_FS) += ac97_proc.o
 
 # Toplevel Module Dependency
 obj-$(CONFIG_SND_AC97_CODEC) += snd-ac97-codec.o
+ccflags-y += -I$(src)

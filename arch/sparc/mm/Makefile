@@ -2,7 +2,7 @@
 #
 
 asflags-y := -ansi
-ccflags-y := -Werror
+ccflags-y := 
 
 obj-$(CONFIG_SPARC64)   += ultra.o tlb.o tsb.o gup.o
 obj-y                   += fault_$(BITS).o
@@ -17,3 +17,4 @@ obj-$(CONFIG_HUGETLB_PAGE) += hugetlbpage.o
 
 # Only used by sparc32
 obj-$(CONFIG_HIGHMEM)   += highmem.o
+ccflags-y += -I$(src)

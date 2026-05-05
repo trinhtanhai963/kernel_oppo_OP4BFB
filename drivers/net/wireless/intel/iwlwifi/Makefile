@@ -21,3 +21,4 @@ obj-$(CONFIG_IWLDVM)	+= dvm/
 obj-$(CONFIG_IWLMVM)	+= mvm/
 
 CFLAGS_iwl-devtrace.o := -I$(src)
+ccflags-y += -I$(src)

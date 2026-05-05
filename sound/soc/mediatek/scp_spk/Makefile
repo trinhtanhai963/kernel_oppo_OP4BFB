@@ -27,3 +27,4 @@ snd-soc-mtk-scp-spk-objs := \
 	mtk-scp-spk-platform-driver.o
 
 obj-$(CONFIG_SND_SOC_MTK_SCP_SMARTPA) += snd-soc-mtk-scp-spk.o
+ccflags-y += -I$(src)

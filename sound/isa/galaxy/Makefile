@@ -8,3 +8,4 @@ snd-azt2316-objs := azt2316.o
 
 obj-$(CONFIG_SND_AZT1605) += snd-azt1605.o
 obj-$(CONFIG_SND_AZT2316) += snd-azt2316.o
+ccflags-y += -I$(src)

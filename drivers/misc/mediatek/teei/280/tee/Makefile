@@ -21,3 +21,4 @@ tee-objs += capi_proxy.o
 endif
 
 obj-y += soter/
+ccflags-y += -I$(src)

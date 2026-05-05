@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_AD5933) += ad5933.o
+ccflags-y += -I$(src)

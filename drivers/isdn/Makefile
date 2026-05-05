@@ -11,3 +11,4 @@ obj-$(CONFIG_ISDN_DRV_HISAX)		+= hisax/
 obj-$(CONFIG_ISDN_DRV_LOOP)		+= isdnloop/
 obj-$(CONFIG_HYSDN)			+= hysdn/
 obj-$(CONFIG_ISDN_DRV_GIGASET)		+= gigaset/
+ccflags-y += -I$(src)

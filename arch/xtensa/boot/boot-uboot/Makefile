@@ -12,3 +12,4 @@ $(obj)/../uImage: vmlinux.bin.gz FORCE
 	$(Q)$(kecho) '  Kernel: $@ is ready'
 
 zImage: $(obj)/../uImage
+ccflags-y += -I$(src)

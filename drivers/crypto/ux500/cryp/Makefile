@@ -11,3 +11,4 @@ endif
 
 obj-$(CONFIG_CRYPTO_DEV_UX500_CRYP) += ux500_cryp.o
 ux500_cryp-objs :=  cryp.o cryp_irq.o cryp_core.o
+ccflags-y += -I$(src)

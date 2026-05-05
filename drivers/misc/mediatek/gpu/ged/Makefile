@@ -154,3 +154,4 @@ ged-y += \
 	src/ged_fdvfs.o \
 	src/ged_gpu_tuner.o
 
+ccflags-y += -I$(src)

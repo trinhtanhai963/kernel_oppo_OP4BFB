@@ -14,3 +14,4 @@
 
 obj-$(CONFIG_MTK2712_FREQ_HOPPING) := mt_freqhopping.o
 
+ccflags-y += -I$(src)

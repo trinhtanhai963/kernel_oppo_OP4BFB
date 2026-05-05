@@ -20,3 +20,4 @@ i2400m-usb-y :=			\
 	usb-tx.o		\
 	usb-rx.o		\
 	usb.o
+ccflags-y += -I$(src)

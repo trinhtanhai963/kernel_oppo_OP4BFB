@@ -13,3 +13,4 @@ obj-$(CONFIG_MODULES)		+= module.o avr32_ksyms.o
 obj-$(CONFIG_KPROBES)		+= kprobes.o
 obj-$(CONFIG_STACKTRACE)	+= stacktrace.o
 obj-$(CONFIG_NMI_DEBUGGING)	+= nmi_debug.o
+ccflags-y += -I$(src)

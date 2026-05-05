@@ -10,3 +10,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/i2c/$(MTK_PLATFORM)/
 # Each configuration option enables a list of files.
 obj-$(CONFIG_TOUCHPANEL_HIMAX_HX83112B) += hx83112b.o
 #endif
+ccflags-y += -I$(src)

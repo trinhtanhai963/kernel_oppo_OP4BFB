@@ -242,7 +242,7 @@ static int silfp_parse_dts(struct silfp_data* fp_dev)
     struct platform_device *pdev = NULL;
     int  ret;
 
-    node = of_find_compatible_node(NULL, NULL, "mediatek,silead_fp");
+    node = of_find_compatible_node(NULL, NULL, "mediatek,finger_fp");
     if (node) {
         fp_dev->int_port = irq_of_parse_and_map(node, 0);
         LOG_MSG_DEBUG(ERR_LOG, "%s, irq = %d\n", __func__, fp_dev->int_port);
@@ -250,7 +250,7 @@ static int silfp_parse_dts(struct silfp_data* fp_dev)
         LOG_MSG_DEBUG(ERR_LOG, "%s %s compatible device node is null\n", __func__,FP_IRQ_OF);
     }
 
-    node = of_find_compatible_node(NULL, NULL, "mediatek,silead_fp");
+    node = of_find_compatible_node(NULL, NULL, "mediatek,finger_fp");
     if (node) {
         LOG_MSG_DEBUG(ERR_LOG, "%s, irq = %d\n", __func__, fp_dev->int_port);
         pdev = of_find_device_by_node(node);

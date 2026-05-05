@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_SXGBE_ETH) += sxgbe/
+ccflags-y += -I$(src)

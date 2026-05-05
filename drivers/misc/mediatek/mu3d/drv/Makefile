@@ -40,3 +40,4 @@ musb_hdrc-y += musb_init.o ssusb_qmu.o mtk_usb.o
 musb_hdrc-${CONFIG_DUAL_ROLE_USB_INTF} += musb_dual_role.o
 musb_hdrc-$(CONFIG_DEBUG_FS) += musb_debugfs.o
 musb_hdrc-$(CONFIG_PHY_MTK_SSUSB) += mtk-ssusb-hal.o ssusb_phy_debugfs.o
+ccflags-y += -I$(src)

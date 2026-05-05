@@ -13,3 +13,4 @@
 
 obj-y += hi556_lce_mipi_Sensor.o
 
+ccflags-y += -I$(src)

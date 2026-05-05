@@ -36,3 +36,4 @@ else
   obj-$(CONFIG_MTK_CAMERA_ISP_DPE_SUPPORT) += $(MTK_PLATFORM)/engine_request.o
   obj-$(CONFIG_MTK_CAMERA_ISP_DPE_SUPPORT) += $(MTK_PLATFORM)/camera_dpe.o
 endif
+ccflags-y += -I$(src)

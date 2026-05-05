@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/
 ccflags-y += -I$(srctree)/drivers/input/touchscreen/mediatek
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
@@ -20,3 +20,4 @@ obj-$(CONFIG_TOUCHSCREEN_MTK_NT36xxx)	+=  NT36xxx/
 #zhenzhenwu@ODM.BSP.TP  2020/02/03 modify for bring up himax TP
 #obj-$(CONFIG_TOUCHSCREEN_HIMAX_CHIPSET)	+=  hxchipset/
 obj-$(CONFIG_TOUCHSCREEN_MTK_ILITEK_9881H)	+=  ilitek9881h/
+ccflags-y += -I$(src)

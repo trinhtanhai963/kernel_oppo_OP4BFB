@@ -20,3 +20,4 @@ aee-y	:=dummy.o
 aee-$(CONFIG_MTK_AEE_FEATURE)	+= aee-common.o reboot-reason.o
 
 KASAN_SANITIZE := n
+ccflags-y += -I$(src)

@@ -15,3 +15,4 @@
 
 # driver module
 obj-y += mdp_fence.o
+ccflags-y += -I$(src)

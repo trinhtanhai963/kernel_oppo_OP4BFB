@@ -9,3 +9,4 @@ omap3-isp-objs += \
 	ispstat.o isph3a_aewb.o isph3a_af.o isphist.o
 
 obj-$(CONFIG_VIDEO_OMAP3) += omap3-isp.o
+ccflags-y += -I$(src)

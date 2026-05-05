@@ -60,3 +60,4 @@ obj-$(CONFIG_ARCH_OMAP16XX)		+= gpio16xx.o
 ifneq ($(CONFIG_FB_OMAP),)
 obj-y += lcd_dma.o
 endif
+ccflags-y += -I$(src)

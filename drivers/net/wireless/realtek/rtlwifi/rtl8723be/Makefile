@@ -14,3 +14,4 @@ rtl8723be-objs :=		\
 obj-$(CONFIG_RTL8723BE) += rtl8723be.o
 
 ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

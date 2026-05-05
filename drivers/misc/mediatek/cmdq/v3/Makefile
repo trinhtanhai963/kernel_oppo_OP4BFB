@@ -22,7 +22,7 @@ endif
 ifeq ($(CONFIG_MACH_MT6761),y)
 MTK_PLATFORM := mt6765
 else
-MTK_PLATFORM := $(CONFIG_MTK_PLATFORM)
+MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
 endif
 
 ifeq ($(CONFIG_MACH_MT6779),y)
@@ -116,3 +116,4 @@ endif
 
 endif	# end of CONFIG_MTK_SEC_VIDEO_PATH_SUPPORT or CONFIG_MTK_CAM_SECURITY_SUPPORT
 
+ccflags-y += -I$(src)

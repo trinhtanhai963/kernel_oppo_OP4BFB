@@ -8,3 +8,4 @@ microread_mei-objs  = mei.o
 obj-$(CONFIG_NFC_MICROREAD)     += microread.o
 obj-$(CONFIG_NFC_MICROREAD_I2C) += microread_i2c.o
 obj-$(CONFIG_NFC_MICROREAD_MEI) += microread_mei.o
+ccflags-y += -I$(src)

@@ -54,3 +54,4 @@ endif
 ifeq ($(CONFIG_BUILD_ARM64_DTB_OVERLAY_IMAGE_NAMES),"mediatek/k79v1_64_ctighten")
 subdir-ccflags-y += -DHQA_LOAD
 endif
+ccflags-y += -I$(src)

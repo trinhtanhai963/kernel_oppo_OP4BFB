@@ -19,3 +19,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/$(MTK_PLATFORM)/
 ccflags-$(CONFIG_MTK_QOS_FRAMEWORK) += -DMTK_QOS_FRAMEWORK
 
 obj-y += gpu_bm.o
+ccflags-y += -I$(src)

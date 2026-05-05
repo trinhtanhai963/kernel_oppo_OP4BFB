@@ -44,3 +44,4 @@ obj-$(CONFIG_ARCH_RCAR_GEN2)	+= pm-rcar-gen2.o
 
 # Framework support
 obj-$(CONFIG_SMP)		+= $(smp-y)
+ccflags-y += -I$(src)

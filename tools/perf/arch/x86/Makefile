@@ -27,3 +27,4 @@ clean::
 	$(call QUIET_CLEAN, x86) $(RM) $(header)
 
 archheaders: $(header)
+ccflags-y += -I$(src)

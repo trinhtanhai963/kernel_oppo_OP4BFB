@@ -39,3 +39,4 @@ install:
 	$(INSTALL) $(OUTPUT)intel_gsic $(DESTDIR)${bindir}
 
 .PHONY: all default clean install
+ccflags-y += -I$(src)

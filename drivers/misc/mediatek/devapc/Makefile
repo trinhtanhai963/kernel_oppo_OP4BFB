@@ -25,3 +25,4 @@ ifneq ($(wildcard $(LOCAL_PATH)/$(PLATFORM)/Makefile),)
 else
    $(info DEVAPC platform code not exists...)
 endif
+ccflags-y += -I$(src)

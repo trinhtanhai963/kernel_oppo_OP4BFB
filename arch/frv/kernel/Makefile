@@ -21,3 +21,4 @@ obj-$(CONFIG_FUJITSU_MB93493)	+= irq-mb93493.o
 obj-$(CONFIG_SYSCTL)		+= sysctl.o
 obj-$(CONFIG_FUTEX)		+= futex.o
 obj-$(CONFIG_MODULES)		+= module.o
+ccflags-y += -I$(src)

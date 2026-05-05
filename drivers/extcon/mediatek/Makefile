@@ -18,3 +18,4 @@ subdir-ccflags-$(CONFIG_MTK_USB_TYPEC_U3_MUX) += -I$(srctree)/drivers/misc/media
 obj-y += extcon_usb.o boost_manager.o
 obj-$(CONFIG_USB_MTK_IDDIG) += usb-iddig.o
 obj-$(CONFIG_TCPC_CLASS) += usb-tcpc.o
+ccflags-y += -I$(src)

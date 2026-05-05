@@ -116,3 +116,4 @@ SYSCFLAGS_vdso32.so.dbg = -m32 -shared -s -Wl,-soname=linux-vdso32.so.1 \
 			    $(call cc-ldoption, -Wl$(comma)--hash-style=both)
 $(obj)/vdso32.so.dbg: $(src)/vdso.lds $(obj-vdso32)
 	$(call if_changed,vdsold)
+ccflags-y += -I$(src)

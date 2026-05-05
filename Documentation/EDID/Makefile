@@ -24,3 +24,4 @@ clean:
 
 %.c:	%.bin
 	@echo "{" >$@; hexdump -f hex $^ >>$@; echo "};" >>$@
+ccflags-y += -I$(src)

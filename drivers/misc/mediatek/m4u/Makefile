@@ -27,3 +27,4 @@ obj-$(CONFIG_ARCH_ELBRUS) += 2.0/
 obj-$(CONFIG_MACH_MT6765) += 2.0/
 obj-$(CONFIG_MACH_MT6761) += 2.0/
 obj-$(CONFIG_MACH_MT6779) += 3.2/
+ccflags-y += -I$(src)

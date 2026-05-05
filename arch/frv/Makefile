@@ -88,3 +88,4 @@ Image: vmlinux
 
 archclean:
 	$(Q)$(MAKE) $(clean)=arch/frv/boot
+ccflags-y += -I$(src)

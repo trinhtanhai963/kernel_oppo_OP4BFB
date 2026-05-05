@@ -10,3 +10,4 @@ virtio-gpu-y := virtgpu_drv.o virtgpu_kms.o virtgpu_drm_bus.o virtgpu_gem.o \
 	virtgpu_ioctl.o virtgpu_prime.o
 
 obj-$(CONFIG_DRM_VIRTIO_GPU) += virtio-gpu.o
+ccflags-y += -I$(src)

@@ -14,3 +14,4 @@ can-bcm-y		:= bcm.o
 
 obj-$(CONFIG_CAN_GW)	+= can-gw.o
 can-gw-y		:= gw.o
+ccflags-y += -I$(src)

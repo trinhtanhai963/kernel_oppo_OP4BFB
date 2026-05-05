@@ -28,3 +28,4 @@ endif
 obj-y  += gf_tee.o
 gf_tee-y := gf_spi_tee.o gf_platform_mtk.o
 endif
+ccflags-y += -I$(src)

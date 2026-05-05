@@ -25,3 +25,4 @@ clean:
 
 endif
 endif
+ccflags-y += -I$(src)

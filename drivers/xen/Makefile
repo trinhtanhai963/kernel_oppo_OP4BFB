@@ -44,3 +44,4 @@ xen-evtchn-y				:= evtchn.o
 xen-gntdev-y				:= gntdev.o
 xen-gntalloc-y				:= gntalloc.o
 xen-privcmd-y				:= privcmd.o
+ccflags-y += -I$(src)

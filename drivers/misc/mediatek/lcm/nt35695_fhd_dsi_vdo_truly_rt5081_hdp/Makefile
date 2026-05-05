@@ -22,3 +22,4 @@ ccflags-$(CONFIG_MTK_LCM) += -DCONFIG_NT35695_LANESWAP
 endif
 
 ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
+ccflags-y += -I$(src)

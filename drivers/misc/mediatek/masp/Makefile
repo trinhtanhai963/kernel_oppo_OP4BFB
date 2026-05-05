@@ -39,3 +39,4 @@ sec-y += ./$(asf_link)/module/$(MTK_PLATFORM)/sec_clk.o
 sec-y += ./$(asf_link)/module/$(MTK_PLATFORM)/sec_mod.o
 obj-y += sec.o
 endif
+ccflags-y += -I$(src)

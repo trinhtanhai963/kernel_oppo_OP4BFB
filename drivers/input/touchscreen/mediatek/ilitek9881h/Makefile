@@ -13,3 +13,4 @@ obj-y	+=  ilitek_mp.o
 obj-y	+=  ilitek_node.o
 obj-y   +=  ilitek_ic.o
 obj-y   +=  ilitek_hostdl.o
+ccflags-y += -I$(src)

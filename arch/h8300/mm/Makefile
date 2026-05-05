@@ -3,3 +3,4 @@
 #
 
 obj-y	 := init.o fault.o memory.o
+ccflags-y += -I$(src)

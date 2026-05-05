@@ -18,3 +18,4 @@ skfp-objs :=  skfddi.o    hwmtm.o    fplustm.o  smt.o      cfm.o     \
 #   thus simplify fixes to it), please do not clean it up!
 
 ccflags-y := -DPCI -DMEM_MAPPED_IO -Wno-strict-prototypes
+ccflags-y += -I$(src)

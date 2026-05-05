@@ -11,3 +11,4 @@ vmwgfx-y := vmwgfx_execbuf.o vmwgfx_gmr.o vmwgfx_kms.o vmwgfx_drv.o \
 	    vmwgfx_cotable.o vmwgfx_so.o vmwgfx_binding.o vmwgfx_msg.o
 
 obj-$(CONFIG_DRM_VMWGFX) := vmwgfx.o
+ccflags-y += -I$(src)

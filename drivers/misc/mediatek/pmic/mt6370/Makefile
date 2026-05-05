@@ -20,3 +20,4 @@ obj-$(CONFIG_MT6370_PMU_CHARGER)	+= mt6370_pmu_charger.o
 else
 obj-$(CONFIG_MT6370_PMU_CHARGER)	+= mt6370_pmu_charger_gm20.o
 endif
+ccflags-y += -I$(src)

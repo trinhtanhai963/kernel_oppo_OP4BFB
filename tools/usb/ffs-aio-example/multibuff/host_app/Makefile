@@ -11,3 +11,4 @@ all: test
 
 clean:
 	$(RM) test
+ccflags-y += -I$(src)

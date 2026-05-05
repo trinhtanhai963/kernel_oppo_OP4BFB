@@ -23,3 +23,4 @@ include ../../lib.mk
 
 clean:
 	rm -f $(TARGETS)
+ccflags-y += -I$(src)

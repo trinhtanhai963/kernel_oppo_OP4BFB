@@ -43,3 +43,4 @@ relocs-objs     := relocs_32.o relocs_64.o relocs_common.o
 PHONY += relocs
 relocs: $(obj)/relocs
 	@:
+ccflags-y += -I$(src)

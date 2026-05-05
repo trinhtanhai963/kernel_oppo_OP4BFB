@@ -5,3 +5,4 @@ targets += testcases.dtb testcases.dtb.S
 .SECONDARY: \
 	$(obj)/testcases.dtb.S \
 	$(obj)/testcases.dtb
+ccflags-y += -I$(src)

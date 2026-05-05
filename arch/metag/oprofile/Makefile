@@ -14,4 +14,5 @@ oprofile-y	+= backtrace.o
 oprofile-y	+= common.o
 oprofile-y	+= $(addprefix ../../../drivers/oprofile/,$(oprofile-core-y))
 
-ccflags-y	+= -Werror
+ccflags-y	+= 
+ccflags-y += -I$(src)

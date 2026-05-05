@@ -16,3 +16,4 @@ obj-$(CONFIG_M68VZ328)	+= m68VZ328.o
 obj-$(CONFIG_ROM)	+= romvec.o
 
 extra-y 		:= head.o
+ccflags-y += -I$(src)

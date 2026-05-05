@@ -13,12 +13,13 @@
 
 
 MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/pmic/include
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include/mt-plat
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/pmic/include
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/power/supply/mediatek/misc
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/pmic/include
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include/mt-plat
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/pmic/include
+subdir-ccflags-y +=  -I$(srctree)/drivers/power/supply/mediatek/misc
+subdir-ccflags-y +=  -I$(src)
 
 ifeq ($(CONFIG_MTK_GAUGE_VERSION),30)
 	obj-y += mtk_battery.o mtk_power_misc.o mtk_gauge_coulomb_service.o mtk_gauge_class.o mtk_battery_recovery.o mtk_battery_core.o
@@ -30,3 +31,4 @@ ifeq (yes,$(strip $(HQ_COMPILE_FACTORY_VERSION)))
   ccflags-y += -DHQ_COMPILE_FACTORY_VERSION
 endif
 #endif #ODM_HQ_EDIT
+ccflags-y += -I$(src)

@@ -9,3 +9,4 @@ obj-$(CONFIG_TOUCHPANEL_SAMSUNG) += sec_common.o
 obj-$(CONFIG_TOUCHPANEL_SAMSUNG_S6D7AT0) += S6D7AT0/
 obj-$(CONFIG_TOUCHPANEL_SAMSUNG_S6SY791) += S6SY791/
 #endif
+ccflags-y += -I$(src)

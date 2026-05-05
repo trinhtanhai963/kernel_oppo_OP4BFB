@@ -4,3 +4,4 @@ obj-y += filter/
 # Data usage
 obj-y += usage/
 endif
+ccflags-y += -I$(src)

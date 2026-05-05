@@ -5,3 +5,4 @@ obj-$(CONFIG_VIDEO_HDPVR) += hdpvr.o
 ccflags-y += -Idrivers/media/i2c
 
 ccflags-y += $(extra-cflags-y) $(extra-cflags-m)
+ccflags-y += -I$(src)

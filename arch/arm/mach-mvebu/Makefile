@@ -18,3 +18,4 @@ ifeq ($(CONFIG_MACH_KIRKWOOD),y)
 obj-y				 += kirkwood.o
 obj-$(CONFIG_PM)		 += kirkwood-pm.o
 endif
+ccflags-y += -I$(src)

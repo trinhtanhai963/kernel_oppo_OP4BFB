@@ -10,3 +10,4 @@ dm-persistent-data-objs := \
 	dm-btree.o \
 	dm-btree-remove.o \
 	dm-btree-spine.o
+ccflags-y += -I$(src)

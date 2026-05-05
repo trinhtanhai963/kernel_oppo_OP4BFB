@@ -21,3 +21,4 @@ ccflags-y +=	\
 
 
 obj-y += mtk_cpufreq_platform.o
+ccflags-y += -I$(src)

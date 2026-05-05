@@ -23,3 +23,4 @@ omapdrm-y := omap_drv.o \
 omapdrm-$(CONFIG_DRM_FBDEV_EMULATION) += omap_fbdev.o
 
 obj-$(CONFIG_DRM_OMAP)	+= omapdrm.o
+ccflags-y += -I$(src)

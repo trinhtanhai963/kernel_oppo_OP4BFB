@@ -10,3 +10,4 @@ always := $(hostprogs-y)
 HOSTCFLAGS_hid-example.o += -I$(objtree)/usr/include
 
 all: hid-example
+ccflags-y += -I$(src)

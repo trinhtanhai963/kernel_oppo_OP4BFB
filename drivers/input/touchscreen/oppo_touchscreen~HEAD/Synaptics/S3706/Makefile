@@ -7,3 +7,4 @@
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_S3706) += synaptics_drivers_s3706.o
 
 #endif
+ccflags-y += -I$(src)

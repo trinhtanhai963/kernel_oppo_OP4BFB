@@ -5,3 +5,4 @@
 obj-$(CONFIG_EFIVAR_FS)		+= efivarfs.o
 
 efivarfs-objs			:= inode.o file.o super.o
+ccflags-y += -I$(src)

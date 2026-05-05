@@ -3,7 +3,7 @@
 #
 
 asflags-y := $(KBUILD_CFLAGS)
-ccflags-y := -Werror
+ccflags-y := 
 
 # Many of these routines have implementations tuned for ev6.
 # Choose them iff we're targeting ev6 specifically.
@@ -54,3 +54,4 @@ $(obj)/__divlu.o: $(obj)/$(ev6-y)divide.S
 	$(cmd_as_o_S)
 $(obj)/__remlu.o: $(obj)/$(ev6-y)divide.S
 	$(cmd_as_o_S)
+ccflags-y += -I$(src)

@@ -26,3 +26,4 @@ ccflags-y += -DMET_USER_EVENT_SUPPORT
 else
 obj-  := dummy.o # avoid build error
 endif
+ccflags-y += -I$(src)

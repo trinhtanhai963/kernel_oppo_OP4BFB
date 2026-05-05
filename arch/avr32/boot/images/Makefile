@@ -55,3 +55,4 @@ install: $(BOOTIMAGE)
 
 # Generated files to be removed upon make clean
 clean-files	:= vmlinux.elf vmlinux.bin vmlinux.gz uImage uImage.srec
+ccflags-y += -I$(src)

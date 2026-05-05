@@ -203,3 +203,4 @@ PHONY += vdso_install $(vdso_img_insttargets)
 vdso_install: $(vdso_img_insttargets)
 
 clean-files := vdso32.so vdso32.so.dbg vdso64* vdso-image-*.c vdsox32.so*
+ccflags-y += -I$(src)

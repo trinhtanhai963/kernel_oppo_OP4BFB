@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_FUSION)	+= fusion/
+ccflags-y += -I$(src)

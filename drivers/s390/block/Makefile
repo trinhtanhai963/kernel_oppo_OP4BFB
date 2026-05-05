@@ -23,3 +23,4 @@ ifdef CONFIG_SCM_BLOCK_CLUSTER_WRITE
 scm_block-objs += scm_blk_cluster.o
 endif
 obj-$(CONFIG_SCM_BLOCK) += scm_block.o
+ccflags-y += -I$(src)

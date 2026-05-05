@@ -22,3 +22,4 @@ $(obj)/compressed/vmlinux: $(obj)/Image FORCE
 $(obj)/zImage:  $(obj)/compressed/vmlinux
 	@cp $< $@
 	@echo '  Kernel: $@ is ready'
+ccflags-y += -I$(src)

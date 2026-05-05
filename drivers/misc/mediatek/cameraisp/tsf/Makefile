@@ -37,3 +37,4 @@ else
   obj-$(CONFIG_MTK_CAMERA_ISP_TSF_SUPPORT) += $(MTK_PLATFORM)/camera_tsf.o
 endif
 
+ccflags-y += -I$(src)

@@ -12,3 +12,4 @@
 #
 
 obj-y				+= gpio.o
+ccflags-y += -I$(src)

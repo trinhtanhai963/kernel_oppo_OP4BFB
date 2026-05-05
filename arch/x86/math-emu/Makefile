@@ -27,3 +27,4 @@ obj-y =$(C_OBJS) $(A_OBJS)
 
 proto:
 	cproto -e -DMAKING_PROTO *.c >fpu_proto.h
+ccflags-y += -I$(src)

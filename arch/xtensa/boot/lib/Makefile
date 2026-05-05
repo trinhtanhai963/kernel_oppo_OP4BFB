@@ -22,3 +22,4 @@ $(addprefix $(obj)/,$(zlib)): $(obj)/%: $(srctree)/lib/zlib_inflate/%
 	$(call cmd,copy_zlib)
 
 clean-files	:= $(zlib)
+ccflags-y += -I$(src)

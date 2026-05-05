@@ -59,3 +59,4 @@ $(BUILDDIR)/lirc.h.rst: ${UAPI}/lirc.h ${PARSER} $(SRC_DIR)/lirc.h.rst.exception
 
 cleandocs:
 	-rm ${TARGETS}
+ccflags-y += -I$(src)

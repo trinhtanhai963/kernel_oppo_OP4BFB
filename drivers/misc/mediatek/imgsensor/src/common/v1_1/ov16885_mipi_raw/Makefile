@@ -13,3 +13,4 @@
 
 #include $(srctree)/drivers/misc/mediatek/imgsensor/src/Makefile.custom
 obj-y += ov16885mipiraw_Sensor.o
+ccflags-y += -I$(src)

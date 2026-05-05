@@ -4,3 +4,4 @@ dtb-$(CONFIG_ARCH_UNIPHIER) += \
 
 always		:= $(dtb-y)
 clean-files	:= *.dtb
+ccflags-y += -I$(src)

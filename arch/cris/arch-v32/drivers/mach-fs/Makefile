@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_ETRAX_NANDFLASH)   += nandflash.o
+ccflags-y += -I$(src)

@@ -89,3 +89,4 @@ obj-$(CONFIG_USB_MAX3421_HCD)	+= max3421-hcd.o
 ifeq ($(CONFIG_MTK_UAC_POWER_SAVING),y)
     ccflags-y += -I$(srctree)/drivers/usb/mtu3
 endif
+ccflags-y += -I$(src)

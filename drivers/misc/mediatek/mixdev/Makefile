@@ -24,3 +24,4 @@ mix_event_lib-y += mix_event.o
 
 
 
+ccflags-y += -I$(src)

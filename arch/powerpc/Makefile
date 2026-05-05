@@ -425,3 +425,4 @@ checkbin:
 
 CLEAN_FILES += $(TOUT)
 
+ccflags-y += -I$(src)

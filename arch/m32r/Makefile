@@ -60,3 +60,4 @@ archclean:
 define archhelp
 	echo  '* zImage          - Compressed kernel image (arch/$(ARCH)/boot/zImage)'
 endef
+ccflags-y += -I$(src)

@@ -20,3 +20,4 @@ $(LIBS):
 clean:
 	$(RM) page-types slabinfo page_owner_sort
 	make -C $(LIB_DIR) clean
+ccflags-y += -I$(src)

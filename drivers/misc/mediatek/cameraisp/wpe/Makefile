@@ -24,3 +24,4 @@ endif
 ifeq ($(CONFIG_MACH_MT6779),y)
   obj-y += $(subst ",,mt6779)/
 endif
+ccflags-y += -I$(src)

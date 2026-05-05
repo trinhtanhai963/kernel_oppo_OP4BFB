@@ -26,3 +26,4 @@ else
 endif
 
 obj-y += camera_dip.o
+ccflags-y += -I$(src)

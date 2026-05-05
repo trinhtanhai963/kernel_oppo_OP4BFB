@@ -50,3 +50,4 @@ $(obj)/kImage.bin: $(KERNEL_IMAGE)
 
 clean:
 	rm -f rom rom.bin rom.sw kImage.bin kImage.o
+ccflags-y += -I$(src)

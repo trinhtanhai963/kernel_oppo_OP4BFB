@@ -21,3 +21,4 @@ endif
 # mdp_sw_sync
 obj-y += mdp_sync/
 # EOF
+ccflags-y += -I$(src)

@@ -11,3 +11,4 @@ endif
 
 obj-y	+=  bmi160_accgyro.o
 
+ccflags-y += -I$(src)

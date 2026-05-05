@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_HP100) += hp100.o
+ccflags-y += -I$(src)

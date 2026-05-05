@@ -6,3 +6,4 @@ subdir-ccflags-y += -Wno-format
 endif
 #endif /*VENDOR_EDIT*/
 obj-y += oppo_last_pmic.o
+ccflags-y += -I$(src)

@@ -5,3 +5,4 @@ mac802154-objs		:= main.o rx.o tx.o mac_cmd.o mib.o \
 CFLAGS_trace.o := -I$(src)
 
 ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

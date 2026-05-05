@@ -73,3 +73,4 @@ install: $(ALL_PROGRAMS)
 FORCE:
 
 .PHONY: all install clean FORCE prepare
+ccflags-y += -I$(src)

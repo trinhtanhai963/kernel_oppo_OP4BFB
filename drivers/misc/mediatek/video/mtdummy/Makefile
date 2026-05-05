@@ -8,3 +8,4 @@ ifneq ($(CONFIG_MTK_LCM), y)
 		-I$(srctree)/drivers/misc/mediatek/sync/
 
 endif
+ccflags-y += -I$(src)

@@ -20,3 +20,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/include/pbm_v4/$(MTK_
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/thermal/$(MTK_PLATFORM)/inc/
 
 obj-y += mtk_pbm.o
+ccflags-y += -I$(src)

@@ -4,3 +4,4 @@
 
 obj-y	 := fault.o init.o tlb.o
 
+ccflags-y += -I$(src)

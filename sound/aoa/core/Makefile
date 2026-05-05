@@ -3,3 +3,4 @@ snd-aoa-objs := core.o \
 		alsa.o \
 		gpio-pmf.o \
 		gpio-feature.o
+ccflags-y += -I$(src)

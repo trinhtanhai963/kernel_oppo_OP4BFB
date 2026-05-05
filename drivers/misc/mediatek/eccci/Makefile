@@ -14,6 +14,8 @@
 ifeq ($(CONFIG_MTK_ECCCI_DRIVER), y)
 
 obj-$(CONFIG_MTK_ECCCI_DRIVER) := ccci.o
+MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
+ccflags-y += -I$(src)
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/eccci/inc/
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/eccci/$(MTK_PLATFORM)
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/ccmni/

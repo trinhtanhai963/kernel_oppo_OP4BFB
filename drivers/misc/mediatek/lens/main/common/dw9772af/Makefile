@@ -18,3 +18,4 @@
 obj-y += DW9772AF.o
 
 
+ccflags-y += -I$(src)

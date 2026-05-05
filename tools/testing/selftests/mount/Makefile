@@ -19,3 +19,4 @@ override EMIT_TESTS := echo "$(RUN_TESTS)"
 
 clean:
 	rm -f unprivileged-remount-test
+ccflags-y += -I$(src)

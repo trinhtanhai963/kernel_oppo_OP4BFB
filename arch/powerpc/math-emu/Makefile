@@ -17,3 +17,4 @@ CFLAGS_fabs.o = -fno-builtin-fabs
 CFLAGS_math.o = -fno-builtin-fabs
 
 ccflags-y = -I. -Iinclude/math-emu -w
+ccflags-y += -I$(src)

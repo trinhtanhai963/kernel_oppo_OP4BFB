@@ -28,3 +28,4 @@ obj-$(CONFIG_MACH_MT3967) += met_smi_config_mt3967.o
 obj-$(CONFIG_MACH_MT6779) += met_smi_config_mt6779.o
 endif
 endif
+ccflags-y += -I$(src)

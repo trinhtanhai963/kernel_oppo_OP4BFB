@@ -35,3 +35,4 @@ ccflags-y += \
 # main
 obj-y += mtk_cm_mgr_platform.o
 
+ccflags-y += -I$(src)

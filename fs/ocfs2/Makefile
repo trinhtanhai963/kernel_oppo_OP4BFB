@@ -50,3 +50,4 @@ obj-$(CONFIG_OCFS2_FS) += dlmfs/
 # cluster/ is always needed when OCFS2_FS for masklog support
 obj-$(CONFIG_OCFS2_FS) += cluster/
 obj-$(CONFIG_OCFS2_FS_O2CB) += dlm/
+ccflags-y += -I$(src)

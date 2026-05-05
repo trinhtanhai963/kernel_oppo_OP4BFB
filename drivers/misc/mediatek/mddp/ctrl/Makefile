@@ -13,3 +13,4 @@ endif
 ctrl-y += mddp_dev.o
 
 ctrl-y += mddp_ipc.o
+ccflags-y += -I$(src)

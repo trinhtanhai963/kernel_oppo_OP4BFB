@@ -16,3 +16,4 @@ endif
 
 obj-y += ets_navi_input.o et520.o
 
+ccflags-y += -I$(src)

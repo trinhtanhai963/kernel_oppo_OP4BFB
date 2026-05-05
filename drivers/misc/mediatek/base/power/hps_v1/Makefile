@@ -19,3 +19,4 @@ obj-y += mt_hotplug_strategy_procfs.o
 obj-y += mt_hotplug_strategy_cpu.o
 obj-y += mt_hotplug_strategy_api.o
 obj-y += mt_hotplug_strategy_algo.o
+ccflags-y += -I$(src)

@@ -21,3 +21,4 @@ build_constants_py: $(obj)/constants.py
 	@:
 
 clean-files := *.pyc *.pyo $(if $(KBUILD_SRC),*.py) $(obj)/constants.py
+ccflags-y += -I$(src)

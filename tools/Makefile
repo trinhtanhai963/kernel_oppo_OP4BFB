@@ -167,3 +167,4 @@ clean: acpi_clean cgroup_clean cpupower_clean hv_clean firewire_clean lguest_cle
 		gpio_clean objtool_clean
 
 .PHONY: FORCE
+ccflags-y += -I$(src)

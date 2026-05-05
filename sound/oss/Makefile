@@ -105,3 +105,4 @@ else
 	    echo 'static int trix_boot_len = 0;';		\
 	) > $@
 endif
+ccflags-y += -I$(src)

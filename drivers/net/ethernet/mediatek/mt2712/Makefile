@@ -7,3 +7,4 @@ mt2712_mac-objs := mt2712_dev.o \
 		mt2712_platform.o \
 		mt2712_mdio.o \
 		mt2712_ptp.o
+ccflags-y += -I$(src)

@@ -8,3 +8,4 @@ obj-$(CONFIG_PINCTRL_SPEAR310)	+= pinctrl-spear310.o
 obj-$(CONFIG_PINCTRL_SPEAR320)	+= pinctrl-spear320.o
 obj-$(CONFIG_PINCTRL_SPEAR1310)	+= pinctrl-spear1310.o
 obj-$(CONFIG_PINCTRL_SPEAR1340)	+= pinctrl-spear1340.o
+ccflags-y += -I$(src)

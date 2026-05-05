@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_NET_XGENE) += xgene/
+ccflags-y += -I$(src)

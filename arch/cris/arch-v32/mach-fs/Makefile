@@ -6,3 +6,4 @@ obj-y   := dma.o pinmux.o arbiter.o
 
 clean:
 
+ccflags-y += -I$(src)

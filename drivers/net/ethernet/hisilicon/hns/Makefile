@@ -10,3 +10,4 @@ hns_dsaf-objs = hns_ae_adapt.o hns_dsaf_gmac.o hns_dsaf_mac.o hns_dsaf_misc.o \
 
 obj-$(CONFIG_HNS_ENET) += hns_enet_drv.o
 hns_enet_drv-objs = hns_enet.o hns_ethtool.o
+ccflags-y += -I$(src)

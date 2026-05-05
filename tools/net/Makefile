@@ -33,3 +33,4 @@ install :
 	install bpf_jit_disasm $(prefix)/bin/bpf_jit_disasm
 	install bpf_dbg $(prefix)/bin/bpf_dbg
 	install bpf_asm $(prefix)/bin/bpf_asm
+ccflags-y += -I$(src)

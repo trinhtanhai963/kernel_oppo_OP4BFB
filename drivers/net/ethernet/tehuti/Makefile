@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_TEHUTI) += tehuti.o
+ccflags-y += -I$(src)

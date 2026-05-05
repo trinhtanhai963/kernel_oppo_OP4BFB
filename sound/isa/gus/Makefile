@@ -22,3 +22,4 @@ obj-$(CONFIG_SND_GUSMAX) += snd-gusmax.o snd-gus-lib.o
 obj-$(CONFIG_SND_GUSEXTREME) += snd-gusextreme.o snd-gus-lib.o
 obj-$(CONFIG_SND_INTERWAVE) += snd-interwave.o snd-gus-lib.o
 obj-$(CONFIG_SND_INTERWAVE_STB) += snd-interwave-stb.o snd-gus-lib.o
+ccflags-y += -I$(src)

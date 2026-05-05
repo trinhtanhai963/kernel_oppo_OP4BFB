@@ -28,3 +28,4 @@ speakup-y := \
 	synth.o \
 	thread.o \
 	varhandlers.o
+ccflags-y += -I$(src)

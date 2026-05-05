@@ -30,3 +30,4 @@ obj-$(CONFIG_FUNCTION_TRACER)	+= ftrace.o mcount.o
 obj-$(CONFIG_KGDB)		+= kgdb.o
 
 obj-y	+= entry$(MMU).o
+ccflags-y += -I$(src)

@@ -16,3 +16,4 @@ tegra-drm-y := \
 	gr3d.o
 
 obj-$(CONFIG_DRM_TEGRA) += tegra-drm.o
+ccflags-y += -I$(src)

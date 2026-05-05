@@ -15,3 +15,4 @@ TOOL_OBJS = \
 	ec_access.o
 
 include ../../Makefile.rules
+ccflags-y += -I$(src)

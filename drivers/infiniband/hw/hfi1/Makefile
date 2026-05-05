@@ -19,3 +19,4 @@ CFLAGS_trace.o = -I$(src)
 ifdef MVERSION
 CFLAGS_driver.o = -DHFI_DRIVER_VERSION_BASE=\"$(MVERSION)\"
 endif
+ccflags-y += -I$(src)

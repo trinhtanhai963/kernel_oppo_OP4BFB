@@ -8,3 +8,4 @@ sis-y := sis_drv.o sis_mm.o
 obj-$(CONFIG_DRM_SIS)   += sis.o
 
 
+ccflags-y += -I$(src)

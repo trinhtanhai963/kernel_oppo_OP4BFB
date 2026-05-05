@@ -33,3 +33,4 @@ ccflags-y += \
 endif
 
 
+ccflags-y += -I$(src)

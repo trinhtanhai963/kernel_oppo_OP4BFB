@@ -49,3 +49,4 @@ obj-y := \
 	extd_epd.o \
 	extd_multi_control.o \
 	extd_factory.o
+ccflags-y += -I$(src)

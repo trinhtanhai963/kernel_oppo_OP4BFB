@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_ROADRUNNER) += rrunner.o
+ccflags-y += -I$(src)

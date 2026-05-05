@@ -63,3 +63,4 @@ subdir-ccflags-y		+= -I$(IMGSENSOR_DRIVER_PATH)/$(MTK_PLATFORM)/camera_project/$
 endif
 
 obj-y += seninf/
+ccflags-y += -I$(src)

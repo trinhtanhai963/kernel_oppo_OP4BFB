@@ -46,3 +46,4 @@ ifndef CONFIG_MIPS
 always := $(hostprogs-y)
 endif
 endif
+ccflags-y += -I$(src)

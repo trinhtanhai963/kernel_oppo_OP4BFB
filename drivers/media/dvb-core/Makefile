@@ -9,3 +9,4 @@ dvb-core-objs := dvbdev.o dmxdev.o dvb_demux.o dvb_filter.o 	\
 		 $(dvb-net-y) dvb_ringbuffer.o dvb_math.o
 
 obj-$(CONFIG_DVB_CORE) += dvb-core.o
+ccflags-y += -I$(src)

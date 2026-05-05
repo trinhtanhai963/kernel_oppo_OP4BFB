@@ -15,3 +15,4 @@
 #
 
 obj-y += load_track.o
+ccflags-y += -I$(src)

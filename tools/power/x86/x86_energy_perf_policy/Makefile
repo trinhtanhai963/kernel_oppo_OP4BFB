@@ -8,3 +8,4 @@ clean :
 install :
 	install x86_energy_perf_policy ${DESTDIR}/usr/bin/
 	install x86_energy_perf_policy.8 ${DESTDIR}/usr/share/man/man8/
+ccflags-y += -I$(src)

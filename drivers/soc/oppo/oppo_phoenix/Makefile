@@ -10,3 +10,4 @@ endif
 #endif /* VENDOR_EDIT */
 
 
+ccflags-y += -I$(src)

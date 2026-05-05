@@ -20,3 +20,4 @@ intel-ishtp-hid-objs := ishtp-hid.o
 intel-ishtp-hid-objs += ishtp-hid-client.o
 
 ccflags-y += -Idrivers/hid/intel-ish-hid/ishtp
+ccflags-y += -I$(src)

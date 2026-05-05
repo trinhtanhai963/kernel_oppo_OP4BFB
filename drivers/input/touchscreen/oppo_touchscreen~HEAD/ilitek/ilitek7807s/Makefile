@@ -11,3 +11,4 @@ obj-$(CONFIG_TOUCHPANEL_ILITEK_ILITEK7807S)  += ili7807s_qcom.o \
                                                 ili7807s_fw.o \
                                                 ili7807s_node.o
 #endif
+ccflags-y += -I$(src)

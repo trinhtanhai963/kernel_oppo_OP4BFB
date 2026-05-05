@@ -28,3 +28,4 @@ clean:
 	-rm noring.o noring
 
 .PHONY: all clean
+ccflags-y += -I$(src)

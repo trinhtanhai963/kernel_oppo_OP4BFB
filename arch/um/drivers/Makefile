@@ -65,3 +65,4 @@ USER_OBJS := fd.o null.o pty.o tty.o xterm.o slip_common.o pcap_user.o vde_user.
 CFLAGS_null.o = -DDEV_NULL=$(DEV_NULL_PATH)
 
 include arch/um/scripts/Makefile.rules
+ccflags-y += -I$(src)

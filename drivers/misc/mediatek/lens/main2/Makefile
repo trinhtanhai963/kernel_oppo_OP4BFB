@@ -55,3 +55,4 @@ obj-y  += common/lc898217afb/
 obj-y  += common/lc898217afc/
 
 endif
+ccflags-y += -I$(src)

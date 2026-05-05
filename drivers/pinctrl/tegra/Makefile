@@ -5,3 +5,4 @@ obj-$(CONFIG_PINCTRL_TEGRA114)		+= pinctrl-tegra114.o
 obj-$(CONFIG_PINCTRL_TEGRA124)		+= pinctrl-tegra124.o
 obj-$(CONFIG_PINCTRL_TEGRA210)		+= pinctrl-tegra210.o
 obj-$(CONFIG_PINCTRL_TEGRA_XUSB)	+= pinctrl-tegra-xusb.o
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_ENIC) += enic/
+ccflags-y += -I$(src)

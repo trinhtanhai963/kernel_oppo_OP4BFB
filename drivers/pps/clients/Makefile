@@ -8,3 +8,4 @@ obj-$(CONFIG_PPS_CLIENT_PARPORT) += pps_parport.o
 obj-$(CONFIG_PPS_CLIENT_GPIO)	+= pps-gpio.o
 
 ccflags-$(CONFIG_PPS_DEBUG) := -DDEBUG
+ccflags-y += -I$(src)

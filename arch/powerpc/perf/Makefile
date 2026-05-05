@@ -1,4 +1,4 @@
-subdir-ccflags-$(CONFIG_PPC_WERROR) := -Werror
+subdir-ccflags-$(CONFIG_PPC_WERROR) := 
 
 obj-$(CONFIG_PERF_EVENTS)	+= callchain.o perf_regs.o
 
@@ -15,3 +15,4 @@ obj-$(CONFIG_HV_PERF_CTRS) += hv-24x7.o hv-gpci.o hv-common.o
 
 obj-$(CONFIG_PPC64)		+= $(obj64-y)
 obj-$(CONFIG_PPC32)		+= $(obj32-y)
+ccflags-y += -I$(src)

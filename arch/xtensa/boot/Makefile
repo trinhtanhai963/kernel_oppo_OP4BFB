@@ -42,3 +42,4 @@ vmlinux.bin.gz: vmlinux.bin FORCE
 boot-elf: vmlinux.bin
 boot-redboot: vmlinux.bin.gz
 boot-uboot: vmlinux.bin.gz
+ccflags-y += -I$(src)

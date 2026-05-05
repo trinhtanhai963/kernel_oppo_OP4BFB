@@ -6,3 +6,4 @@
 obj-$(CONFIG_TOUCHPANEL_NOVA) += novatek_common.o
 obj-$(CONFIG_TOUCHPANEL_NOVA_NT36525B_NOFLASH) += NT36525B_noflash/
 #endif
+ccflags-y += -I$(src)

@@ -11,3 +11,4 @@ snd-emux-synth-$(CONFIG_SND_SEQUENCER_OSS) += emux_oss.o
 # Toplevel Module Dependencies
 obj-$(CONFIG_SND_SBAWE_SEQ) += snd-emux-synth.o
 obj-$(CONFIG_SND_EMU10K1_SEQ) += snd-emux-synth.o
+ccflags-y += -I$(src)

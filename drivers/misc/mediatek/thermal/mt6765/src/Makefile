@@ -27,3 +27,4 @@ obj-$(CONFIG_THERMAL) += mtk_tc.o
 obj-$(CONFIG_THERMAL) += mtk_pmic_efuse.o
 obj-$(CONFIG_THERMAL) += mtk_ts_6357buck1.o
 obj-$(CONFIG_THERMAL) += mtk_ts_6357buck2.o
+ccflags-y += -I$(src)

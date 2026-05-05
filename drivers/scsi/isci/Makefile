@@ -6,3 +6,4 @@ isci-objs := init.o phy.o request.o \
 	     remote_node_table.o \
 	     unsolicited_frame_control.o \
 	     port_config.o \
+ccflags-y += -I$(src)

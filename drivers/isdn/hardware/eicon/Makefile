@@ -21,3 +21,4 @@ divadidd-y				:= diva_didd.o diddfunc.o dadapter.o
 diva_mnt-y				:= divamnt.o mntfunc.o debug.o maintidi.o
 
 diva_idi-y				:= divasi.o idifunc.o um_idi.o dqueue.o
+ccflags-y += -I$(src)

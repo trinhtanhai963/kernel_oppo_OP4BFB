@@ -20,3 +20,4 @@ mtd_torturetest-objs := torturetest.o mtd_test.o
 mtd_nandbiterrs-objs := nandbiterrs.o mtd_test.o
 mtd_readretentiontest-objs := readretentiontest.o mtd_test.o
 mtd_markbadtest-objs := markbadtest.o mtd_test.o
+ccflags-y += -I$(src)

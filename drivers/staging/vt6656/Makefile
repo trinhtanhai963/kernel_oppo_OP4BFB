@@ -18,3 +18,4 @@ vt6656_stage-y +=	main_usb.o \
 			int.o
 
 obj-$(CONFIG_VT6656) +=	vt6656_stage.o
+ccflags-y += -I$(src)

@@ -8,3 +8,4 @@
 
 obj-y			+= setup.o
 obj-$(CONFIG_XTFPGA_LCD) += lcd.o
+ccflags-y += -I$(src)

@@ -12,3 +12,4 @@ else
 obj-$(CONFIG_IA64_GENERIC) += machvec.o
 endif
 
+ccflags-y += -I$(src)

@@ -9,3 +9,4 @@ visorbus-y += visorchannel.o
 visorbus-y += visorchipset.o
 
 ccflags-y += -Idrivers/staging/unisys/include
+ccflags-y += -I$(src)

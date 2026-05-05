@@ -13,3 +13,4 @@ DRIVER_OBJS += $(addprefix ../../../drivers/oprofile/, oprofile_perf.o)
 endif
 
 oprofile-y	:= $(DRIVER_OBJS) common.o backtrace.o
+ccflags-y += -I$(src)

@@ -13,3 +13,4 @@ obj-$(CONFIG_CPU_SH5)		+= setup-sh5.o
 clock-$(CONFIG_CPU_SH5)		:= clock-sh5.o
 
 obj-y			+= $(clock-y)
+ccflags-y += -I$(src)

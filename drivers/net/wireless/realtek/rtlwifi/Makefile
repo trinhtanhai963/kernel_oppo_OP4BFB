@@ -32,3 +32,4 @@ obj-$(CONFIG_RTL8821AE)		+= rtl8821ae/
 obj-$(CONFIG_RTL8192EE)		+= rtl8192ee/
 
 ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

@@ -67,3 +67,4 @@ PHONY += all
 all: $(addprefix $(uapi)/,$(uapisyshdr-y))
 all: $(addprefix $(out)/,$(syshdr-y))
 	@:
+ccflags-y += -I$(src)

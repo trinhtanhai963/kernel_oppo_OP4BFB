@@ -71,3 +71,4 @@ obj-$(CONFIG_ZX_DMA) += zx296702_dma.o
 
 obj-y += qcom/
 obj-y += xilinx/
+ccflags-y += -I$(src)

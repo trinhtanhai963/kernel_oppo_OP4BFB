@@ -12,3 +12,4 @@ etnaviv-y := \
 	etnaviv_mmu.o
 
 obj-$(CONFIG_DRM_ETNAVIV)	+= etnaviv.o
+ccflags-y += -I$(src)

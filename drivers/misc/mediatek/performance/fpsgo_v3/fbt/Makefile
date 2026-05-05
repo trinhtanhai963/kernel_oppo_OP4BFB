@@ -43,3 +43,4 @@ ccflags-y += \
 	-I$(MTK_TOP)/base/power/$(MTK_PLATFORM)/ \
 	-I$(FSTB_TOP)/ \
 	-I$(EARA_TOP)/include/
+ccflags-y += -I$(src)

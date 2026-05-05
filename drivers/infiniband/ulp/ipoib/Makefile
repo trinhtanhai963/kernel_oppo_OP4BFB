@@ -10,3 +10,4 @@ ib_ipoib-y					:= ipoib_main.o \
 ib_ipoib-$(CONFIG_INFINIBAND_IPOIB_CM)		+= ipoib_cm.o
 ib_ipoib-$(CONFIG_INFINIBAND_IPOIB_DEBUG)	+= ipoib_fs.o
 
+ccflags-y += -I$(src)

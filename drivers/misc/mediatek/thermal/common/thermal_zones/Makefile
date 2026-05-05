@@ -395,3 +395,4 @@ obj-$(CONFIG_THERMAL) += mtk_tsAll.o
 obj-$(CONFIG_THERMAL) += mtk_ts_imgsensor.o
 obj-$(CONFIG_THERMAL) += mtk_ts_dctm.o
 endif
+ccflags-y += -I$(src)

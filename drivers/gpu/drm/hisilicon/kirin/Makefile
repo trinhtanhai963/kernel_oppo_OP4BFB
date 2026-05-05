@@ -4,3 +4,4 @@ kirin-drm-y := kirin_drm_drv.o \
 obj-$(CONFIG_DRM_HISI_KIRIN) += kirin-drm.o
 
 obj-$(CONFIG_HISI_KIRIN_DW_DSI) += dw_drm_dsi.o
+ccflags-y += -I$(src)

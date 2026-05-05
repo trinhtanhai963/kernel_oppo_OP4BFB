@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_FORCEDETH) += forcedeth.o
+ccflags-y += -I$(src)

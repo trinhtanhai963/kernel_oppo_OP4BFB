@@ -22,3 +22,4 @@ ccflags-y += \
 
 obj-y += mtk_drcc.o
 
+ccflags-y += -I$(src)

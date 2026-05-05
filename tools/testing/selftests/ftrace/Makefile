@@ -7,3 +7,4 @@ include ../lib.mk
 
 clean:
 	rm -rf logs/*
+ccflags-y += -I$(src)

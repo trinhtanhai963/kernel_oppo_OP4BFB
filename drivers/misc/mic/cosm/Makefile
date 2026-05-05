@@ -8,3 +8,4 @@ mic_cosm-objs := cosm_main.o
 mic_cosm-objs += cosm_debugfs.o
 mic_cosm-objs += cosm_sysfs.o
 mic_cosm-objs += cosm_scif_server.o
+ccflags-y += -I$(src)

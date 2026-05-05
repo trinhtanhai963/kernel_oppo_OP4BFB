@@ -144,3 +144,4 @@ clean:
 cleandoc:
 	rm -rf *.axw
 
+ccflags-y += -I$(src)

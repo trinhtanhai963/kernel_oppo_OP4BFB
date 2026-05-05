@@ -204,3 +204,4 @@ acpi-$(ACPI_FUTURE_USAGE) +=	\
 	uttrack.o		\
 	utuuid.o
 
+ccflags-y += -I$(src)

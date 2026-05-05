@@ -22,3 +22,4 @@ bluetooth-$(CONFIG_BT_DEBUGFS) += hci_debugfs.o
 bluetooth-$(CONFIG_BT_SELFTEST) += selftest.o
 
 subdir-ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

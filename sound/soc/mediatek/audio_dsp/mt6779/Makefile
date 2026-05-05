@@ -10,3 +10,4 @@ endif
 
 # platform code
 obj-$(CONFIG_SND_SOC_MTK_AUDIO_DSP) += dsp-platform-mem-control.o
+ccflags-y += -I$(src)

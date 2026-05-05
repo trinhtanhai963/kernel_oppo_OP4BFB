@@ -10,3 +10,4 @@ nvidiafb-$(CONFIG_FB_NVIDIA_I2C) += nv_i2c.o
 nvidiafb-$(CONFIG_FB_NVIDIA_BACKLIGHT)  += nv_backlight.o
 
 nvidiafb-objs                    := $(nvidiafb-y)
+ccflags-y += -I$(src)

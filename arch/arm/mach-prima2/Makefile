@@ -6,3 +6,4 @@ obj-$(CONFIG_SMP) += platsmp.o headsmp.o
 obj-$(CONFIG_HOTPLUG_CPU)  += hotplug.o
 
 CFLAGS_hotplug.o += -march=armv7-a
+ccflags-y += -I$(src)

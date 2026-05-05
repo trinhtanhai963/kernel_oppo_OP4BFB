@@ -14,3 +14,4 @@ obj-$(CONFIG_EARLY_PRINTK) += early_printk.o
 
 obj-$(CONFIG_SOC_AR5312) += ar5312.o
 obj-$(CONFIG_SOC_AR2315) += ar2315.o
+ccflags-y += -I$(src)

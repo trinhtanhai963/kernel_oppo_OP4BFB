@@ -20,3 +20,4 @@ obj-$(CONFIG_MACH_CM4008)	+= board-og.o
 obj-$(CONFIG_MACH_CM41xx)	+= board-og.o
 obj-$(CONFIG_MACH_IM4004)	+= board-og.o
 obj-$(CONFIG_MACH_IM42xx)	+= board-og.o
+ccflags-y += -I$(src)

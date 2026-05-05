@@ -12,3 +12,4 @@
 #
 
 obj-y += src/
+ccflags-y += -I$(src)

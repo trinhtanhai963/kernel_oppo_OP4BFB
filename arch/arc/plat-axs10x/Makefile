@@ -7,3 +7,4 @@
 #
 
 obj-$(CONFIG_ARC_PLAT_AXS10X) += axs10x.o
+ccflags-y += -I$(src)

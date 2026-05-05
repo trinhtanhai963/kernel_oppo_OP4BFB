@@ -10,3 +10,4 @@
 #
 
 obj-y += kernel/ pci/
+ccflags-y += -I$(src)

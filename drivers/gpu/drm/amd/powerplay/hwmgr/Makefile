@@ -13,3 +13,4 @@ HARDWARE_MGR = hwmgr.o processpptables.o functiontables.o \
 AMD_PP_HWMGR = $(addprefix $(AMD_PP_PATH)/hwmgr/,$(HARDWARE_MGR))
 
 AMD_POWERPLAY_FILES += $(AMD_PP_HWMGR)
+ccflags-y += -I$(src)

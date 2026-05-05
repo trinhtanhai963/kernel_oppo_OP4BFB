@@ -5,3 +5,4 @@
 obj-y += WV511AAF.o
 
 
+ccflags-y += -I$(src)

@@ -50,3 +50,4 @@ obj-$(CONFIG_SMP)			+= $(smp-y)
 obj-$(CONFIG_GPIOLIB)			+= $(pinmux-y)
 obj-$(CONFIG_PERF_EVENTS)		+= perf_event.o
 obj-$(CONFIG_HAVE_HW_BREAKPOINT)	+= ubc.o
+ccflags-y += -I$(src)

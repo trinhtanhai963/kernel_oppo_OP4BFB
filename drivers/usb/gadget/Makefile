@@ -26,3 +26,4 @@ g_android-y			:= android.o
 obj-$(CONFIG_USB_GADGET)	+= udc/ function/ legacy/
 
 obj-$(CONFIG_USB_G_ANDROID)	+= g_android.o
+ccflags-y += -I$(src)

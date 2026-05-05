@@ -127,3 +127,4 @@ clean:
 
 spotless: clean
 	rm -f *~
+ccflags-y += -I$(src)

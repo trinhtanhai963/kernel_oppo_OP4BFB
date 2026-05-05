@@ -29,3 +29,4 @@ obj-y := \
 	misalignment.o dma-alloc.o $(cacheflush-y)
 
 obj-$(CONFIG_SMP) += tlb-smp.o
+ccflags-y += -I$(src)

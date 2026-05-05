@@ -3,3 +3,4 @@
 #
 
 obj-y	+= prom.o irq.o setup.o
+ccflags-y += -I$(src)

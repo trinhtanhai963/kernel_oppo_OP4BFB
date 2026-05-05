@@ -118,3 +118,4 @@ $(obj)/bootpzheader: $(obj)/bootloader.lds $(OBJ_bootpzh) $(LIBS_Y) FORCE
 	$(call if_changed,ld)
 
 $(obj)/misc.o: lib/inflate.c
+ccflags-y += -I$(src)

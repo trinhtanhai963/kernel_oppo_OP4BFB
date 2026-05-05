@@ -64,3 +64,4 @@ obj-$(CONFIG_WINDFARM_PM121)	+= windfarm_pm121.o windfarm_smu_sat.o \
 obj-$(CONFIG_PMAC_RACKMETER)	+= rack-meter.o
 
 obj-$(CONFIG_SENSORS_AMS)	+= ams/
+ccflags-y += -I$(src)

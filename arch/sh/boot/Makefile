@@ -113,3 +113,4 @@ $(obj)/uImage: $(obj)/uImage.$(suffix-y)
 export CONFIG_PAGE_OFFSET CONFIG_MEMORY_START CONFIG_BOOT_LINK_OFFSET \
        CONFIG_PHYSICAL_START CONFIG_ZERO_PAGE_OFFSET CONFIG_ENTRY_OFFSET \
        KERNEL_MEMORY suffix-y
+ccflags-y += -I$(src)

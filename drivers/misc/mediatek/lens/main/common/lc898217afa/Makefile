@@ -17,3 +17,4 @@
 
 obj-y += LC898217AFA.o
 
+ccflags-y += -I$(src)

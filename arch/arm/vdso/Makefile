@@ -76,3 +76,4 @@ $(MODLIB)/vdso: FORCE
 PHONY += vdso_install
 vdso_install: $(obj)/vdso.so.dbg $(MODLIB)/vdso
 	$(call cmd,vdso_install)
+ccflags-y += -I$(src)

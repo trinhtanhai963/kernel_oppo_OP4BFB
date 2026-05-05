@@ -9,3 +9,4 @@ obj-$(CONFIG_SH_R7785RP)	+= irq-r7785rp.o pinmux-r7785rp.o
 ifneq ($(CONFIG_SH_R7785RP),y)
 obj-$(CONFIG_PUSH_SWITCH)	+= psw.o
 endif
+ccflags-y += -I$(src)

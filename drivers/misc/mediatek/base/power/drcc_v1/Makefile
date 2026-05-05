@@ -13,3 +13,4 @@
 export DRCC_ROOT_DIR ?= $(srctree)/drivers/misc/mediatek/base/power/drcc_v1
 obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 
+ccflags-y += -I$(src)

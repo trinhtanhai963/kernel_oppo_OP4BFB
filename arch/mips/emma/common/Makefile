@@ -8,3 +8,4 @@
 #
 
 obj-$(CONFIG_NEC_MARKEINS)	+= prom.o
+ccflags-y += -I$(src)

@@ -21,3 +21,4 @@ HAVE_AIO_ABI := $(shell [ -r /usr/include/linux/aio_abi.h ] && \
 CFLAGS_aio.o += $(HAVE_AIO_ABI)
 
 include arch/um/scripts/Makefile.rules
+ccflags-y += -I$(src)

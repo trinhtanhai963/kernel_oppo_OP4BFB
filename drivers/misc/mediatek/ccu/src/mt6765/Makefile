@@ -34,3 +34,4 @@ ccflags-$(CONFIG_MTK_CCU) += -I$(srctree)/drivers/i2c/busses/
 #obj-$(CONFIG_MTK_VPU) += ccu_hw.o
 obj-$(CONFIG_MTK_CCU) += ccu_hw.o ccu_reg.o ccu_kd_mailbox.o ccu_i2c_hw.o ccu_sw_ver.o
 
+ccflags-y += -I$(src)

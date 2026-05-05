@@ -7,3 +7,4 @@ all: $(PROGS)
 
 clean:
 	rm -fr $(PROGS)
+ccflags-y += -I$(src)

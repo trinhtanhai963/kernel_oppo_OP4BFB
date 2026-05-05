@@ -21,3 +21,4 @@ obj-y += cpu_ctrl/
 obj-y += eas_ctrl/
 
 obj-y += topo_ctrl/
+ccflags-y += -I$(src)

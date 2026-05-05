@@ -13,3 +13,4 @@
 
 obj-y += CHIP.o
 CHIP-y := mtk_chip.o
+ccflags-y += -I$(src)

@@ -13,3 +13,4 @@ obj-$(CONFIG_TOUCHSCREEN_MTK_FOCALTECH_TS) += focaltech_test_ini.o
 obj-$(CONFIG_TOUCHSCREEN_MTK_FOCALTECH_TS) += focaltech_test_detail_threshold.o
 obj-$(CONFIG_TOUCHSCREEN_MTK_FOCALTECH_TS) += supported_ic/
 
+ccflags-y += -I$(src)

@@ -32,3 +32,4 @@ obj-y += mtk_cpufreq_hybrid.o
 # platform dependent files
 obj-y += mach/
 
+ccflags-y += -I$(src)

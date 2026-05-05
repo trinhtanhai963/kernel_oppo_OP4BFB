@@ -7,3 +7,4 @@ obj-$(CONFIG_PLAT_MAPPI3)	+= mappi3/
 obj-$(CONFIG_PLAT_OAKS32R)	+= oaks32r/
 obj-$(CONFIG_PLAT_OPSPUT)	+= opsput/
 obj-$(CONFIG_PLAT_USRV)		+= usrv/
+ccflags-y += -I$(src)

@@ -5,3 +5,4 @@
 obj-$(CONFIG_MIC_COSM) += cosm_client.o
 
 cosm_client-objs += cosm_scif_client.o
+ccflags-y += -I$(src)

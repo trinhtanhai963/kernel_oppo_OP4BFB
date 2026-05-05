@@ -21,3 +21,4 @@ endif
 obj-$(CONFIG_MTK_PWM)	+= mtk_pwm.o
 
 
+ccflags-y += -I$(src)

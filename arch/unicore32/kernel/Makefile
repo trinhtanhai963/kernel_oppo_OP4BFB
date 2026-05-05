@@ -28,3 +28,4 @@ head-y				:= head.o
 obj-$(CONFIG_DEBUG_LL)		+= debug.o
 
 extra-y				:= $(head-y) vmlinux.lds
+ccflags-y += -I$(src)

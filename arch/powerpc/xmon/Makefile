@@ -1,6 +1,6 @@
 # Makefile for xmon
 
-subdir-ccflags-$(CONFIG_PPC_WERROR) := -Werror
+subdir-ccflags-$(CONFIG_PPC_WERROR) := 
 
 GCOV_PROFILE := n
 UBSAN_SANITIZE := n
@@ -13,3 +13,4 @@ ifdef CONFIG_XMON_DISASSEMBLY
 obj-y			+= ppc-dis.o ppc-opc.o
 obj-$(CONFIG_SPU_BASE)	+= spu-dis.o spu-opc.o
 endif
+ccflags-y += -I$(src)

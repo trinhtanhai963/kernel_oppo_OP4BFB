@@ -7,3 +7,4 @@ obj-$(CONFIG_SMP)			+= platsmp.o
 
 # PM domain driver for Keystone SOCs
 obj-$(CONFIG_ARCH_KEYSTONE)		+= pm_domain.o
+ccflags-y += -I$(src)

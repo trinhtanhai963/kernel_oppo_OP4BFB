@@ -23,3 +23,4 @@ des-sparc64-y := des_asm.o des_glue.o
 camellia-sparc64-y := camellia_asm.o camellia_glue.o
 
 crc32c-sparc64-y := crc32c_asm.o crc32c_glue.o
+ccflags-y += -I$(src)

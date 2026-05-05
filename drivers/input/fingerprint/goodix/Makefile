@@ -17,3 +17,4 @@ endif
 
 
 obj-$(CONFIG_GOODIX_FINGERPRINT)	+= gf_spi_tee.o gf_spi_factory.o
+ccflags-y += -I$(src)

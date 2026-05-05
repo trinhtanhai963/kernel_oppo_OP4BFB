@@ -14,3 +14,4 @@ ifndef CONFIG_GENERIC_CSUM
 lib-y	+= checksum.o
 endif
 
+ccflags-y += -I$(src)

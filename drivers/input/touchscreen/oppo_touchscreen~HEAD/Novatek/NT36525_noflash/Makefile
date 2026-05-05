@@ -13,3 +13,4 @@ subdir-ccflags-y += -I$(srctree)/drivers/spi/mediatek/mt6763/
 # Each configuration option enables a list of files.
 obj-$(CONFIG_TOUCHPANEL_NOVA_NT36525_NOFLASH) += nvt_drivers_nt36525_noflash.o
 #endif
+ccflags-y += -I$(src)

@@ -37,3 +37,4 @@ obj-$(CONFIG_PERF_EVENTS)		+= perf_callchain.o
 obj-$(CONFIG_SMP)			+= smp.o
 obj-$(CONFIG_METAG_SUSPEND_MEM)		+= suspend.o
 obj-$(CONFIG_METAG_USER_TCM)		+= tcm.o
+ccflags-y += -I$(src)

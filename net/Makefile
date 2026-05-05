@@ -5,7 +5,7 @@
 # Rewritten to use lists instead of if-statements.
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 obj-$(CONFIG_NET)		:= socket.o core/
 
@@ -93,3 +93,4 @@ obj-y                   	+= oppo_sla/
 #Add for WeChat lucky money recognition
 obj-y				+= oppo_nf_hooks/
 #endif /* VENDOR_EDIT */
+ccflags-y += -I$(src)

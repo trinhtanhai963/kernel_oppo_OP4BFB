@@ -12,3 +12,4 @@
 #
 
 obj-y += devapc.o
+ccflags-y += -I$(src)

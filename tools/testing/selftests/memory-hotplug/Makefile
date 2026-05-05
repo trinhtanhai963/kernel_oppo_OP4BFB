@@ -10,3 +10,4 @@ run_full_test:
 	@/bin/bash ./mem-on-off-test.sh || echo "memory-hotplug selftests: [FAIL]"
 
 clean:
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_GRETH) += greth.o
+ccflags-y += -I$(src)

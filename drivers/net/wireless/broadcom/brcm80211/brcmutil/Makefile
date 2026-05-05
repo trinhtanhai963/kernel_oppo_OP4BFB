@@ -21,3 +21,4 @@ ccflags-y :=				\
 
 obj-$(CONFIG_BRCMUTIL)	+= brcmutil.o
 brcmutil-objs	= utils.o d11.o
+ccflags-y += -I$(src)

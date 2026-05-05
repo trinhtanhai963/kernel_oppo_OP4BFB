@@ -10,3 +10,4 @@ obj-$(CONFIG_HOTPLUG_CPU)	+= hotplug.o
 obj-$(CONFIG_PM_GENERIC_DOMAINS) += pm_domains.o
 
 CFLAGS_hotplug.o		+= -march=armv7-a
+ccflags-y += -I$(src)

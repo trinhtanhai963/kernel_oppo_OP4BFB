@@ -13,3 +13,4 @@ ccflags-$(CONFIG_MTK_ENG_BUILD) += -DDEBUG
 #SSPM_IPI_TEST=y
 sspm_platform-$(SSPM_IPI_TEST) += ./sspm_ipi_test.o
 
+ccflags-y += -I$(src)

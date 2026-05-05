@@ -154,3 +154,4 @@ export CFLAGS_initramfs.o = -mmedium-calls
 ifdef CONFIG_SMP
 export CFLAGS_core.o = -mmedium-calls
 endif
+ccflags-y += -I$(src)

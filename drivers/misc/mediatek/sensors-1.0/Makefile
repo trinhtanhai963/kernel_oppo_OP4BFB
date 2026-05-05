@@ -27,3 +27,4 @@ obj-$(CONFIG_MTK_HIGH_FREQ_SENSOR) += high_freq_sensor/
 else
 obj-y += dummy.o
 endif
+ccflags-y += -I$(src)

@@ -8,3 +8,4 @@ snd-soc-cygnus-objs := cygnus-pcm.o cygnus-ssp.o
 
 obj-$(CONFIG_SND_SOC_CYGNUS) += snd-soc-cygnus.o
 
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@
 #
 
 obj-y		:= config.o time.o reboot.o
+ccflags-y += -I$(src)

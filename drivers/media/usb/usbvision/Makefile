@@ -4,3 +4,4 @@ obj-$(CONFIG_VIDEO_USBVISION) += usbvision.o
 
 ccflags-y += -Idrivers/media/i2c
 ccflags-y += -Idrivers/media/tuners
+ccflags-y += -I$(src)

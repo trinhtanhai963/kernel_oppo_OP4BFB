@@ -13,3 +13,4 @@ $(obj)/builtin-policy.h: $(wildcard $(obj)/policy/*.conf $(src)/policy/*.conf.de
 	$(call if_changed,policy)
 
 $(obj)/common.o: $(obj)/builtin-policy.h
+ccflags-y += -I$(src)

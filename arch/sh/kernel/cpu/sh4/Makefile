@@ -34,3 +34,4 @@ clock-$(CONFIG_CPU_SUBTYPE_SH4_202)	+= clock-sh4-202.o
 
 obj-y					+= $(clock-y)
 obj-$(CONFIG_PERF_EVENTS)		+= $(perf-y)
+ccflags-y += -I$(src)

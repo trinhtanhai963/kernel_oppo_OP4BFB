@@ -10,3 +10,4 @@ snd-ice1724-objs := ice1724.o amp.o revo.o aureon.o vt1720_mobo.o pontis.o prodi
 # Toplevel Module Dependency
 obj-$(CONFIG_SND_ICE1712) += snd-ice1712.o snd-ice17xx-ak4xxx.o
 obj-$(CONFIG_SND_ICE1724) += snd-ice1724.o snd-ice17xx-ak4xxx.o
+ccflags-y += -I$(src)

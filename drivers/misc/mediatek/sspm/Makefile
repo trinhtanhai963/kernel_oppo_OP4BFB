@@ -10,3 +10,4 @@ obj-y += $(CONFIG_MTK_PLATFORM)/
 else
 obj-y +=  dummy.o
 endif
+ccflags-y += -I$(src)

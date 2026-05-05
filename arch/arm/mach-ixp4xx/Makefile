@@ -41,3 +41,4 @@ obj-$(CONFIG_MACH_ARCOM_VULCAN)	+= vulcan-setup.o
 obj-$(CONFIG_PCI)		+= $(obj-pci-$(CONFIG_PCI)) common-pci.o
 obj-$(CONFIG_IXP4XX_QMGR)	+= ixp4xx_qmgr.o
 obj-$(CONFIG_IXP4XX_NPE)	+= ixp4xx_npe.o
+ccflags-y += -I$(src)

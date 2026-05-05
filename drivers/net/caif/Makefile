@@ -12,3 +12,4 @@ obj-$(CONFIG_CAIF_HSI) += caif_hsi.o
 
 # Virtio interface
 obj-$(CONFIG_CAIF_VIRTIO) += caif_virtio.o
+ccflags-y += -I$(src)

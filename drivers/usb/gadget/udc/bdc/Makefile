@@ -6,3 +6,4 @@ ifneq ($(CONFIG_USB_GADGET_VERBOSE),)
 endif
 
 obj-$(CONFIG_USB_BDC_PCI)	+= bdc_pci.o
+ccflags-y += -I$(src)

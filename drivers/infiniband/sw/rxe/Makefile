@@ -22,3 +22,4 @@ rdma_rxe-y := \
 	rxe_task.o \
 	rxe_net.o \
 	rxe_sysfs.o
+ccflags-y += -I$(src)

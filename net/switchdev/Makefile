@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_NET_SWITCHDEV) += switchdev.o
+ccflags-y += -I$(src)

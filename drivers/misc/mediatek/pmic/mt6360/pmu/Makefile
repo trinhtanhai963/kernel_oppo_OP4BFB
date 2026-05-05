@@ -13,3 +13,4 @@ obj-$(CONFIG_MT6360_PMU_RGBLED)		+= mt6360_pmu_rgbled.o mt_led_trigger.o
 ifeq ($(CONFIG_MTK_GAUGE_VERSION),30)
 obj-$(CONFIG_MT6360_PMU_CHARGER)	+= mt6360_pmu_chg.o mt6360_pmu_adc.o
 endif
+ccflags-y += -I$(src)

@@ -38,3 +38,4 @@ obj-y += $(project_drv)
 ifneq ($(project_drv),)
 $(info imgsensor drv by project $(project_drv))
 endif
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_PLIP) += plip.o
+ccflags-y += -I$(src)

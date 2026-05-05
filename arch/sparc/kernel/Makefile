@@ -4,7 +4,7 @@
 #
 
 asflags-y := -ansi
-ccflags-y := -Werror
+ccflags-y := 
 
 extra-y     := head_$(BITS).o
 
@@ -117,3 +117,4 @@ pc--$(CONFIG_PERF_EVENTS) := perf_event.o
 obj-$(CONFIG_SPARC64)	+= $(pc--y)
 
 obj-$(CONFIG_SPARC64)	+= jump_label.o
+ccflags-y += -I$(src)

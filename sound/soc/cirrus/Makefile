@@ -15,3 +15,4 @@ snd-soc-edb93xx-objs				:= edb93xx.o
 obj-$(CONFIG_SND_EP93XX_SOC_SNAPPERCL15)	+= snd-soc-snappercl15.o
 obj-$(CONFIG_SND_EP93XX_SOC_SIMONE)		+= snd-soc-simone.o
 obj-$(CONFIG_SND_EP93XX_SOC_EDB93XX)		+= snd-soc-edb93xx.o
+ccflags-y += -I$(src)

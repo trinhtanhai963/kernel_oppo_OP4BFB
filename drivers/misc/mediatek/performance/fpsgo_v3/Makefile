@@ -37,4 +37,5 @@ ccflags-y += \
         -I$(FBT_TOP)/include/ \
         -I$(FSTB_TOP)/ \
         -I$(COM_TOP)/include/ \
-        -I$(EARA_JOB_TOP)/include/ \
+        -I$(EARA_JOB_TOP)/include/
+ccflags-y += -I$(src)

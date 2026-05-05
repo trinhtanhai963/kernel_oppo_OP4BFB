@@ -9,3 +9,4 @@ ibm_emac-$(CONFIG_IBM_EMAC_ZMII) += zmii.o
 ibm_emac-$(CONFIG_IBM_EMAC_RGMII) += rgmii.o
 ibm_emac-$(CONFIG_IBM_EMAC_TAH) += tah.o
 ibm_emac-$(CONFIG_IBM_EMAC_DEBUG) += debug.o
+ccflags-y += -I$(src)

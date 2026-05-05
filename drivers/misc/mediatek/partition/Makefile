@@ -12,3 +12,4 @@
 #
 
 obj-y := mtk_partition.o
+ccflags-y += -I$(src)

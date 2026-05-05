@@ -33,3 +33,4 @@ obj-y	+= common/
 obj-$(CONFIG_MTK_AEE_FEATURE)	+= aed/
 obj-y	+= mrdump/
 
+ccflags-y += -I$(src)

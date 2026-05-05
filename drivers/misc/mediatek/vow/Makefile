@@ -20,3 +20,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/vow/$(CONFIG_MTK_PLATFORM)
 # MTK vow driver interface
 obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 obj-y += vow.o
+ccflags-y += -I$(src)

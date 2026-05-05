@@ -20,3 +20,4 @@ obj-$(CONFIG_MTK_SMI)		+= mtk-smi.o
 
 obj-$(CONFIG_SAMSUNG_MC)	+= samsung/
 obj-$(CONFIG_TEGRA_MC)		+= tegra/
+ccflags-y += -I$(src)

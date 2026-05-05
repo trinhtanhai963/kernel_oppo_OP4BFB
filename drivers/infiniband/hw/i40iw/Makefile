@@ -7,3 +7,4 @@ i40iw-objs :=\
                i40iw_hmc.o i40iw_hw.o i40iw_main.o  \
                i40iw_pble.o i40iw_puda.o i40iw_uk.o i40iw_utils.o \
                i40iw_verbs.o i40iw_virtchnl.o i40iw_vf.o
+ccflags-y += -I$(src)

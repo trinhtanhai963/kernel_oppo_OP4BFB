@@ -166,3 +166,4 @@ $(obj)/vmlinux.lzma.itb: $(obj)/vmlinux.lzma.its $(obj)/vmlinux.bin.lzma FORCE
 
 $(obj)/vmlinux.lzo.itb: $(obj)/vmlinux.lzo.its $(obj)/vmlinux.bin.lzo FORCE
 	$(call if_changed,itb-image,$<)
+ccflags-y += -I$(src)

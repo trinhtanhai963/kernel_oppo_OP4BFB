@@ -3,3 +3,4 @@ obj-$(CONFIG_MACH_MT6765) += v1/
 obj-$(CONFIG_MACH_MT6761) += v1/
 obj-$(CONFIG_MACH_MT6779) += v1/
 #obj-$(CONFIG_MACH_MT6758) += v1/
+ccflags-y += -I$(src)

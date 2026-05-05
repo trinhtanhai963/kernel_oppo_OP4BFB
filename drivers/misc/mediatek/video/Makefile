@@ -42,3 +42,4 @@ else
 	obj-$(CONFIG_MACH_MT6779) += common/
 endif
 
+ccflags-y += -I$(src)

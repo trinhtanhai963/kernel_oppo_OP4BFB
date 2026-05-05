@@ -13,3 +13,4 @@ obj-y    := bindec.o binstr.o decbin.o do_func.o gen_except.o get_op.o \
 EXTRA_LDFLAGS := -x
 
 $(OS_OBJS): fpsp.h
+ccflags-y += -I$(src)

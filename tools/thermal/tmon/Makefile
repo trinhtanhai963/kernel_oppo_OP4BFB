@@ -49,3 +49,4 @@ dist:
 	git tag v$(VERSION)
 	git archive --format=tar --prefix="$(TARGET)-$(VERSION)/" v$(VERSION) | \
 		gzip > $(TARGET)-$(VERSION).tar.gz
+ccflags-y += -I$(src)

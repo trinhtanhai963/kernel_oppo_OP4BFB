@@ -5,3 +5,4 @@
 obj-$(CONFIG_MACE) += mace.o
 obj-$(CONFIG_BMAC) += bmac.o
 obj-$(CONFIG_MACMACE) += macmace.o
+ccflags-y += -I$(src)

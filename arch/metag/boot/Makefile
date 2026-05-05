@@ -66,3 +66,4 @@ $(obj)/uImage.bin: $(obj)/vmlinux.bin FORCE
 $(obj)/uImage: $(obj)/uImage.$(suffix-y)
 	@ln -sf $(notdir $<) $@
 	@echo '  Image $@ is ready'
+ccflags-y += -I$(src)

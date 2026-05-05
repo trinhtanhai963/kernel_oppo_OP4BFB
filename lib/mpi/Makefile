@@ -20,3 +20,4 @@ mpi-y = \
 	mpih-mul.o			\
 	mpi-pow.o			\
 	mpiutil.o
+ccflags-y += -I$(src)

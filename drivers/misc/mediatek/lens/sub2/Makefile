@@ -41,3 +41,4 @@ obj-y += sub2_lens.o
 
 
 endif
+ccflags-y += -I$(src)

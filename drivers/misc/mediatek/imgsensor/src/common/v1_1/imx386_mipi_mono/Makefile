@@ -12,3 +12,4 @@
 #
 
 obj-y += imx386mipimono_sensor.o
+ccflags-y += -I$(src)

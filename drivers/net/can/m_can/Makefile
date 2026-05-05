@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_CAN_M_CAN) += m_can.o
+ccflags-y += -I$(src)

@@ -19,3 +19,4 @@ obj-y += rs_cpu_pfm.o
 obj-y += rs_vpu_pfm.o
 obj-y += rs_mdla_pfm.o
 
+ccflags-y += -I$(src)

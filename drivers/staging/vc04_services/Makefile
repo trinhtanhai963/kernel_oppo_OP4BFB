@@ -12,3 +12,4 @@ vchiq-objs := \
 
 ccflags-y += -DVCOS_VERIFY_BKPTS=1 -Idrivers/staging/vc04_services -DUSE_VCHIQ_ARM -D__VCCOREVER__=0x04000000
 
+ccflags-y += -I$(src)

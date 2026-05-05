@@ -4,7 +4,7 @@
 # 15 Sep 2000, Christoph Hellwig <hch@infradead.org>
 # Rewritten to use lists instead of if-statements.
 #
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 obj-y				+= irqchip/
 obj-y				+= bus/
@@ -183,3 +183,4 @@ obj-$(CONFIG_TRUSTY)	+= trusty/
 
 #xuyechen@ODM_HQ.Multimedia.audio, 2019/09/24, add for switch class driver
 obj-$(CONFIG_SWITCH)            += switch/
+ccflags-y += -I$(src)

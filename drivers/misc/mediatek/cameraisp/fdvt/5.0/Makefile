@@ -25,3 +25,4 @@ ccflags-y += -I$(srctree)/drivers/staging/android/ion \
 
 
 obj-y += camera_fdvt.o
+ccflags-y += -I$(src)

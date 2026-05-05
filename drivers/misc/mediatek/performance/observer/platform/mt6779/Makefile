@@ -7,3 +7,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/mt6779/
 
 obj-y += qos_pfm.o
 
+ccflags-y += -I$(src)

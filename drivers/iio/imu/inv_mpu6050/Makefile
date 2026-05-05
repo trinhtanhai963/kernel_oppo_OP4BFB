@@ -10,3 +10,4 @@ inv-mpu6050-i2c-objs := inv_mpu_i2c.o inv_mpu_acpi.o
 
 obj-$(CONFIG_INV_MPU6050_SPI) += inv-mpu6050-spi.o
 inv-mpu6050-spi-objs := inv_mpu_spi.o
+ccflags-y += -I$(src)

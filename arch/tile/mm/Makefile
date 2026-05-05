@@ -7,3 +7,4 @@ obj-y	:= init.o pgtable.o fault.o extable.o elf.o \
 
 obj-$(CONFIG_HUGETLB_PAGE) += hugetlbpage.o
 obj-$(CONFIG_HIGHMEM) += highmem.o
+ccflags-y += -I$(src)

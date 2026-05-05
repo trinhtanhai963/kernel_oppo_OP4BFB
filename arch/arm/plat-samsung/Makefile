@@ -35,3 +35,4 @@ obj-$(CONFIG_SAMSUNG_PM_DEBUG)	+= pm-debug.o
 
 obj-$(CONFIG_SAMSUNG_WAKEMASK)	+= wakeup-mask.o
 obj-$(CONFIG_SAMSUNG_WDT_RESET)	+= watchdog-reset.o
+ccflags-y += -I$(src)

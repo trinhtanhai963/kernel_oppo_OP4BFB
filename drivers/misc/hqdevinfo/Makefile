@@ -9,3 +9,4 @@
 obj-y := hq_devinfo.o
 obj-y += sddetect.o
 obj-y += meta_display.o
+ccflags-y += -I$(src)

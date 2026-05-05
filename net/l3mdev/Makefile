@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_NET_L3_MASTER_DEV) += l3mdev.o
+ccflags-y += -I$(src)

@@ -329,3 +329,4 @@ uninstall:
 	  done;
 
 .PHONY: all utils libcpupower update-po create-gmo install-lib install-tools install-man install-gmo install uninstall clean
+ccflags-y += -I$(src)

@@ -5,3 +5,4 @@
 obj-y += AD5823AF.o
 
 
+ccflags-y += -I$(src)

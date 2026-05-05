@@ -21,3 +21,4 @@ ccflags-$(CONFIG_MTK_FPSGO_V3) += \
 	-I$(srctree)/drivers/misc/mediatek/performance/fpsgo_v3/fstb/ \
 
 obj-y += utch.o
+ccflags-y += -I$(src)

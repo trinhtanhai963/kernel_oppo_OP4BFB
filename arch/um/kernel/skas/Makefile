@@ -13,3 +13,4 @@ CFLAGS_clone.o := $(CFLAGS_NO_HARDENING)
 UNPROFILE_OBJS := clone.o
 
 include arch/um/scripts/Makefile.rules
+ccflags-y += -I$(src)

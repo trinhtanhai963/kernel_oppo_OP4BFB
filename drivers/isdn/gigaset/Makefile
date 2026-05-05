@@ -10,3 +10,4 @@ obj-$(CONFIG_ISDN_DRV_GIGASET) += gigaset.o
 obj-$(CONFIG_GIGASET_M105) += usb_gigaset.o
 obj-$(CONFIG_GIGASET_BASE) += bas_gigaset.o
 obj-$(CONFIG_GIGASET_M101) += ser_gigaset.o
+ccflags-y += -I$(src)

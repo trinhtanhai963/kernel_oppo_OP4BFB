@@ -24,3 +24,4 @@ obj-m +=ieee80211_crypt-rsl.o
 obj-m +=ieee80211_crypt_wep-rsl.o
 obj-m +=ieee80211_crypt_tkip-rsl.o
 obj-m +=ieee80211_crypt_ccmp-rsl.o
+ccflags-y += -I$(src)

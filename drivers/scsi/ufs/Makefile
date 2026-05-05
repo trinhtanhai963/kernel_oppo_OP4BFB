@@ -21,3 +21,4 @@ obj-$(CONFIG_MTK_UFS_SUPPORT) += ufs-mtk.o
 obj-$(CONFIG_MTK_UFS_SUPPORT) += mediatek/$(MTK_PLATFORM)/ufs-mtk-platform.o
 obj-$(CONFIG_MTK_UFS_BLOCK_IO_LOG) += ufs-mtk-block.o
 obj-$(CONFIG_MTK_UFS_SUPPORT) += ufs-mtk-dbg.o
+ccflags-y += -I$(src)

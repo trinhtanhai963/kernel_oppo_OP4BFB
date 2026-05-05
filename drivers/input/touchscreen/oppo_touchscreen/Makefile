@@ -8,3 +8,4 @@ obj-$(CONFIG_TOUCHPANEL_OPPO) += touchpanel_common_driver.o
 obj-$(CONFIG_TOUCHPANEL_NOVA) += Novatek/
 obj-$(CONFIG_TOUCHPANEL_ILITEK) += ilitek/
 obj-$(CONFIG_TOUCHPANEL_HIMAX)	+=  hxchipset/
+ccflags-y += -I$(src)

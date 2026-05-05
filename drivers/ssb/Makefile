@@ -24,3 +24,4 @@ ssb-$(CONFIG_SSB_DRIVER_GPIO)		+= driver_gpio.o
 ssb-$(CONFIG_SSB_B43_PCI_BRIDGE)	+= b43_pci_bridge.o
 
 obj-$(CONFIG_SSB)			+= ssb.o
+ccflags-y += -I$(src)

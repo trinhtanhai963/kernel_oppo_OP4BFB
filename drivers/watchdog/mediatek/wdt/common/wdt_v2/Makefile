@@ -11,5 +11,6 @@
 # GNU General Public License for more details.
 #
 
+ccflags-y += -I$(src)
 ccflags-y += -I$(srctree)/drivers/watchdog/mediatek/include
 obj-y += mtk_wdt_v2.o

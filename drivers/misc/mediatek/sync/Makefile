@@ -17,3 +17,4 @@
 
 # MTK sync driver interface
 obj-$(CONFIG_MTK_SYNC) += mtk_sync.o
+ccflags-y += -I$(src)

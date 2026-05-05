@@ -11,3 +11,4 @@
 # See http://www.gnu.org/licenses/gpl-2.0.html for more details.
 
 obj-y += imx576mipiraw_Sensor.o
+ccflags-y += -I$(src)

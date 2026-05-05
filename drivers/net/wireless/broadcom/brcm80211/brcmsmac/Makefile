@@ -46,3 +46,4 @@ brcmsmac-y := \
 brcmsmac-$(CONFIG_BCMA_DRIVER_GPIO) += led.o
 
 obj-$(CONFIG_BRCMSMAC)	+= brcmsmac.o
+ccflags-y += -I$(src)

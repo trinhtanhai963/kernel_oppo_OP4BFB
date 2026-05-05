@@ -23,3 +23,4 @@ TOOL_OBJS = \
 	acpidbg.o
 
 include ../../Makefile.rules
+ccflags-y += -I$(src)

@@ -61,3 +61,4 @@ mac80211-$(CONFIG_MAC80211_RC_MINSTREL) += $(rc80211_minstrel-y)
 mac80211-$(CONFIG_MAC80211_RC_MINSTREL_HT) += $(rc80211_minstrel_ht-y)
 
 ccflags-y += -D__CHECK_ENDIAN__ -DDEBUG
+ccflags-y += -I$(src)

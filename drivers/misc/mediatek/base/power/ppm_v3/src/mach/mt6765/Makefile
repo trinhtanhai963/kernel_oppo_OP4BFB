@@ -12,10 +12,11 @@
 #
 
 ccflags-y +=	\
+	-I$(src) \
 	-I$(PPM_ROOT_DIR)/inc \
-	-I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(CONFIG_MTK_PLATFORM)/include	\
-	-I$(srctree)/drivers/misc/mediatek/base/power/$(CONFIG_MTK_PLATFORM)/	\
-	-I$(srctree)/drivers/misc/mediatek/thermal/$(CONFIG_MTK_PLATFORM)/inc/	\
+	-I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(subst ",,$(CONFIG_MTK_PLATFORM))/include	\
+	-I$(srctree)/drivers/misc/mediatek/base/power/$(subst ",,$(CONFIG_MTK_PLATFORM))/	\
+	-I$(srctree)/drivers/misc/mediatek/thermal/$(subst ",,$(CONFIG_MTK_PLATFORM))/inc/	\
 	-I$(srctree)/drivers/misc/mediatek/base/power/include
 
 # platform dependent functions
@@ -24,3 +25,4 @@ obj-y += mtk_ppm_platform.o
 obj-y += mtk_ppm_power_data.o
 # limit calculation algorithm
 obj-y += mtk_ppm_cobra_algo.o
+ccflags-y += -I$(src)

@@ -11,3 +11,4 @@ obj-$(CONFIG_SND_HDA_CORE) += snd-hda-core.o
 
 #extended hda
 obj-$(CONFIG_SND_HDA_EXT_CORE) += ext/
+ccflags-y += -I$(src)

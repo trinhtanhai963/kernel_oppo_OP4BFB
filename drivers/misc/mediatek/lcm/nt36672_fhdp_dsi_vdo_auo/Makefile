@@ -18,3 +18,4 @@
 obj-y += nt36672_fhdp_dsi_vdo_auo.o
 
 ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
+ccflags-y += -I$(src)

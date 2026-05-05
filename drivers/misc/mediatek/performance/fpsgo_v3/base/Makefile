@@ -28,4 +28,5 @@ ccflags-y += \
 	-I$(MTK_TOP)/include/ \
 	-I$(BASE_TOP)/include/ \
 	-I$(COMP_TOP)/include/ \
-	-I$(FBT_TOP)/include/ \
+	-I$(FBT_TOP)/include/
+ccflags-y += -I$(src)

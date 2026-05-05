@@ -6,3 +6,4 @@ lib-y  = memcpy.o memset.o abs.o strncpy.o \
 	 mulsi3.o udivsi3.o muldi3.o moddivsi3.o \
 	 ashldi3.o lshrdi3.o ashrdi3.o ucmpdi2.o \
 	 delay.o
+ccflags-y += -I$(src)

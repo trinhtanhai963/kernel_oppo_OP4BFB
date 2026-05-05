@@ -11,3 +11,4 @@ obj-$(CONFIG_MTD_ONENAND_OMAP2)		+= omap2.o
 obj-$(CONFIG_MTD_ONENAND_SAMSUNG)       += samsung.o
 
 onenand-objs = onenand_base.o onenand_bbt.o
+ccflags-y += -I$(src)

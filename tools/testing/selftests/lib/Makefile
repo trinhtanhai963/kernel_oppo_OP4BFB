@@ -6,3 +6,4 @@ all:
 TEST_PROGS := printf.sh bitmap.sh
 
 include ../lib.mk
+ccflags-y += -I$(src)

@@ -12,3 +12,4 @@
 obj-y := setup.o serial.o paravirt-irq.o
 
 obj-$(CONFIG_SMP)		+= paravirt-smp.o
+ccflags-y += -I$(src)

@@ -5,3 +5,4 @@ obj-$(CONFIG_SND_SST_MFLD_PLATFORM) += snd-soc-sst-mfld-platform.o
 
 # DSP driver
 obj-$(CONFIG_SND_SST_IPC) += sst/
+ccflags-y += -I$(src)

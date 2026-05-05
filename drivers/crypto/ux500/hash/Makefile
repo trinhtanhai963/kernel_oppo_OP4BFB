@@ -9,3 +9,4 @@ endif
 
 obj-$(CONFIG_CRYPTO_DEV_UX500_HASH) += ux500_hash.o
 ux500_hash-objs :=  hash_core.o
+ccflags-y += -I$(src)

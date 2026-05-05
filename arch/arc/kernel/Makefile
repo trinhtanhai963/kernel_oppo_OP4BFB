@@ -35,3 +35,4 @@ obj-y += ctx_sw_asm.o
 endif
 
 extra-y := vmlinux.lds head.o
+ccflags-y += -I$(src)

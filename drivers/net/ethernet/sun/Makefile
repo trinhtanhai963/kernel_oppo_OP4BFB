@@ -11,3 +11,4 @@ obj-$(CONFIG_SUNVNET_COMMON) += sunvnet_common.o
 obj-$(CONFIG_SUNVNET) += sunvnet.o
 obj-$(CONFIG_LDMVSW) += ldmvsw.o
 obj-$(CONFIG_NIU) += niu.o
+ccflags-y += -I$(src)

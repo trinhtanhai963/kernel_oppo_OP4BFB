@@ -103,3 +103,4 @@ ifeq ($(MTK_MIRAVISION_SUPPORT), yes)
 endif
 
 ccflags-$(CONFIG_MTK_LCM_DEVICE_TREE_SUPPORT) += -DMTK_LCM_DEVICE_TREE_SUPPORT
+ccflags-y += -I$(src)

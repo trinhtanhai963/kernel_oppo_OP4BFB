@@ -12,3 +12,4 @@ obj-$(CONFIG_PICVUE_PROC)	+= picvue_proc.o
 
 clean:
 	make -C image clean
+ccflags-y += -I$(src)

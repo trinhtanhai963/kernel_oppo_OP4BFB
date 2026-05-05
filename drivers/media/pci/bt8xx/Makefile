@@ -10,3 +10,4 @@ ccflags-y += -Idrivers/media/dvb-frontends
 ccflags-y += -Idrivers/media/i2c
 ccflags-y += -Idrivers/media/common
 ccflags-y += -Idrivers/media/tuners
+ccflags-y += -I$(src)

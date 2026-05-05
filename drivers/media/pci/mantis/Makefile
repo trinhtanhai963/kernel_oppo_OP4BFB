@@ -26,3 +26,4 @@ obj-$(CONFIG_DVB_MANTIS)	+= mantis.o
 obj-$(CONFIG_DVB_HOPPER)	+= hopper.o
 
 ccflags-y += -Idrivers/media/dvb-core/ -Idrivers/media/dvb-frontends/
+ccflags-y += -I$(src)

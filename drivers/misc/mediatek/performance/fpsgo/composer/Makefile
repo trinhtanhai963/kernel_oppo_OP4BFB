@@ -32,3 +32,4 @@ ccflags-y += \
 	-I$(FBT_TOP)/include/ \
 	-I$(FSTB_TOP)/ \
 
+ccflags-y += -I$(src)

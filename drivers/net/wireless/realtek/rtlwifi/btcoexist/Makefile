@@ -5,3 +5,4 @@ btcoexist-objs :=	halbtc8723b2ant.o	\
 obj-$(CONFIG_RTLBTCOEXIST) += btcoexist.o
 
 ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

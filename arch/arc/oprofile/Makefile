@@ -7,3 +7,4 @@ DRIVER_OBJS = $(addprefix ../../../drivers/oprofile/, \
 		timer_int.o )
 
 oprofile-y	:= $(DRIVER_OBJS) common.o
+ccflags-y += -I$(src)

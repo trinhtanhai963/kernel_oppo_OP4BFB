@@ -3,3 +3,4 @@ obj-$(CONFIG_FB_CARILLO_RANCH) += crvml.o
 
 vmlfb-objs := vermilion.o
 crvml-objs := cr_pll.o
+ccflags-y += -I$(src)

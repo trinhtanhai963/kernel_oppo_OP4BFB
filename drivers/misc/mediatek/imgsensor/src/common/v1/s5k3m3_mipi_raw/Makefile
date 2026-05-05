@@ -3,3 +3,4 @@
 obj-y += s5k3m3mipiraw_Sensor.o
 obj-y += s5k3m3mipiraw_pdaf.o
 
+ccflags-y += -I$(src)

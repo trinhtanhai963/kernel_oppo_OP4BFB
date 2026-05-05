@@ -13,7 +13,7 @@
 
 #$(call all-subdir-src-or-makefile)
 MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 subdir-ccflags-$(CONFIG_MACH_MT6761) += -I$(srctree)/drivers/misc/mediatek/scp/mt6765
 
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include
@@ -162,3 +162,4 @@ obj-$(CONFIG_MTK_PERF_TRACKER) += perf/
 
 #io boost
 obj-y += io_boost/
+ccflags-y += -I$(src)

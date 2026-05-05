@@ -14,3 +14,4 @@ host1x-y = \
 	hw/host1x05.o
 
 obj-$(CONFIG_TEGRA_HOST1X) += host1x.o
+ccflags-y += -I$(src)

@@ -12,3 +12,4 @@ obj-$(CONFIG_I2C_MUX_PINCTRL)	+= i2c-mux-pinctrl.o
 obj-$(CONFIG_I2C_MUX_REG)	+= i2c-mux-reg.o
 
 ccflags-$(CONFIG_I2C_DEBUG_BUS) := -DDEBUG
+ccflags-y += -I$(src)

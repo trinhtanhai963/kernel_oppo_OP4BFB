@@ -8,3 +8,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/scp/$(CONFIG_MTK_PLATFORM)
 #else
 obj-$(CONFIG_NANOHUB)	+= sensor_devinfo.o
 #endif /* VENDOR_EDIT */
+ccflags-y += -I$(src)

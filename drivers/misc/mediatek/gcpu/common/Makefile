@@ -12,3 +12,4 @@
 #
 
 obj-$(CONFIG_TRUSTONIC_TEE_SUPPORT) += gcpu.o
+ccflags-y += -I$(src)

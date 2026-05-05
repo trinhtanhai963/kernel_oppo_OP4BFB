@@ -15,3 +15,4 @@ obj-$(CONFIG_ARCH_SH73A0)		+= clk-sh73a0.o clk-div6.o
 
 obj-$(CONFIG_CLK_RENESAS_CPG_MSSR)	+= renesas-cpg-mssr.o clk-div6.o
 obj-$(CONFIG_CLK_RENESAS_CPG_MSTP)	+= clk-mstp.o
+ccflags-y += -I$(src)

@@ -4,3 +4,4 @@ obj-$(CONFIG_POWER_SUPPLY)	+= supply/
 #ifdef VENDOR_EDIT /* Jianchao.Shi@BSP.CHG.Basic, 2018/11/09, sjc Add for charging */
 obj-$(CONFIG_OPPO_CHARGER)	+= oppo/
 #endif
+ccflags-y += -I$(src)

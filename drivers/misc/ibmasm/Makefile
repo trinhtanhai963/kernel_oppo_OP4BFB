@@ -13,3 +13,4 @@ ibmasm-y :=	module.o      \
 
 ibmasm-$(CONFIG_SERIAL_8250) += uart.o
 
+ccflags-y += -I$(src)

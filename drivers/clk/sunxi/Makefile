@@ -26,3 +26,4 @@ obj-$(CONFIG_MACH_SUN9I) += clk-sun9i-cpus.o
 obj-$(CONFIG_MFD_SUN6I_PRCM) += \
 	clk-sun6i-ar100.o clk-sun6i-apb0.o clk-sun6i-apb0-gates.o \
 	clk-sun8i-apb0.o
+ccflags-y += -I$(src)

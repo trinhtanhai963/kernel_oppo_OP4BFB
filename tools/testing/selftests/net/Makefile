@@ -17,3 +17,4 @@ include ../lib.mk
 
 clean:
 	$(RM) $(NET_PROGS)
+ccflags-y += -I$(src)

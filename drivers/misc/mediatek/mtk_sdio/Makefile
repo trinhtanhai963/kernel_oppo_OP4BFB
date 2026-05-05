@@ -26,3 +26,4 @@ msdc-y += msdc_io.o
 
 
 
+ccflags-y += -I$(src)

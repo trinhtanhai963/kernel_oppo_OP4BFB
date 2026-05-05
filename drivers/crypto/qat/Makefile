@@ -5,3 +5,4 @@ obj-$(CONFIG_CRYPTO_DEV_QAT_C62X) += qat_c62x/
 obj-$(CONFIG_CRYPTO_DEV_QAT_DH895xCCVF) += qat_dh895xccvf/
 obj-$(CONFIG_CRYPTO_DEV_QAT_C3XXXVF) += qat_c3xxxvf/
 obj-$(CONFIG_CRYPTO_DEV_QAT_C62XVF) += qat_c62xvf/
+ccflags-y += -I$(src)

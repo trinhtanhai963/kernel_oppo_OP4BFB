@@ -6,3 +6,4 @@ include ../lib.mk
 
 clean:
 	rm -rf $(BINARIES)
+ccflags-y += -I$(src)

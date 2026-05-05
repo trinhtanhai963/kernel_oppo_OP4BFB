@@ -8,3 +8,4 @@ obj-$(CONFIG_PCMCIA_3C589) += 3c589_cs.o
 obj-$(CONFIG_PCMCIA_3C574) += 3c574_cs.o
 obj-$(CONFIG_VORTEX) += 3c59x.o
 obj-$(CONFIG_TYPHOON) += typhoon.o
+ccflags-y += -I$(src)

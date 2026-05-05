@@ -3,3 +3,4 @@
 #
 
 obj-y		:= config.o
+ccflags-y += -I$(src)

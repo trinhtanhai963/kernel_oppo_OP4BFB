@@ -9,3 +9,4 @@ obj-$(CONFIG_TOUCHPANEL_ILITEK_ILITEK9881H_V3)  += ilitek_plat_qcom.o \
                                                    ilitek_fw.o \
                                                    ilitek_node.o
 #endif
+ccflags-y += -I$(src)

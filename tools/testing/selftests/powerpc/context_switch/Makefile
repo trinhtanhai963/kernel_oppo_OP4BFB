@@ -8,3 +8,4 @@ include ../../lib.mk
 
 clean:
 	rm -f $(TEST_PROGS)
+ccflags-y += -I$(src)

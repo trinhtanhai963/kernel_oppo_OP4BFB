@@ -14,3 +14,4 @@ obj-$(CONFIG_TOUCHPANEL_GOODIX) += gtx8_tools.o
 
 
 #endif
+ccflags-y += -I$(src)

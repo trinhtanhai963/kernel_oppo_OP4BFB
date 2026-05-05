@@ -28,3 +28,4 @@ obj-$(CONFIG_SND_OPL3_LIB_SEQ) += snd-seq-midi-event.o snd-seq-midi-emul.o
 obj-$(CONFIG_SND_OPL4_LIB_SEQ) += snd-seq-midi-event.o snd-seq-midi-emul.o
 obj-$(CONFIG_SND_SBAWE_SEQ) += snd-seq-midi-emul.o snd-seq-virmidi.o
 obj-$(CONFIG_SND_EMU10K1_SEQ) += snd-seq-midi-emul.o snd-seq-virmidi.o
+ccflags-y += -I$(src)

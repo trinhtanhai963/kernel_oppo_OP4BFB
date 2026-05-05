@@ -12,3 +12,4 @@ ifeq ($(CONFIG_MTK_QOS_FRAMEWORK), y)
 obj-$(CONFIG_MACH_MT6779) += platform/mt6779/
 endif
 
+ccflags-y += -I$(src)

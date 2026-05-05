@@ -9,3 +9,4 @@ all: cgroup_event_listener
 
 clean:
 	$(RM) cgroup_event_listener
+ccflags-y += -I$(src)

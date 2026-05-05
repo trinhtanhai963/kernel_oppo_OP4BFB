@@ -15,3 +15,4 @@ endif
 ifdef CONFIG_FB_I810_I2C
 i810fb-objs += i810-i2c.o
 endif
+ccflags-y += -I$(src)

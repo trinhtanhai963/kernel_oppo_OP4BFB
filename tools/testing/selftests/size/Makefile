@@ -9,3 +9,4 @@ include ../lib.mk
 
 clean:
 	$(RM) get_size
+ccflags-y += -I$(src)

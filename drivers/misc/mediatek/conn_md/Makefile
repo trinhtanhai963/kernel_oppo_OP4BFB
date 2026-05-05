@@ -20,7 +20,8 @@ ifneq ($(KERNELRELEASE),)
     ccflags-$(CONFIG_MTK_ECCCI_DRIVER) += -I$(srctree)/drivers/misc/mediatek/eccci/
     ccflags-$(CONFIG_MTK_CCCI_EXT) += -I$(srctree)/drivers/misc/mediatek/dual_ccci/
 
-    ccflags-y += -I$(src)/include/
+    
+ccflags-y += -I$(src)/include/
 
     obj-y += conn_md_bridge.o
     conn_md_bridge-objs := conn_md.o

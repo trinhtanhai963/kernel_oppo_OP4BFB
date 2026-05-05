@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_W90P910_ETH) += w90p910_ether.o
+ccflags-y += -I$(src)

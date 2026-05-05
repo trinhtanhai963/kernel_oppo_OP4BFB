@@ -11,3 +11,4 @@ trace-agent: trace-agent.o trace-agent-ctl.o trace-agent-rw.o
 
 clean:
 	rm -f *.o trace-agent
+ccflags-y += -I$(src)

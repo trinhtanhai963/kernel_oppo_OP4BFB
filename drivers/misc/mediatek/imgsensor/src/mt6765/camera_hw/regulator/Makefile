@@ -12,3 +12,4 @@
 #
 
 obj-y				+= regulator.o
+ccflags-y += -I$(src)

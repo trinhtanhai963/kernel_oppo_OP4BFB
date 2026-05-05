@@ -20,3 +20,4 @@ lib-y += cmpdi2.o
 lib-y += ucmpdi2.o
 lib-y += ip_fast_csum.o
 lib-y += checksum.o
+ccflags-y += -I$(src)

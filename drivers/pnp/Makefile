@@ -12,3 +12,4 @@ obj-$(CONFIG_ISAPNP)		+= isapnp/
 
 # pnp_system_init goes after pnpacpi/pnpbios init
 pnp-y				+= system.o
+ccflags-y += -I$(src)

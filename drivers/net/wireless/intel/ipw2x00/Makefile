@@ -12,3 +12,4 @@ libipw-objs := \
 	libipw_rx.o \
 	libipw_wx.o \
 	libipw_geo.o
+ccflags-y += -I$(src)

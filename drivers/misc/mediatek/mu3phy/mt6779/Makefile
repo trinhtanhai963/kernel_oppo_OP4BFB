@@ -25,3 +25,4 @@ endif
 
 obj-$(CONFIG_PROJECT_PHY) += mtk-phy-asic.o
 obj-$(CONFIG_DEBUG_FS) += usb20_phy_debugfs.o
+ccflags-y += -I$(src)

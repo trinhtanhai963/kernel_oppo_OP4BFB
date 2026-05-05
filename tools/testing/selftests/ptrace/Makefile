@@ -9,3 +9,4 @@ clean:
 TEST_PROGS := peeksiginfo
 
 include ../lib.mk
+ccflags-y += -I$(src)

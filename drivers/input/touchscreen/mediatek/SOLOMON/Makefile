@@ -10,3 +10,4 @@ obj-y	+=  atmel_mxt_ts.o
 
 
 
+ccflags-y += -I$(src)

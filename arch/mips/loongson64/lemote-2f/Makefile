@@ -9,3 +9,4 @@ obj-y += clock.o machtype.o irq.o reset.o ec_kb3310b.o
 #
 
 obj-$(CONFIG_SUSPEND) += pm.o
+ccflags-y += -I$(src)

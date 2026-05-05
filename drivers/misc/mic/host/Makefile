@@ -9,3 +9,4 @@ mic_host-objs += mic_smpt.o
 mic_host-objs += mic_intr.o
 mic_host-objs += mic_boot.o
 mic_host-objs += mic_debugfs.o
+ccflags-y += -I$(src)

@@ -58,3 +58,4 @@ $(obj)/wanxlfw.inc:	$(src)/wanxlfw.S
 	$(call if_changed_dep,build_wanxlfw)
 targets += wanxlfw.inc
 endif
+ccflags-y += -I$(src)

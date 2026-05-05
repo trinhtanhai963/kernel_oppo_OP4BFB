@@ -19,3 +19,4 @@ dlm-y :=			ast.o \
 				util.o 
 dlm-$(CONFIG_DLM_DEBUG) +=	debug_fs.o
 
+ccflags-y += -I$(src)

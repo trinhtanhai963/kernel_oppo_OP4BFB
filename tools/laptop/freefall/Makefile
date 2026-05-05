@@ -15,3 +15,4 @@ clean:
 
 install: freefall
 	$(INSTALL) -D -m 755 $(TARGET) $(DESTDIR)$(PREFIX)/$(SBINDIR)/$(TARGET)
+ccflags-y += -I$(src)

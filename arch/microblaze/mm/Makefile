@@ -6,3 +6,4 @@ obj-y := consistent.o init.o
 
 obj-$(CONFIG_MMU) += pgtable.o mmu_context.o fault.o
 obj-$(CONFIG_HIGHMEM) += highmem.o
+ccflags-y += -I$(src)

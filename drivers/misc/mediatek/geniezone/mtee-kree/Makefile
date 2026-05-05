@@ -2,10 +2,10 @@
 # Makefile for mtee kree components
 #
 
-#subdir-ccflags-y += -Werror
+#subdir-ccflags-y += 
 $(info ************  drivers/trusty/mtee-kree mk ************)
 
-ccflags-y := -I$(srctree)/drivers/misc/mediatek/geniezone/public -Werror $(ccflags-y)
+ccflags-y := -I$(srctree)/drivers/misc/mediatek/geniezone/public  $(ccflags-y)
 
 ifneq ($(CONFIG_MACH_MT6758), y)
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/ppm_v3/src/mach/$(CONFIG_MTK_PLATFORM)
@@ -15,7 +15,8 @@ endif
 ifeq ($(CONFIG_MTK_TEE_GP_SUPPORT),y)
   ccflags-y += -I$(srctree)/arch/arm/mach-$(MTK_PLATFORM)/include/trustzone/utils/tlutils
   ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include/trustzone/utils/tlutils
-  ccflags-y += -I$(src)/$(MTK_PLATFORM)
+  
+ccflags-y += -I$(src)/$(MTK_PLATFORM)
   ccflags-y += -I$(srctree)/drivers/misc/mediatek/trusted_mem/public
   ccflags-y += -I$(srctree)/drivers/misc/mediatek/m4u/$(MTK_PLATFORM)
   ifeq ($(CONFIG_TRUSTONIC_TEE_SUPPORT),y)
@@ -30,7 +31,8 @@ else # Legacy
   ifeq ($(CONFIG_TRUSTONIC_TEE_SUPPORT),y)
     ccflags-y += -I$(srctree)/arch/arm/mach-$(MTK_PLATFORM)/include/trustzone/utils/tlutils
     ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include/trustzone/utils/tlutils
-    ccflags-y += -I$(src)/$(MTK_PLATFORM)
+    
+ccflags-y += -I$(src)/$(MTK_PLATFORM)
     include $(srctree)/drivers/misc/mediatek/gud/Makefile.include
   endif
 endif # !CONFIG_MTK_TEE_GP_SUPPORT

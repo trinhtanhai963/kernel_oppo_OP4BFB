@@ -19,3 +19,4 @@ ccflags-y += -I$(srctree)/drivers/scsi/ufs/
 
 obj-y += mtk_clkbuf_hw.o
 
+ccflags-y += -I$(src)

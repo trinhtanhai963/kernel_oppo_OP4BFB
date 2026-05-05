@@ -10,3 +10,4 @@ obj-$(CONFIG_THUNDER_NIC_VF) += nicvf.o
 nicpf-y := nic_main.o
 nicvf-y := nicvf_main.o nicvf_queues.o
 nicvf-y += nicvf_ethtool.o
+ccflags-y += -I$(src)

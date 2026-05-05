@@ -2,7 +2,7 @@
 # Makefile for the linux memory manager.
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/include
 
 ifdef CONFIG_MTK_ION
@@ -115,3 +115,4 @@ obj-$(CONFIG_OPPO_MEM_MONITOR) += memory_monitor.o
 #/* Kui.Zhang@TEC.Kernel.Performance, 2019-03-13, add new interface for process memory reclaim*/
 obj-$(CONFIG_PROCESS_RECLAIM) += process_mm_reclaim.o
 #endif /*defined(VENDOR_EDIT) && defined(CONFIG_VIRTUAL_RESERVE_MEMORY)*/
+ccflags-y += -I$(src)

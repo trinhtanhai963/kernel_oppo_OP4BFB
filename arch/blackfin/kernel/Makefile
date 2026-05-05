@@ -41,3 +41,4 @@ obj-$(CONFIG_PERF_EVENTS)            += perf_event.o
 CFLAGS_kgdb_test.o := -mlong-calls
 
 obj-$(CONFIG_DEBUG_MMRS)             += debug-mmrs.o
+ccflags-y += -I$(src)

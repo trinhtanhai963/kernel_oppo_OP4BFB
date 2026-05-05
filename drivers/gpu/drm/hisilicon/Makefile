@@ -3,3 +3,4 @@
 # Please keep this list sorted alphabetically
 
 obj-$(CONFIG_DRM_HISI_KIRIN) += kirin/
+ccflags-y += -I$(src)

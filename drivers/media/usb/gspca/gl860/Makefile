@@ -8,3 +8,4 @@ gspca_gl860-objs := gl860.o \
 
 ccflags-y += -I$(srctree)/drivers/media/usb/gspca
 
+ccflags-y += -I$(src)

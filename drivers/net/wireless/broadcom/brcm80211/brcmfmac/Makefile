@@ -55,3 +55,4 @@ brcmfmac-$(CONFIG_BRCM_TRACING) += \
 		tracepoint.o
 brcmfmac-$(CONFIG_OF) += \
 		of.o
+ccflags-y += -I$(src)

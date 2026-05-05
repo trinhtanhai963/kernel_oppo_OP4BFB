@@ -10,3 +10,4 @@ obj-$(CONFIG_KPROBES)		+= actions-arm.o checkers-arm.o
 obj-$(CONFIG_OPTPROBES)		+= opt-arm.o
 test-kprobes-objs		+= test-arm.o
 endif
+ccflags-y += -I$(src)

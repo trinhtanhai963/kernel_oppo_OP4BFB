@@ -13,3 +13,4 @@ clean:
 	rm -fr $(TEST_PROGS)
 endif
 endif
+ccflags-y += -I$(src)

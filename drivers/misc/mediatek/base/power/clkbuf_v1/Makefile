@@ -19,3 +19,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/include/clkbuf_v1/$(M
 obj-y += mtk_clkbuf_ctl.o
 obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 
+ccflags-y += -I$(src)

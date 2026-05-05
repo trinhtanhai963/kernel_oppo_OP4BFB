@@ -9,3 +9,4 @@ ieee802154_socket-y := socket.o
 CFLAGS_trace.o := -I$(src)
 
 ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

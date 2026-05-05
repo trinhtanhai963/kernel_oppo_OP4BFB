@@ -12,3 +12,4 @@
 #
 
 obj-y				+= seninf_clk.o
+ccflags-y += -I$(src)

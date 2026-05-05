@@ -15,3 +15,4 @@ LINUXINCLUDE += -include $(srctree)/kernel/sched/sched.h
 
 obj-y += ca_drv.o
 obj-y += utils.o
+ccflags-y += -I$(src)

@@ -25,3 +25,4 @@ obj-$(CONFIG_ARCH_IOP33X) += restart.o
 # IOP13XX
 obj-$(CONFIG_ARCH_IOP13XX) += cp6.o
 obj-$(CONFIG_ARCH_IOP13XX) += time.o
+ccflags-y += -I$(src)

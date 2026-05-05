@@ -24,3 +24,4 @@ endif
 endif	# CONFIG_ARCH_OMAP2PLUS
 
 obj-$(CONFIG_COMMON_CLK_TI_ADPLL)	+= adpll.o
+ccflags-y += -I$(src)

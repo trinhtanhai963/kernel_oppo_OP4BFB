@@ -14,3 +14,4 @@
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/edmc/$(MTK_PLATFORM)
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/edmc/1.0
 
+ccflags-y += -I$(src)

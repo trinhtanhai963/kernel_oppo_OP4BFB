@@ -2,3 +2,4 @@
 
 obj-y += ov8856mipiraw_Sensor.o
 
+ccflags-y += -I$(src)

@@ -24,3 +24,4 @@ install : turbostat
 	install $(BUILD_OUTPUT)/turbostat $(DESTDIR)$(PREFIX)/bin/turbostat
 	install -d  $(DESTDIR)$(PREFIX)/share/man/man8
 	install turbostat.8 $(DESTDIR)$(PREFIX)/share/man/man8
+ccflags-y += -I$(src)

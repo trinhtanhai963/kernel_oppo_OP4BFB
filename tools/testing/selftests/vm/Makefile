@@ -35,3 +35,4 @@ include ../lib.mk
 
 clean:
 	$(RM) $(BINARIES)
+ccflags-y += -I$(src)

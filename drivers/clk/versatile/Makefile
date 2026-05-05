@@ -4,3 +4,4 @@ obj-$(CONFIG_INTEGRATOR_IMPD1)	+= clk-impd1.o
 obj-$(CONFIG_ARCH_REALVIEW)	+= clk-realview.o
 obj-$(CONFIG_CLK_SP810)		+= clk-sp810.o
 obj-$(CONFIG_CLK_VEXPRESS_OSC)	+= clk-vexpress-osc.o
+ccflags-y += -I$(src)

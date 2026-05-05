@@ -20,3 +20,4 @@ sti-drm-y := \
 	sti_drv.o
 
 obj-$(CONFIG_DRM_STI) = sti-drm.o
+ccflags-y += -I$(src)

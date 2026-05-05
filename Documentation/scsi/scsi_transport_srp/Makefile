@@ -5,3 +5,4 @@ rport_state_diagram.svg: rport_state_diagram.dot
 
 rport_state_diagram.png: rport_state_diagram.dot
 	dot -Tpng -o $@ $<
+ccflags-y += -I$(src)

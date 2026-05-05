@@ -19,3 +19,4 @@ ifeq ($(CONFIG_NANOHUB),y)
 obj-y += SCP_nanoHub/
 obj-y += SCP_power_monitor/
 endif
+ccflags-y += -I$(src)

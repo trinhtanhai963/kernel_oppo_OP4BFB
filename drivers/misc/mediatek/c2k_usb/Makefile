@@ -26,3 +26,4 @@ else
 obj- :=dummy.o
 
 endif
+ccflags-y += -I$(src)

@@ -21,3 +21,4 @@ obj-$(CONFIG_NFC_PN553_DEVICES)	+= pn553-i2c/
 #obj-y	+= pn553-i2c/
 #obj-y	+= p73-spi/
 obj-$(CONFIG_NXP_P73_DEVICES)	+= p73-spi/
+ccflags-y += -I$(src)

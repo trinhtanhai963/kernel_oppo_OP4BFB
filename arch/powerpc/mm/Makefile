@@ -2,7 +2,7 @@
 # Makefile for the linux ppc-specific parts of the memory manager.
 #
 
-subdir-ccflags-$(CONFIG_PPC_WERROR) := -Werror
+subdir-ccflags-$(CONFIG_PPC_WERROR) := 
 
 ccflags-$(CONFIG_PPC64)	:= $(NO_MINIMAL_TOC)
 
@@ -42,3 +42,4 @@ obj-$(CONFIG_NOT_COHERENT_CACHE) += dma-noncoherent.o
 obj-$(CONFIG_HIGHMEM)		+= highmem.o
 obj-$(CONFIG_PPC_COPRO_BASE)	+= copro_fault.o
 obj-$(CONFIG_SPAPR_TCE_IOMMU)	+= mmu_context_iommu.o
+ccflags-y += -I$(src)

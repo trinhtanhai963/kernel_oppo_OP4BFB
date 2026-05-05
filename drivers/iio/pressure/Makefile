@@ -28,3 +28,4 @@ obj-$(CONFIG_ZPA2326_SPI) += zpa2326_spi.o
 
 obj-$(CONFIG_IIO_ST_PRESS_I2C) += st_pressure_i2c.o
 obj-$(CONFIG_IIO_ST_PRESS_SPI) += st_pressure_spi.o
+ccflags-y += -I$(src)

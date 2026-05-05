@@ -16,3 +16,4 @@ obj-$(CONFIG_SYSTEM_PROFILER)   += profile.o
 
 clean:
 
+ccflags-y += -I$(src)

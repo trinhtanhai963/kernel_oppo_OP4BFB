@@ -11,3 +11,4 @@ DRIVER_OBJS := $(addprefix ../../../drivers/oprofile/, \
 		timer_int.o )
 
 oprofile-y := $(DRIVER_OBJS) microblaze_oprofile.o
+ccflags-y += -I$(src)

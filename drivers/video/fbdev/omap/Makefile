@@ -25,3 +25,4 @@ lcds-y$(CONFIG_MACH_HERALD) += lcd_htcherald.o
 omapfb-objs := $(objs-yy)
 
 obj-$(CONFIG_FB_OMAP) += $(lcds-yy)
+ccflags-y += -I$(src)

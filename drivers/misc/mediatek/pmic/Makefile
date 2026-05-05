@@ -35,3 +35,4 @@ ccflags-y += -I$(srctree)/drivers/power/supply/mediatek/battery
 ccflags-y += -I$(srctree)/drivers/power/supply/mediatek/misc
 obj-y += mtk_battery_adc_intf.o
 endif
+ccflags-y += -I$(src)

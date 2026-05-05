@@ -18,3 +18,4 @@ endif
 obj-y += $(MTK_PLATFORM)/
 
 obj-$(CONFIG_MTK_VOW_BARGE_IN_SUPPORT) += mtk-scp-vow-common.o
+ccflags-y += -I$(src)

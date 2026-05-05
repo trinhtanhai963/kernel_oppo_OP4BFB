@@ -12,3 +12,4 @@
 #
 
 obj-y += gcpu.o
+ccflags-y += -I$(src)

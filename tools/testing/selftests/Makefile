@@ -111,3 +111,4 @@ clean:
 	done;
 
 .PHONY: install
+ccflags-y += -I$(src)

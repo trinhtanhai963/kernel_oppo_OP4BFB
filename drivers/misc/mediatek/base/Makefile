@@ -12,3 +12,4 @@
 #
 
 obj-y += power/
+ccflags-y += -I$(src)

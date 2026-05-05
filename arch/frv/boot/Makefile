@@ -74,3 +74,4 @@ mrproper clean:
 #	@$(MAKE) -C bootp clean
 
 dep:
+ccflags-y += -I$(src)

@@ -100,3 +100,4 @@ obj-$(CONFIG_S3C2443_SETUP_SPI)		+= setup-spi.o
 obj-$(CONFIG_ARCH_S3C24XX)		+= setup-i2c.o
 obj-$(CONFIG_S3C24XX_SETUP_TS)		+= setup-ts.o
 obj-$(CONFIG_S3C_SETUP_CAMIF)		+= setup-camif.o
+ccflags-y += -I$(src)

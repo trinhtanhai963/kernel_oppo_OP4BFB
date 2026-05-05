@@ -15,3 +15,4 @@ obj-$(CONFIG_MODULES)    += crisksyms.o
 
 clean:
 
+ccflags-y += -I$(src)

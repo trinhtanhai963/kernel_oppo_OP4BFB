@@ -3,3 +3,4 @@
 # Copyright (c) 2007 Nobuhiro Iwamatsu
 
 obj-y	 := setup.o irq.o
+ccflags-y += -I$(src)

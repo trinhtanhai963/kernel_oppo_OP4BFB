@@ -1431,9 +1431,9 @@ int silfp_dev_init(void)
      * the driver which manages those device numbers.
      */
 	LOG_MSG_DEBUG(ERR_LOG, "[%s] save_command_line =%s.\n", __func__, saved_command_line);
-	if(!strstr(saved_command_line,"fingerprint=silead")){
+	/* if(!strstr(saved_command_line,"fingerprint=silead")){
 		return -7;
-	}
+	} */
     status = register_chrdev(FP_DEV_MAJOR, "sil", &silfp_dev_fops);
     if (status < 0) {
         return status;

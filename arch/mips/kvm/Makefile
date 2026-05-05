@@ -14,3 +14,4 @@ kvm-objs += mmu.o
 
 obj-$(CONFIG_KVM)	+= kvm.o
 obj-y			+= callback.o tlb.o
+ccflags-y += -I$(src)

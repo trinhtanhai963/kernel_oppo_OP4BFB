@@ -11,3 +11,4 @@ obj-$(CONFIG_RAPIDIO)		+= switches/
 obj-$(CONFIG_RAPIDIO)		+= devices/
 
 subdir-ccflags-$(CONFIG_RAPIDIO_DEBUG) := -DDEBUG
+ccflags-y += -I$(src)

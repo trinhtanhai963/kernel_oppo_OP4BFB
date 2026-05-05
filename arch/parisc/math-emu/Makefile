@@ -3,7 +3,7 @@
 #
 
 # See arch/parisc/math-emu/README
-ccflags-y := -Wno-parentheses -Wno-implicit-function-declaration \
+ccflags-y := -Wno-parentheses -Wno-Wimplicit-function-declaration \
 	-Wno-uninitialized -Wno-strict-prototypes -Wno-return-type \
 	-Wno-implicit-int
 
@@ -17,3 +17,4 @@ obj-y	 := frnd.o driver.o decode_exc.o fpudispatch.o denormal.o \
 # other very old or stripped-down PA-RISC CPUs -- not currently supported
 
 obj-$(CONFIG_MATH_EMULATION)	+= unimplemented-math-emulation.o
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@
 #
 
 obj-y := ints-priority.o dma.o
+ccflags-y += -I$(src)

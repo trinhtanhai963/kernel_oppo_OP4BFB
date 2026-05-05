@@ -40,3 +40,4 @@ obj-$(CONFIG_KS959_DONGLE)    	+= ks959-sir.o
 
 # The SIR helper module
 sir-dev-objs := sir_dev.o sir_dongle.o
+ccflags-y += -I$(src)

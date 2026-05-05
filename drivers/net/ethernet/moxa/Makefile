@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_ARM_MOXART_ETHER) += moxart_ether.o
+ccflags-y += -I$(src)

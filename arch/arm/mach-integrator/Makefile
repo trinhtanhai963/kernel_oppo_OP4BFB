@@ -10,3 +10,4 @@ obj-$(CONFIG_ARCH_INTEGRATOR_CP)	+= integrator_cp.o
 
 obj-$(CONFIG_PCI)			+= pci_v3.o
 obj-$(CONFIG_INTEGRATOR_IMPD1)		+= impd1.o
+ccflags-y += -I$(src)

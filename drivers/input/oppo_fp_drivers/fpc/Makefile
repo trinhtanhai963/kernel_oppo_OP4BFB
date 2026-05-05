@@ -19,3 +19,4 @@ subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat
 subdir-ccflags-y += -I$(srctree)/drivers/spi
 obj-y  += fpc_irq.o
 endif
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_ADAPTEC_STARFIRE) += starfire.o
+ccflags-y += -I$(src)

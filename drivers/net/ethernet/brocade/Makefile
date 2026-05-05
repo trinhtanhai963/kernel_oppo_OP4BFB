@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_BNA) += bna/
+ccflags-y += -I$(src)

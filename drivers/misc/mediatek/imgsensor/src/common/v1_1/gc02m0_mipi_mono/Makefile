@@ -3,3 +3,4 @@
 obj-y += gc02m0mipimono_Sensor.o
 
 
+ccflags-y += -I$(src)

@@ -13,3 +13,4 @@ run_crash:
 
 clean:
 	rm -rf logs/* *uuid
+ccflags-y += -I$(src)

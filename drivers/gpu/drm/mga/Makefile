@@ -9,3 +9,4 @@ mga-$(CONFIG_COMPAT) += mga_ioc32.o
 
 obj-$(CONFIG_DRM_MGA)	+= mga.o
 
+ccflags-y += -I$(src)

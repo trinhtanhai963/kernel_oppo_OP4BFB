@@ -4,3 +4,4 @@ cafe_ccic-y := cafe-driver.o mcam-core.o
 obj-$(CONFIG_VIDEO_MMP_CAMERA) += mmp_camera.o
 mmp_camera-y := mmp-driver.o mcam-core.o
 
+ccflags-y += -I$(src)

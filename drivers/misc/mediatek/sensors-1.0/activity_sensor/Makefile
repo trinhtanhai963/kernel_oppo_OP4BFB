@@ -21,3 +21,4 @@ obj-$(CONFIG_MTK_ACTIVITYHUB)		+=	activityhub/
 ifeq ($(CONFIG_CUSTOM_KERNEL_ACTIVITY_SENSOR),"OTHER_VENDOR")
 obj-y += other_vendor/
 endif
+ccflags-y += -I$(src)

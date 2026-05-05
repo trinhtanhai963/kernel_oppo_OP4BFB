@@ -17,3 +17,4 @@ font-objs-$(CONFIG_FONT_6x10)      += font_6x10.o
 font-objs += $(font-objs-y)
 
 obj-$(CONFIG_FONT_SUPPORT)         += font.o
+ccflags-y += -I$(src)

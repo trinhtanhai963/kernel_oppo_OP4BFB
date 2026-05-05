@@ -9,3 +9,4 @@ endif
 
 obj-$(CONFIG_CPU_SUP_INTEL)		+= msr.o
 obj-$(CONFIG_CPU_SUP_INTEL)		+= intel/
+ccflags-y += -I$(src)

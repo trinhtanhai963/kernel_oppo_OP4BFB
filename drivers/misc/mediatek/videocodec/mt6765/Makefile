@@ -31,3 +31,4 @@ ccflags-y += \
     -I$(srctree)/drivers/misc/mediatek/smi
 
 
+ccflags-y += -I$(src)

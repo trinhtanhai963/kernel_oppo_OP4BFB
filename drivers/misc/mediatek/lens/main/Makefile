@@ -117,3 +117,4 @@ obj-y  += common/dw9718taf/
 obj-y  += common/dw9718taf_st/
 
 endif
+ccflags-y += -I$(src)

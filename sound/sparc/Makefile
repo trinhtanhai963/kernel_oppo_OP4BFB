@@ -10,3 +10,4 @@ snd-sun-dbri-objs := dbri.o
 obj-$(CONFIG_SND_SUN_AMD7930) += snd-sun-amd7930.o
 obj-$(CONFIG_SND_SUN_CS4231) += snd-sun-cs4231.o
 obj-$(CONFIG_SND_SUN_DBRI) += snd-sun-dbri.o
+ccflags-y += -I$(src)

@@ -11,3 +11,4 @@ obj-$(CONFIG_SND_CS4231) += snd-cs4231.o
 obj-$(CONFIG_SND_CS4236) += snd-cs4236.o
 
 
+ccflags-y += -I$(src)

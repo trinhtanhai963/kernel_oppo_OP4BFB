@@ -45,3 +45,4 @@ $(obj)/uImage.lzma: $(obj)/vmlinux.bin.lzma FORCE
 $(obj)/uImage: $(obj)/uImage.$(suffix-y)
 	@ln -sf $(notdir $<) $@
 	@echo '  Image $@ is ready'
+ccflags-y += -I$(src)

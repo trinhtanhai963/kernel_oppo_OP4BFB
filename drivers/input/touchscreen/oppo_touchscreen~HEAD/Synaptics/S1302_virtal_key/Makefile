@@ -6,3 +6,4 @@
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS) += synaptics_touch_key.o
 
 #endif
+ccflags-y += -I$(src)

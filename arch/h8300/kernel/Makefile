@@ -19,3 +19,4 @@ obj-$(CONFIG_CPU_H8300H) += ptrace_h.o
 obj-$(CONFIG_CPU_H8S) += ptrace_s.o
 
 obj-$(CONFIG_KGDB) += kgdb.o
+ccflags-y += -I$(src)

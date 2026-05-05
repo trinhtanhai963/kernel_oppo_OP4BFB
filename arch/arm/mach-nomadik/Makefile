@@ -9,3 +9,4 @@
 
 # Cpu revision
 obj-$(CONFIG_NOMADIK_8815) += cpu-8815.o
+ccflags-y += -I$(src)

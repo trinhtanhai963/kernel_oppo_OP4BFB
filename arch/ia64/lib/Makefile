@@ -46,3 +46,4 @@ $(obj)/__modsi3.o: $(src)/idiv32.S FORCE
 
 $(obj)/__umodsi3.o: $(src)/idiv32.S FORCE
 	$(call if_changed_dep,as_o_S)
+ccflags-y += -I$(src)

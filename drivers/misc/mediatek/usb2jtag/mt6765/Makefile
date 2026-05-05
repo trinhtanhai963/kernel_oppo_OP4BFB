@@ -12,3 +12,4 @@
 #
 
 obj-y += usb2jtag_platform.o
+ccflags-y += -I$(src)

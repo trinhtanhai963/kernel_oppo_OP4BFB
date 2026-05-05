@@ -34,3 +34,4 @@ obj-y += eas_plus.o
 
 # For CPU topology to user space
 obj-y += sched_ctl.o
+ccflags-y += -I$(src)

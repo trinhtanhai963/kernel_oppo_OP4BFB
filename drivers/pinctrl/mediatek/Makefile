@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 # Core
 obj-y				+= pinctrl-mtk-common.o
@@ -17,3 +17,4 @@ obj-$(CONFIG_PINCTRL_MT6761)	+= pinctrl-mt6761.o
 obj-$(CONFIG_PINCTRL_MT3967)	+= pinctrl-mt3967.o
 obj-$(CONFIG_PINCTRL_MT8163)	+= pinctrl-mt8163.o
 obj-$(CONFIG_PINCTRL_MT6779)	+= pinctrl-mt6779.o
+ccflags-y += -I$(src)

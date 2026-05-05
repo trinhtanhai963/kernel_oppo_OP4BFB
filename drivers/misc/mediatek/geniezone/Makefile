@@ -27,3 +27,4 @@ obj-y += gz_sec_storage_ut.o
 ccflags-y += -DGZ_SEC_STORAGE_UT
 endif
 obj-y += gz_chmem_ut.o
+ccflags-y += -I$(src)

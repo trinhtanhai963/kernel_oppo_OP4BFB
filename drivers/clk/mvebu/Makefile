@@ -15,3 +15,4 @@ obj-$(CONFIG_ARMADA_CP110_SYSCON) += cp110-system-controller.o
 obj-$(CONFIG_DOVE_CLK)		+= dove.o dove-divider.o
 obj-$(CONFIG_KIRKWOOD_CLK)	+= kirkwood.o
 obj-$(CONFIG_ORION_CLK)		+= orion.o
+ccflags-y += -I$(src)

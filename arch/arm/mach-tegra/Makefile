@@ -34,3 +34,4 @@ obj-$(CONFIG_ARCH_TEGRA_124_SOC)	+= cpuidle-tegra114.o
 endif
 
 obj-$(CONFIG_ARCH_TEGRA_2x_SOC)		+= board-paz00.o
+ccflags-y += -I$(src)

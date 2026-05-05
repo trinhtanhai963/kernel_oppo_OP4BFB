@@ -95,3 +95,4 @@ $(obj)/lkdtm_rodata_objcopy.o: $(obj)/lkdtm_rodata.o FORCE
 #Liang.Zhang@PSW.TECH.BOOTUP, 2018/10/16, Add for kernel monitor boot
 #ifdef HANG_OPPO_ALL
 obj-y += op_bootprof.o
+ccflags-y += -I$(src)

@@ -12,3 +12,4 @@
 
 obj-$(CONFIG_TRUSTKERNEL_TEE_SUPPORT) += core/
 obj-$(CONFIG_TRUSTKERNEL_TEE_SUPPORT) += armtz/
+ccflags-y += -I$(src)

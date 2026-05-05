@@ -16,3 +16,4 @@ LDFLAGS_piggy.o := -r --format binary --oformat elf32-littlenios2 -T
 
 $(obj)/piggy.o: $(obj)/vmlinux.scr $(obj)/../vmlinux.gz FORCE
 	$(call if_changed,ld)
+ccflags-y += -I$(src)

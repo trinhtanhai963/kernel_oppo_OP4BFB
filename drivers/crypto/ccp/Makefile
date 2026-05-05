@@ -13,3 +13,4 @@ ccp-crypto-objs := ccp-crypto-main.o \
 		   ccp-crypto-aes-cmac.o \
 		   ccp-crypto-aes-xts.o \
 		   ccp-crypto-sha.o
+ccflags-y += -I$(src)

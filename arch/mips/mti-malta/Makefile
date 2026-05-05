@@ -20,3 +20,4 @@ obj-$(CONFIG_MIPS_CMP)		+= malta-amon.o
 obj-$(CONFIG_MIPS_MALTA_PM)	+= malta-pm.o
 
 CFLAGS_malta-dtshim.o = -I$(src)/../../../scripts/dtc/libfdt
+ccflags-y += -I$(src)

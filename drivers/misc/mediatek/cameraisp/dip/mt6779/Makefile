@@ -23,3 +23,4 @@ ccflags-$(CONFIG_MTK_IOMMU_V2) += -I$(srctree)/drivers/iommu
 ccflags-$(CONFIG_MTK_IOMMU_V2) += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/
 
 obj-y += camera_dip.o
+ccflags-y += -I$(src)

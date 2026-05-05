@@ -4,3 +4,4 @@
 
 obj-$(CONFIG_SLIP) += slip.o
 obj-$(CONFIG_SLHC) += slhc.o
+ccflags-y += -I$(src)

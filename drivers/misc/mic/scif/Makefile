@@ -18,3 +18,4 @@ scif-objs += scif_fence.o
 scif-objs += scif_mmap.o
 scif-objs += scif_rma.o
 scif-objs += scif_rma_list.o
+ccflags-y += -I$(src)

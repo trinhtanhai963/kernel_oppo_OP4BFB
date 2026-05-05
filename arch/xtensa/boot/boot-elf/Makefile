@@ -32,3 +32,4 @@ $(obj)/../Image.elf: $(obj)/Image.o $(obj)/boot.lds
 	$(Q)$(kecho) '  Kernel: $@ is ready'
 
 zImage:	$(obj)/../Image.elf
+ccflags-y += -I$(src)

@@ -16,3 +16,4 @@
 obj-y += mtk-auddrv-clk.o
 obj-y += mtk-soc-afe-connection.o
 obj-y += mt6765-sound.o
+ccflags-y += -I$(src)

@@ -16,3 +16,4 @@ liquidio-$(CONFIG_LIQUIDIO) += lio_ethtool.o \
 			octeon_nic.o
 
 liquidio-objs := lio_main.o octeon_console.o $(liquidio-y)
+ccflags-y += -I$(src)

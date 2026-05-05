@@ -2,3 +2,4 @@
 obj-y += gc2375hmipiraw_Sensor.o
 
 
+ccflags-y += -I$(src)

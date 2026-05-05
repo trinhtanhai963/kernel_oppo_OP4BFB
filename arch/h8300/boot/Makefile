@@ -24,3 +24,4 @@ $(obj)/uImage.bin: $(obj)/vmlinux.bin
 	$(call if_changed,uimage,none)
 
 CLEAN_FILES += arch/$(ARCH)/vmlinux.bin arch/$(ARCH)/vmlinux.srec arch/$(ARCH)/uImage.bin
+ccflags-y += -I$(src)

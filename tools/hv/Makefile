@@ -13,3 +13,4 @@ all: hv_kvp_daemon hv_vss_daemon hv_fcopy_daemon
 
 clean:
 	$(RM) hv_kvp_daemon hv_vss_daemon hv_fcopy_daemon
+ccflags-y += -I$(src)

@@ -30,3 +30,4 @@ $(obj)/defkeymap.c: $(obj)/%.c: $(src)/%.map
 	loadkeys --mktable $< > $@
 
 endif
+ccflags-y += -I$(src)

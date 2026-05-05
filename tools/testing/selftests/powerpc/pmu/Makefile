@@ -42,3 +42,4 @@ ebb:
 	$(MAKE) -k -C $@ all
 
 .PHONY: all run_tests clean ebb
+ccflags-y += -I$(src)

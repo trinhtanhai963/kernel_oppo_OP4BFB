@@ -28,3 +28,4 @@ include $(srctree)/drivers/misc/mediatek/trusted_mem/Makefile.include
 endif
 
 obj-y += m4u.o m4u_mva.o m4u_pgtable.o m4u_debug.o
+ccflags-y += -I$(src)

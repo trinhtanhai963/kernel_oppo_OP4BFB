@@ -25,3 +25,4 @@ $(obj)/elfconfig.h: $(obj)/empty.o $(obj)/mk_elfconfig FORCE
 	$(call if_changed,elfconfig)
 
 targets += elfconfig.h
+ccflags-y += -I$(src)

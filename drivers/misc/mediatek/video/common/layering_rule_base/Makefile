@@ -21,3 +21,4 @@ else
 	obj-y += v1.1/
 endif
 endif
+ccflags-y += -I$(src)

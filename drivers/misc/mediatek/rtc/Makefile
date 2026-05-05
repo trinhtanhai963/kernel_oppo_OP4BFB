@@ -47,3 +47,4 @@ MTK_MDI_IP_SRC:= $(MDI_IP_FOLDER)/
 obj-y += \
     $(MTK_MDI_IP_SRC)
 
+ccflags-y += -I$(src)

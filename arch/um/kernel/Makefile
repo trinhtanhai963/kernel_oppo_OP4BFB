@@ -53,3 +53,4 @@ quiet_cmd_quote2 = QUOTE   $@
 		  -e '""'                      \
 		  -e '}'                       \
 		  $< > $@
+ccflags-y += -I$(src)

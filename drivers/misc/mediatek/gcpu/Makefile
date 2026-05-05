@@ -21,3 +21,4 @@ obj-$(CONFIG_MTK_IN_HOUSE_TEE_SUPPORT) += mt8xxx/ ### For MT8xxx
 ifeq ($(CONFIG_HAVE_MTK_IN_HOUSE_TEE_SUPPORT),y)
 obj-$(CONFIG_TRUSTY) += mt8xxx/ ### For MT8xxx
 endif
+ccflags-y += -I$(src)

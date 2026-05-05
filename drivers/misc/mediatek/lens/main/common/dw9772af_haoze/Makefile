@@ -18,3 +18,4 @@
 obj-y += DW9772AF_HAOZE.o
 
 
+ccflags-y += -I$(src)

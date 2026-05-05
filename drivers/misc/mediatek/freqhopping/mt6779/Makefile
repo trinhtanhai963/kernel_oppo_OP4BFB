@@ -21,3 +21,4 @@ else
 obj-y := mt_freqhopping.o
 endif
 
+ccflags-y += -I$(src)

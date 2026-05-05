@@ -28,3 +28,4 @@ obj-$(CONFIG_MACH_MT6771) += mtk_cpuhp_mt6771.o
 # MT6775
 ccflags-$(CONFIG_MACH_MT6775) += -I$(srctree)/drivers/misc/mediatek/freqhopping/$(CONFIG_MTK_PLATFORM)
 obj-$(CONFIG_MACH_MT6775) += mtk_cpuhp_mt6771.o
+ccflags-y += -I$(src)

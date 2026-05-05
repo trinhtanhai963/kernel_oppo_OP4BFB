@@ -36,3 +36,4 @@ else ifeq ($(CONFIG_MTK_CAM_SECURITY_SUPPORT),y)
 obj-y += m4u_sec_gp.o
 endif
 endif
+ccflags-y += -I$(src)

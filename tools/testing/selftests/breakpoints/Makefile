@@ -14,3 +14,4 @@ include ../lib.mk
 
 clean:
 	rm -fr breakpoint_test step_after_suspend_test
+ccflags-y += -I$(src)

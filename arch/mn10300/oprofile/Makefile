@@ -11,3 +11,4 @@ DRIVER_OBJS = $(addprefix ../../../drivers/oprofile/, \
 
 oprofile-y				:= $(DRIVER_OBJS) op_model_null.o
 
+ccflags-y += -I$(src)

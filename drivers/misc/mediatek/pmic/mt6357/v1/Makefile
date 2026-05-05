@@ -6,7 +6,7 @@ ccflags-y += -I$(srctree)/drivers/power/supply/mediatek/charger
 ccflags-y += -I$(srctree)/drivers/power/supply/mediatek/misc
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/typec/tcpc/inc
 
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/pmic/include
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/pmic/include
 
 ifeq ($(CONFIG_MTK_TINYSYS_SSPM_SUPPORT), y)
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/sspm/
@@ -36,3 +36,4 @@ ifeq ($(CONFIG_MTK_GAUGE_VERSION),30)
 	obj-$(CONFIG_MTK_CHARGER) += pmic_chr_type_det_v2.o
 endif
 endif
+ccflags-y += -I$(src)

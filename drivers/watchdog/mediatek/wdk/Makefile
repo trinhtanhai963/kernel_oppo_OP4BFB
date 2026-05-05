@@ -19,3 +19,4 @@ obj-y += wd_api.o
 
 # for WDT Test
 # obj-y += wdt_test.o
+ccflags-y += -I$(src)

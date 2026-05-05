@@ -7,3 +7,4 @@ obj-$(CONFIG_CROS_EC_CHARDEV)		+= cros_ec_devs.o
 obj-$(CONFIG_CROS_EC_LPC)		+= cros_ec_lpc.o
 obj-$(CONFIG_CROS_EC_PROTO)		+= cros_ec_proto.o
 obj-$(CONFIG_CROS_KBD_LED_BACKLIGHT)	+= cros_kbd_led_backlight.o
+ccflags-y += -I$(src)

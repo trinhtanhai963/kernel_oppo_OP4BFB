@@ -13,3 +13,4 @@ obj-$(CONFIG_COMEDI)			+= comedi.o
 
 obj-$(CONFIG_COMEDI)			+= kcomedilib/
 obj-$(CONFIG_COMEDI)			+= drivers/
+ccflags-y += -I$(src)

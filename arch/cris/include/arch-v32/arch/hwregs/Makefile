@@ -184,3 +184,4 @@ doc: $(REGDESC)
 clean:
 	rm -rf $(INCL_FILES) *.axw
 
+ccflags-y += -I$(src)

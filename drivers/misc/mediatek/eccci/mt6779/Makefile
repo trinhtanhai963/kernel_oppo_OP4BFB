@@ -61,3 +61,4 @@ ccci-y += md_sys1_platform.o
 else
 obj-  := dummy.o # avoid build error
 endif
+ccflags-y += -I$(src)

@@ -27,3 +27,4 @@ endif
 
 obj-$(CONFIG_MTK_VPU_SUPPORT) += vpu_hw.o vpu_reg.o apu_dvfs.o apu_dvfs_sysfs.o
 obj-$(CONFIG_MTK_VPU_SUPPORT) += vpu_profile.o vpu_qos.o
+ccflags-y += -I$(src)

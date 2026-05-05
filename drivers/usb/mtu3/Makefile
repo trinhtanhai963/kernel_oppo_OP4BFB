@@ -48,3 +48,4 @@ ifneq ($(CONFIG_USB_MTU3_DUAL_ROLE),)
 endif
 
 endif
+ccflags-y += -I$(src)

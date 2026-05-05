@@ -29,3 +29,4 @@ ath10k_pci-$(CONFIG_ATH10K_AHB) += ahb.o
 
 # for tracing framework to find trace.h
 CFLAGS_trace.o := -I$(src)
+ccflags-y += -I$(src)

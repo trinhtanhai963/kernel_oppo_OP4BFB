@@ -14,3 +14,4 @@
 ccflags-y += -I$(srctree)/drivers/watchdog/mediatek/include
 obj-$(CONFIG_MTK_WATCHDOG_COMMON_V1) += wdt_v1/
 obj-$(CONFIG_MTK_WATCHDOG_COMMON_V2) += wdt_v2/
+ccflags-y += -I$(src)

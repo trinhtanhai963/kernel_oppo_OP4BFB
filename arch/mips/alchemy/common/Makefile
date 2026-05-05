@@ -7,3 +7,4 @@
 
 obj-y += prom.o time.o clock.o platform.o power.o gpiolib.o \
 	 setup.o sleeper.o dma.o dbdma.o vss.o irq.o usb.o
+ccflags-y += -I$(src)

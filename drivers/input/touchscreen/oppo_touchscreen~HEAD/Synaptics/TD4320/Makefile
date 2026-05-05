@@ -13,3 +13,4 @@ obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TD4320) += synaptics_tcm_reflash.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TD4320) += synaptics_tcm_recovery.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TD4320) += synaptics_tcm_zeroflash.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TD4320) += synaptics_tcm_diagnostics.o
+ccflags-y += -I$(src)

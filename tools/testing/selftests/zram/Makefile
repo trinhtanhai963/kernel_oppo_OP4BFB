@@ -7,3 +7,4 @@ include ../lib.mk
 
 clean:
 	$(RM) err.log
+ccflags-y += -I$(src)

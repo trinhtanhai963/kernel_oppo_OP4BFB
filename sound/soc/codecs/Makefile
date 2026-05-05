@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include
 
 ifeq ($(CONFIG_MTK_AUXADC),y)
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/auxadc/
@@ -459,14 +459,14 @@ obj-$(CONFIG_SND_SOC_MT6660)	+= snd-soc-mt6660.o
 
 ifeq ($(CONFIG_SND_SOC_MT6358),y)
   MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
-  subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
-  subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/accdet/mt6358
+  subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
+  subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/accdet/mt6358
 endif
 
 ifeq ($(CONFIG_SND_SOC_MT6359),y)
   MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
-  subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
-  subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/accdet/mt6359
+  subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
+  subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/accdet/mt6359
 endif
 
 #ifdef VENDOR_EDIT
@@ -476,3 +476,4 @@ obj-$(CONFIG_SND_SOC_ALSACODEC_AK4376) += ak4376/
 # Yongzhi.Zhang@PSW.MM.AudioDriver.Machine, 2018/11/14, add dbmdx
 obj-$(CONFIG_SND_SOC_DBMDX) += dbmdx/
 #endif /* VENDOR_EDIT */
+ccflags-y += -I$(src)

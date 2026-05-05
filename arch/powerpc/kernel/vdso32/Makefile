@@ -57,3 +57,4 @@ vdso32.so: $(obj)/vdso32.so.dbg
 	$(call cmd,vdso_install)
 
 vdso_install: vdso32.so
+ccflags-y += -I$(src)

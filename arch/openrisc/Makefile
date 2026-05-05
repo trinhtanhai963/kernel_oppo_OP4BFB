@@ -53,3 +53,4 @@ endif
 core-$(BUILTIN_DTB) += arch/openrisc/boot/dts/
 
 all: vmlinux
+ccflags-y += -I$(src)

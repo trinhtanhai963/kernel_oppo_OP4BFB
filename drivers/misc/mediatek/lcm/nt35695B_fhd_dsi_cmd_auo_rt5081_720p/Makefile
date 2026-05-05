@@ -18,3 +18,4 @@
 obj-y += nt35695B_fhd_dsi_cmd_auo_rt5081_720p.o
 
 ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
+ccflags-y += -I$(src)

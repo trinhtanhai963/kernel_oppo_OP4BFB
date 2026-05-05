@@ -25,3 +25,4 @@ $(addprefix $(obj)/, $(GNU_LIBC_A_OBJS)):
 
 $(addprefix $(obj)/, $(GNU_LIBGCC_A_OBJS)):
 	$(Q)$(AR) p $(GNU_LIBGCC_A) $(notdir $@) > $@
+ccflags-y += -I$(src)

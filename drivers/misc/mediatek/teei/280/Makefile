@@ -36,3 +36,4 @@ obj-$(CONFIG_MICROTRUST_TUI_DRIVER) += ut_tui/
 obj-y += tz_dcih/
 obj-$(CONFIG_MICROTRUST_TEST_DRIVERS) += tests/
 obj-$(CONFIG_MICROTRUST_UNITTEST_SUPPORT) += ut_tester/
+ccflags-y += -I$(src)

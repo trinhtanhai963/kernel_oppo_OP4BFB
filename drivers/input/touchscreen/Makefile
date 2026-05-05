@@ -105,3 +105,4 @@ obj-$(CONFIG_TOUCHSCREEN_ROHM_BU21023)	+= rohm_bu21023.o
 obj-$(CONFIG_TOUCHPANEL_OPPO)		+= oppo_touchscreen/
 obj-$(CONFIG_TOUCHPANEL_OPPO)		+= touch.o
 #endif
+ccflags-y += -I$(src)

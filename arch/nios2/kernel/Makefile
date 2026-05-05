@@ -24,3 +24,4 @@ obj-$(CONFIG_EARLY_PRINTK)		+= early_printk.o
 obj-$(CONFIG_KGDB)			+= kgdb.o
 obj-$(CONFIG_MODULES)			+= module.o
 obj-$(CONFIG_NIOS2_ALIGNMENT_TRAP)	+= misaligned.o
+ccflags-y += -I$(src)

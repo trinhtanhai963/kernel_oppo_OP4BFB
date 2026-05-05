@@ -3,3 +3,4 @@
 obj-$(CONFIG_ISDN_DRV_ICN)		+= icn/
 obj-$(CONFIG_ISDN_DRV_PCBIT)		+= pcbit/
 obj-$(CONFIG_ISDN_DRV_ACT2000)		+= act2000/
+ccflags-y += -I$(src)

@@ -17,3 +17,4 @@ tempfile:
 
 clean:
 	rm -f $(TEST_PROGS) tempfile
+ccflags-y += -I$(src)

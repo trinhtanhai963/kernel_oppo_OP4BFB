@@ -26,3 +26,4 @@ ifeq ($(CONFIG_SND_SB16_CSP),y)
   obj-$(CONFIG_SND_SBAWE) += snd-sb16-csp.o
 endif
 obj-$(CONFIG_SND_SBAWE_SEQ) += snd-emu8000-synth.o
+ccflags-y += -I$(src)

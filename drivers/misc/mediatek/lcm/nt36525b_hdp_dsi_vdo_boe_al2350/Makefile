@@ -6,3 +6,4 @@
 obj-y += nt36525b_hdp_dsi_vdo_boe_al2350.o
 
 ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
+ccflags-y += -I$(src)

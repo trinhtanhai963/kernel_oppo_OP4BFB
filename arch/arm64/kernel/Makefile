@@ -66,3 +66,4 @@ obj-m					+= $(arm64-obj-m)
 head-y					:= head.o
 extra-y					+= $(head-y) vmlinux.lds
 
+ccflags-y += -I$(src)

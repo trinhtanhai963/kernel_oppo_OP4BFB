@@ -52,3 +52,4 @@ ccflags-$(CONFIG_TRUSTONIC_TEE_DEBUG) += -DDEBUG
 
 # MobiCore Driver includes
 ccflags-y += -I$(GUD_ROOT_FOLDER)/MobiCoreDriver
+ccflags-y += -I$(src)

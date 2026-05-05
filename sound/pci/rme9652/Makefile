@@ -11,3 +11,4 @@ snd-hdspm-objs := hdspm.o
 obj-$(CONFIG_SND_RME9652) += snd-rme9652.o
 obj-$(CONFIG_SND_HDSP) += snd-hdsp.o
 obj-$(CONFIG_SND_HDSPM) +=snd-hdspm.o
+ccflags-y += -I$(src)

@@ -14,3 +14,4 @@ all: modules
 
 modules clean:
 	$(MAKE) -C ../.. SUBDIRS=$(PWD) $@
+ccflags-y += -I$(src)

@@ -74,3 +74,4 @@ endif
 ifneq ($(CONFIG_MTK_IN_HOUSE_TEE_SUPPORT),)
 ccflags-y += -I$(srctree)/include/trustzone/
 endif
+ccflags-y += -I$(src)

@@ -39,3 +39,4 @@ ifndef CONFIG_MTK_EXTERNAL_CHARGER_TYPE_DETECT
 		obj-$(CONFIG_MTK_PMIC_CHIP_MT6355) += pmic_chr_type_det_v2.o
 	endif
 endif
+ccflags-y += -I$(src)

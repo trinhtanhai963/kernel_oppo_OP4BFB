@@ -6,3 +6,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/sensors-1.0/include
 
 obj-y := SCP_nanoHub.o
 
+ccflags-y += -I$(src)

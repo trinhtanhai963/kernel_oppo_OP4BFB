@@ -36,3 +36,4 @@ igbvf-objs := vf.o \
               ethtool.o \
               netdev.o
 
+ccflags-y += -I$(src)

@@ -20,3 +20,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/
 
 obj-y += mtk_mdpm_common.o
 obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
+ccflags-y += -I$(src)

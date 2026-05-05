@@ -13,3 +13,4 @@ ccflags-y += -Idrivers/media/tuners
 ccflags-y += -Idrivers/media/dvb-core
 ccflags-y += -Idrivers/media/dvb-frontends
 ccflags-y += -Idrivers/media/usb/dvb-usb
+ccflags-y += -I$(src)

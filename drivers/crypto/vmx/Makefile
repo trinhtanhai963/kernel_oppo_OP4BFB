@@ -17,3 +17,4 @@ $(src)/ghashp8-ppc.S: $(src)/ghashp8-ppc.pl
 	$(call cmd,perl)
 
 .PRECIOUS: $(obj)/aesp8-ppc.S $(obj)/ghashp8-ppc.S
+ccflags-y += -I$(src)

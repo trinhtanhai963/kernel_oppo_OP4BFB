@@ -12,3 +12,4 @@
 #
 
 obj-y += devinfo.o
+ccflags-y += -I$(src)

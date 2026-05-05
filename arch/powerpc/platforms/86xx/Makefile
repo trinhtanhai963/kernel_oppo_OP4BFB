@@ -11,3 +11,4 @@ obj-$(CONFIG_GEF_SBC610)	+= gef_sbc610.o
 obj-$(CONFIG_GEF_SBC310)	+= gef_sbc310.o
 obj-$(CONFIG_GEF_PPC9A)		+= gef_ppc9a.o
 obj-$(CONFIG_MVME7100)          += mvme7100.o
+ccflags-y += -I$(src)

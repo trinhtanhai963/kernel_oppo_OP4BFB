@@ -70,3 +70,4 @@ shpchp-objs		:=	shpchp_core.o	\
 				shpchp_pci.o	\
 				shpchp_sysfs.o	\
 				shpchp_hpc.o
+ccflags-y += -I$(src)

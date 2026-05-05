@@ -4,3 +4,4 @@ qcrypto-objs := core.o \
 		dma.o \
 		sha.o \
 		ablkcipher.o
+ccflags-y += -I$(src)

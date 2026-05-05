@@ -57,3 +57,4 @@ obj-y += jpeg_driver.o
 jpeg_driver-objs := jpeg_drv_enc.o jpeg_drv_dec.o jpeg_drv.o
 
 # EOF
+ccflags-y += -I$(src)

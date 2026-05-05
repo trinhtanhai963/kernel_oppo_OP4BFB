@@ -12,3 +12,4 @@
 #
 
 obj-y += log_store.o
+ccflags-y += -I$(src)

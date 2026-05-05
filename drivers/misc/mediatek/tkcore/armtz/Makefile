@@ -46,3 +46,4 @@ tkcore_drv-objs += \
 	tee_smc-arm64.o
 endif
 
+ccflags-y += -I$(src)

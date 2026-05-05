@@ -22,3 +22,4 @@ obj-$(CONFIG_UCC_GETH) += ucc_geth_driver.o
 ucc_geth_driver-objs := ucc_geth.o ucc_geth_ethtool.o
 
 obj-$(CONFIG_FSL_FMAN) += fman/
+ccflags-y += -I$(src)

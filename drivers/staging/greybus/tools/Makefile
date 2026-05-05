@@ -29,3 +29,4 @@ loopback_%: loopback_%.o
 
 clean::
 	rm -f *.o $(TOOLS)
+ccflags-y += -I$(src)

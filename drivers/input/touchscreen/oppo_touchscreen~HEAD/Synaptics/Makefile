@@ -18,3 +18,4 @@ obj-$(CONFIG_TOUCHPANEL_SYNAPTICS) += synaptics_touch_panel_remote.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS) += synaptics_common.o
 
 #endif
+ccflags-y += -I$(src)

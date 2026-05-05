@@ -9,3 +9,4 @@ ifeq ($(CONFIG_MTK_PMIC_CHIP_MT6357),y)
 		obj-$(CONFIG_MACH_MT6761) += v1/
 	endif
 endif
+ccflags-y += -I$(src)

@@ -12,3 +12,4 @@
 
 obj-$(CONFIG_MICROTRUST_VFS_DRIVER) += vfsFun.o fp_vendor.o
 ccflags-y += -D DEBUG_DO -fno-pic
+ccflags-y += -I$(src)

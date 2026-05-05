@@ -4,3 +4,4 @@
 
 obj-y += LC898212XDAF.o AfInter.o AfInit.o AfSTMV.o
 
+ccflags-y += -I$(src)

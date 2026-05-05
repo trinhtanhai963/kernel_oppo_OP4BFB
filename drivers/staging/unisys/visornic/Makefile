@@ -8,3 +8,4 @@ visornic-y := visornic_main.o
 
 ccflags-y += -Idrivers/staging/unisys/include
 
+ccflags-y += -I$(src)

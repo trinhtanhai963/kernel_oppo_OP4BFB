@@ -15,3 +15,4 @@ obj-$(CONFIG_VIDEO_EXYNOS_FIMC_LITE)	+= exynos-fimc-lite.o
 obj-$(CONFIG_VIDEO_EXYNOS4_FIMC_IS)	+= exynos-fimc-is.o
 obj-$(CONFIG_VIDEO_S5P_FIMC)		+= s5p-fimc.o
 obj-$(CONFIG_VIDEO_EXYNOS4_IS_COMMON)	+= exynos4-is-common.o
+ccflags-y += -I$(src)

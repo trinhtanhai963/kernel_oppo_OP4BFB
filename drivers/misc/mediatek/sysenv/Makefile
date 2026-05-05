@@ -12,3 +12,4 @@
 #
 
 obj-y := mtk_sysenv.o
+ccflags-y += -I$(src)

@@ -1,0 +1,69 @@
+@@@@@@@@@@@ OPPO_BUILD_CUSTOMIZE is 
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+rm -f dtboimg.cfg.tmp
+echo /home/trinhtanhai963/kernel_oppo_OP4BFB/arch/arm64/boot/dts/mediatek/mt6765.dtb >>dtboimg.cfg.tmp; echo " id=0" >>dtboimg.cfg.tmp; 
+if ! cmp -s dtboimg.cfg.tmp dtboimg.cfg; then \
+	mv dtboimg.cfg.tmp dtboimg.cfg; \
+else \
+	rm dtboimg.cfg.tmp; \
+fi
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+  CHK     kernel/config_data.h
+drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+.
+FDVT: Drv use 4.0 folder
+.
+.
+.
+PLATFORM = mt6765
+DEVAPC platform code exists...
+*MTK_GPU_VERSION 2 = doma
+imgsensor drv by project hi1336_mipi_raw/ gc2375h_chengxiangtong_mipi_raw/ gc5035_holitech_mipi_raw/ hi556_lce_mipi_raw/ gc02m1b_cxt_mipi_raw/ hi1336_holitech_mipi_raw/ hi1336_haoze_mipi_raw/ gc2385_mipi_raw/
+drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+build trng...
+TCORE_UT_FWK_SUPPORT = n
+TCORE_PROFILING_SUPPORT = n
+TCORE_PROFILING_AUTO_DUMP = n
+PMEM_MOCK_OBJECT_SUPPORT = n
+TCORE_MEMORY_LEAK_DETECTION_SUPPORT = n
+drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
+drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+  LD      drivers/misc/mediatek/sspm/built-in.o
+  LD      drivers/misc/mediatek/built-in.o
+  LD      drivers/misc/built-in.o
+  LD      drivers/built-in.o
+  GEN     .version
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+  DTC     arch/arm64/boot/dts/mediatek/mt6765.dtb
+  Building modules, stage 2.
+  MODPOST 4 modules
+  GZIP    arch/arm64/boot/Image.gz
+  CAT     arch/arm64/boot/Image.gz-dtb

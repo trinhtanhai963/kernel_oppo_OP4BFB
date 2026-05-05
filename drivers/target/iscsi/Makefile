@@ -19,3 +19,4 @@ iscsi_target_mod-y +=		iscsi_target_parameters.o \
 
 obj-$(CONFIG_ISCSI_TARGET)	+= iscsi_target_mod.o
 obj-$(CONFIG_ISCSI_TARGET_CXGB4) += cxgbit/
+ccflags-y += -I$(src)

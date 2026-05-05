@@ -89,3 +89,4 @@ obj-$(CONFIG_TRACEPOINTS)	+= trace.o
 # vdso
 obj-y				+= vdso64/
 obj-$(CONFIG_COMPAT)		+= vdso32/
+ccflags-y += -I$(src)

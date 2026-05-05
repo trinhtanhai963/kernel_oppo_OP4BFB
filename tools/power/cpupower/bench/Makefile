@@ -40,3 +40,4 @@ install:
 clean:
 	rm -f $(OUTPUT)*.o
 	rm -f $(OUTPUT)cpufreq-bench
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@ dtb-$(CONFIG_ARCH_R8A7796) += r8a7796-salvator-x.dtb
 
 always		:= $(dtb-y)
 clean-files	:= *.dtb
+ccflags-y += -I$(src)

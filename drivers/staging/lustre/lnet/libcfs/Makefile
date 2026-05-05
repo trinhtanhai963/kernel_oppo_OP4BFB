@@ -15,3 +15,4 @@ libcfs-all-objs := debug.o fail.o module.o tracefile.o \
 		   libcfs_cpu.o libcfs_mem.o libcfs_lock.o
 
 libcfs-objs := $(libcfs-linux-objs) $(libcfs-all-objs)
+ccflags-y += -I$(src)

@@ -17,3 +17,4 @@ clean :
 
 install :
 	install nosy-dump $(prefix)/bin/nosy-dump
+ccflags-y += -I$(src)

@@ -976,3 +976,4 @@ targets += $(DTB_LIST)
 
 always		:= $(DTB_LIST)
 clean-files	:= *.dtb
+ccflags-y += -I$(src)

@@ -4,3 +4,4 @@
 
 obj-$(CONFIG_MTK_MT6306_GPIO_SUPPORT) += mtk_6306_gpio.o
 
+ccflags-y += -I$(src)

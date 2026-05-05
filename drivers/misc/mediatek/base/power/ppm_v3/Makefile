@@ -14,3 +14,4 @@
 export PPM_ROOT_DIR ?= $(srctree)/drivers/misc/mediatek/base/power/ppm_v3
 
 obj-y += src/
+ccflags-y += -I$(src)

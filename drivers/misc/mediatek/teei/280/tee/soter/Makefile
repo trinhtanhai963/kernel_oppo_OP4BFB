@@ -12,3 +12,4 @@
 
 obj-y += soter.o
 soter-objs += core.o call.o
+ccflags-y += -I$(src)

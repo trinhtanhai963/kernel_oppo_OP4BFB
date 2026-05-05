@@ -26,3 +26,4 @@ obj-$(CONFIG_SIBYTE_SENTOSA)	+= swarm/
 obj-$(CONFIG_SIBYTE_SWARM)	+= swarm/
 obj-$(CONFIG_SIBYTE_BIGSUR)	+= swarm/
 obj-$(CONFIG_SIBYTE_LITTLESUR)	+= swarm/
+ccflags-y += -I$(src)

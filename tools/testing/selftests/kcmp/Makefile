@@ -8,3 +8,4 @@ include ../lib.mk
 
 clean:
 	$(RM) kcmp_test kcmp-test-file
+ccflags-y += -I$(src)

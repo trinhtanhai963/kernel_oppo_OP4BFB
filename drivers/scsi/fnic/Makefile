@@ -15,3 +15,4 @@ fnic-y	:= \
 	vnic_rq.o \
 	vnic_wq_copy.o \
 	vnic_wq.o
+ccflags-y += -I$(src)

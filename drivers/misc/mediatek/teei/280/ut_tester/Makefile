@@ -11,4 +11,5 @@
 # GNU General Public License for more details.
 
 obj-y += ut_tester.o
-ccflags-y += -Werror
+ccflags-y += 
+ccflags-y += -I$(src)

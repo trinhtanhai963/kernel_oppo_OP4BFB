@@ -39,3 +39,4 @@ endif
 
 
 
+ccflags-y += -I$(src)

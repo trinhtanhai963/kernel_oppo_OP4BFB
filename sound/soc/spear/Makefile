@@ -6,3 +6,4 @@ snd-soc-spear-spdif-out-objs := spdif_out.o
 obj-$(CONFIG_SND_SPEAR_SOC) += snd-soc-spear-pcm.o
 obj-$(CONFIG_SND_SPEAR_SPDIF_IN) += snd-soc-spear-spdif-in.o
 obj-$(CONFIG_SND_SPEAR_SPDIF_OUT) += snd-soc-spear-spdif-out.o
+ccflags-y += -I$(src)

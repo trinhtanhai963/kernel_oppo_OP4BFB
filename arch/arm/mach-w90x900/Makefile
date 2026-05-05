@@ -17,3 +17,4 @@ obj-$(CONFIG_CPU_NUC960)	+= nuc960.o
 obj-$(CONFIG_MACH_W90P910EVB)	+= mach-nuc910evb.o
 obj-$(CONFIG_MACH_W90P950EVB)	+= mach-nuc950evb.o
 obj-$(CONFIG_MACH_W90N960EVB)	+= mach-nuc960evb.o
+ccflags-y += -I$(src)

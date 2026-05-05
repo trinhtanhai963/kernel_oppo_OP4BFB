@@ -13,3 +13,4 @@ endif
 ifneq ($(CONFIG_USB_RENESAS_USBHS_UDC),)
 	renesas_usbhs-y		+= mod_gadget.o
 endif
+ccflags-y += -I$(src)

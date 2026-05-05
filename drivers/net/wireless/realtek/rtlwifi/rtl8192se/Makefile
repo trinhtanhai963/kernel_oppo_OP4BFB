@@ -13,3 +13,4 @@ obj-$(CONFIG_RTL8192SE) += rtl8192se.o
 
 ccflags-y += -D__CHECK_ENDIAN__
 
+ccflags-y += -I$(src)

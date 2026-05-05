@@ -12,3 +12,4 @@ ccflags-y := -DNTFS_VERSION=\"2.1.32\"
 ccflags-$(CONFIG_NTFS_DEBUG)	+= -DDEBUG
 ccflags-$(CONFIG_NTFS_RW)	+= -DNTFS_RW
 
+ccflags-y += -I$(src)

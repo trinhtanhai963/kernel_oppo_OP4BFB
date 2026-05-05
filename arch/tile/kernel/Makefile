@@ -35,3 +35,4 @@ obj-$(CONFIG_KGDB)		+= kgdb.o
 obj-$(CONFIG_JUMP_LABEL)	+= jump_label.o
 
 obj-y				+= vdso/
+ccflags-y += -I$(src)

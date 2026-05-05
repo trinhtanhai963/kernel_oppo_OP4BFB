@@ -31,3 +31,4 @@ af-rxrpc-$(CONFIG_RXKAD) += rxkad.o
 af-rxrpc-$(CONFIG_SYSCTL) += sysctl.o
 
 obj-$(CONFIG_AF_RXRPC) += af-rxrpc.o
+ccflags-y += -I$(src)

@@ -26,3 +26,4 @@ ccflags-y += -DTUI_ENABLE_DISPLAY
 ccflags-y += -DTUI_ENABLE_TOUCH
 ccflags-y += -DTUI_LOCK_I2C
 ccflags-y += -DTUI_ENABLE_MPU
+ccflags-y += -I$(src)

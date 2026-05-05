@@ -8,3 +8,4 @@ ifdef CONFIG_SATA_AHCI
 obj-y				+= ahci-init.o
 obj-y				+= ahci-init-xlp2.o
 endif
+ccflags-y += -I$(src)

@@ -13,3 +13,4 @@ rtl8188ee-objs :=		\
 obj-$(CONFIG_RTL8188EE) += rtl8188ee.o
 
 ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

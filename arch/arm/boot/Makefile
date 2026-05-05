@@ -118,3 +118,4 @@ uinstall:
 	$(obj)/uImage System.map "$(INSTALL_PATH)"
 
 subdir-	    := bootp compressed dts
+ccflags-y += -I$(src)

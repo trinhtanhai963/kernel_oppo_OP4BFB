@@ -13,3 +13,4 @@
 
 obj-y += utility.o
 
+ccflags-y += -I$(src)

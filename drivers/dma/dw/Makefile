@@ -6,3 +6,4 @@ dw_dmac-objs		:= platform.o
 
 obj-$(CONFIG_DW_DMAC_PCI)	+= dw_dmac_pci.o
 dw_dmac_pci-objs	:= pci.o
+ccflags-y += -I$(src)

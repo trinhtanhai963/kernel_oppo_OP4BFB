@@ -8,3 +8,4 @@ skein-y := skein_base.o \
 	   threefish_block.o \
 	   threefish_api.o \
 	   skein_generic.o
+ccflags-y += -I$(src)

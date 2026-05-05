@@ -26,3 +26,4 @@ subdir-ccflags-y += -DMTK_EDMC_FPGA_PORTING
 else ifeq ($(CONFIG_FPGA_EARLY_PORTING),y)
 subdir-ccflags-y += -DMTK_EDMC_FPGA_PORTING
 endif
+ccflags-y += -I$(src)

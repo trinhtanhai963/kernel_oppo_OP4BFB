@@ -61,3 +61,4 @@ CFLAGS_platsmp-brcmstb.o	+= -march=armv7-a
 obj-y				+= brcmstb.o
 obj-$(CONFIG_SMP)		+= platsmp-brcmstb.o
 endif
+ccflags-y += -I$(src)

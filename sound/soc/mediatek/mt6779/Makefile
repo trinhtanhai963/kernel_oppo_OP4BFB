@@ -27,3 +27,4 @@ endif
 
 # spm
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/include
+ccflags-y += -I$(src)

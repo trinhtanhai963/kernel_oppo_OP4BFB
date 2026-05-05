@@ -24,3 +24,4 @@ obj-$(CONFIG_MACH_MT3967) += mtk_power_gs.o
 obj-$(CONFIG_MACH_MT3967) += mtk_power_gs_api.o
 obj-$(CONFIG_MACH_MT6779) += mtk_power_gs.o
 obj-$(CONFIG_MACH_MT6779) += mtk_power_gs_api.o
+ccflags-y += -I$(src)

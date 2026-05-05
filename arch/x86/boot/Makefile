@@ -191,3 +191,4 @@ bzlilo: $(obj)/bzImage
 install:
 	sh $(srctree)/$(src)/install.sh $(KERNELRELEASE) $(obj)/bzImage \
 		System.map "$(INSTALL_PATH)"
+ccflags-y += -I$(src)

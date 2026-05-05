@@ -29,3 +29,4 @@ uninstall:
 .PHONY: clean
 clean:
 	rm -f *.o iio_event_monitor lsiio iio_generic_buffer
+ccflags-y += -I$(src)

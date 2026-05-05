@@ -8,3 +8,4 @@ $(obj)/vmlinux.bin: vmlinux FORCE
 
 $(obj)/dtbImage.%: vmlinux
 	$(call if_changed,objcopy)
+ccflags-y += -I$(src)

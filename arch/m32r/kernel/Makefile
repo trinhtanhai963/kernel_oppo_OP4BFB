@@ -9,3 +9,4 @@ obj-y	:= process.o entry.o traps.o align.o irq.o setup.o time.o \
 
 obj-$(CONFIG_SMP)		+= smp.o smpboot.o
 obj-$(CONFIG_MODULES)		+= module.o
+ccflags-y += -I$(src)

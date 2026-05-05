@@ -34,3 +34,4 @@ obj-$(CONFIG_PCIE_ARTPEC6) += pcie-artpec6.o
 obj-$(CONFIG_PCIE_ROCKCHIP) += pcie-rockchip.o
 obj-$(CONFIG_VMD) += vmd.o
 obj-$(CONFIG_PCIE_MTK) += pci-mediatek.o
+ccflags-y += -I$(src)

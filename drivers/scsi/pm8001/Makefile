@@ -11,3 +11,4 @@ pm80xx-y += pm8001_init.o \
 		pm8001_hwi.o  \
 		pm80xx_hwi.o
 
+ccflags-y += -I$(src)

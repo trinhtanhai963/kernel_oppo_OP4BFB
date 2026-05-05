@@ -41,3 +41,4 @@ obj-y += mtk_hps_ops.o
 # stress module
 #obj-y += mtk_cpuhp_ut.o
 
+ccflags-y += -I$(src)

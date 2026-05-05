@@ -18,3 +18,4 @@
 obj-y += DW9718TAF.o
 
 
+ccflags-y += -I$(src)

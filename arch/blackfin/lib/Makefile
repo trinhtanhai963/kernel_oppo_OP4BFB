@@ -9,3 +9,4 @@ lib-y := \
 	strcmp.o strcpy.o strncmp.o strncpy.o \
 	umulsi3_highpart.o smulsi3_highpart.o \
 	ins.o outs.o
+ccflags-y += -I$(src)

@@ -15,3 +15,4 @@ obj-$(CONFIG_TOSHIBA_JMR3927)  += jmr3927/
 obj-$(CONFIG_TOSHIBA_RBTX4927) += rbtx4927/
 obj-$(CONFIG_TOSHIBA_RBTX4938) += rbtx4938/
 obj-$(CONFIG_TOSHIBA_RBTX4939) += rbtx4939/
+ccflags-y += -I$(src)

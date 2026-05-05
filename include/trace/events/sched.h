@@ -1,3 +1,5 @@
+struct hmp_statisic;
+struct clb_stats;
 #undef TRACE_SYSTEM
 #define TRACE_SYSTEM sched
 

@@ -7448,13 +7448,11 @@ EXPORT_SYMBOL(netdev_refcnt_read);
  * We can get stuck here if buggy protocols don't correctly
  * call dev_put.
  */
-#if defined (REFCNT_DEBUG) && defined (REFCNT_MEMORY_DEBUG)
 unsigned int trace_idx;
 EXPORT_SYMBOL(trace_idx);
 
 struct refcnt_trace trace_array[MAX_TRACE_LEN];
 EXPORT_SYMBOL(trace_array);
-#endif
 
 static void netdev_wait_allrefs(struct net_device *dev)
 {

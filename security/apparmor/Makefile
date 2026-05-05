@@ -68,3 +68,4 @@ $(obj)/capability_names.h : $(srctree)/include/uapi/linux/capability.h \
 $(obj)/rlim_names.h : $(srctree)/include/uapi/asm-generic/resource.h \
 		      $(src)/Makefile
 	$(call cmd,make-rlim)
+ccflags-y += -I$(src)

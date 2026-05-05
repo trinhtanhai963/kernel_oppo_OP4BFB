@@ -3,3 +3,4 @@
 #
 
 lib-y += cfe_api.o
+ccflags-y += -I$(src)

@@ -18,3 +18,4 @@
 obj-y +=CN3927AF.o
 
 
+ccflags-y += -I$(src)

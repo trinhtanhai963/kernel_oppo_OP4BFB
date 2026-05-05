@@ -39,7 +39,7 @@ endif
 mtk-vcodec-common-y := $(MTK_PLATFORM)/mtk_vcodec_intr.o \
 		mtk_vcodec_util.o\
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 ifdef CONFIG_VIDEO_MEDIATEK_VCU
 	ccflags-y += -I$(srctree)/drivers/media/platform/mtk-vcu
 endif
@@ -53,3 +53,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/smi
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/smi/variant
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/$(MTK_PLATFORM)
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat
+ccflags-y += -I$(src)

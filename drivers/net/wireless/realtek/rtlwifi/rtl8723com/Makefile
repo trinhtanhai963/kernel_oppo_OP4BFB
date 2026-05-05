@@ -7,3 +7,4 @@ rtl8723-common-objs :=		\
 obj-$(CONFIG_RTL8723_COMMON) += rtl8723-common.o
 
 ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

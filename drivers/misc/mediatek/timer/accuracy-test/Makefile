@@ -12,3 +12,4 @@
 #
 
 obj-y +=  systimer_compensation_test.o
+ccflags-y += -I$(src)

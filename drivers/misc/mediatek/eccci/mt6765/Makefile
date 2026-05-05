@@ -59,3 +59,4 @@ endif
 else
 obj-  := dummy.o # avoid build error
 endif
+ccflags-y += -I$(src)

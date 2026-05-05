@@ -14,8 +14,8 @@ subdir-ccflags-y += -I$(srctree)/drivers/power/supply/mediatek/battery
 subdir-ccflags-y += -I$(srctree)/drivers/power/supply/mediatek/charger
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/typec/tcpc/inc
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/power/supply/mediatek
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/power/supply/mediatek/misc
+subdir-ccflags-y +=  -I$(srctree)/drivers/power/supply/mediatek
+subdir-ccflags-y +=  -I$(srctree)/drivers/power/supply/mediatek/misc
 
 ifeq ($(CONFIG_MACH_MT6761),y)
 obj-y += mt6765/
@@ -24,3 +24,4 @@ obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 endif
 
 obj-$(CONFIG_TCPC_CLASS) += rt_pd_manager.o
+ccflags-y += -I$(src)

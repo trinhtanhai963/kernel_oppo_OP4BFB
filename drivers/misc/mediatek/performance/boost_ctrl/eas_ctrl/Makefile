@@ -21,3 +21,4 @@ ccflags-y += \
 
 obj-y += eas_ctrl.o
 
+ccflags-y += -I$(src)

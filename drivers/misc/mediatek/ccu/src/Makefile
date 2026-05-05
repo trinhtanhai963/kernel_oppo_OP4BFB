@@ -30,3 +30,4 @@ else ifneq (,$(filter $(platform),mt6779))
     $(warning CCU_MAKE_FILE_CALLED_2_1)
 
 endif
+ccflags-y += -I$(src)

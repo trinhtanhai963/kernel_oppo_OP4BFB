@@ -13,3 +13,4 @@ obj-$(CONFIG_ALIGNMENT_TRAP)	+= alignment.o
 
 obj-$(CONFIG_CPU_UCV2)		+= cache-ucv2.o tlb-ucv2.o proc-ucv2.o
 
+ccflags-y += -I$(src)

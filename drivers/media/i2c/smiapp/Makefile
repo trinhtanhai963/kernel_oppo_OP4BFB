@@ -3,3 +3,4 @@ smiapp-objs			+= smiapp-core.o smiapp-regs.o \
 obj-$(CONFIG_VIDEO_SMIAPP)	+= smiapp.o
 
 ccflags-y += -Idrivers/media/i2c
+ccflags-y += -I$(src)

@@ -41,3 +41,4 @@ ccflags-$(CONFIG_MTK_LCM_DEVICE_TREE_SUPPORT) += -DMTK_LCM_DEVICE_TREE_SUPPORT
 obj-$(CONFIG_MTK_LCM) += power/
 obj-$(CONFIG_MTK_LCM) += backlight/
 #endif /* VENDOR_EDIT */
+ccflags-y += -I$(src)

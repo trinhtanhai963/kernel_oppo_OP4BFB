@@ -15,3 +15,4 @@ snic-y := \
 	vnic_wq.o
 
 snic-$(CONFIG_SCSI_SNIC_DEBUG_FS) += snic_debugfs.o snic_trc.o
+ccflags-y += -I$(src)

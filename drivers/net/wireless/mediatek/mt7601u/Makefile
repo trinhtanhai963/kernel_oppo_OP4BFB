@@ -7,3 +7,4 @@ mt7601u-objs	= \
 	mac.o util.o debugfs.o tx.o
 
 CFLAGS_trace.o := -I$(src)
+ccflags-y += -I$(src)

@@ -5,3 +5,4 @@ gdmulte-y += gdm_usb.o gdm_endian.o
 obj-$(CONFIG_LTE_GDM724X) += gdmtty.o
 gdmtty-y := gdm_tty.o gdm_mux.o
 
+ccflags-y += -I$(src)

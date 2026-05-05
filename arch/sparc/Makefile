@@ -99,3 +99,4 @@ define archhelp
   echo  '  tftpboot.img - image prepared for tftp'
 endef
 endif
+ccflags-y += -I$(src)

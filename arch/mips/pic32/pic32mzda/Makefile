@@ -6,3 +6,4 @@ obj-y			:= config.o early_clk.o init.o time.o
 
 obj-$(CONFIG_EARLY_PRINTK)	+= early_console.o      \
 				   early_pin.o
+ccflags-y += -I$(src)

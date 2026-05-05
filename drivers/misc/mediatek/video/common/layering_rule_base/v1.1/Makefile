@@ -29,3 +29,4 @@ ifeq ($(CONFIG_MACH_MT6761),y)
 else
     ccflags-y += -I$(srctree)/drivers/misc/mediatek/cmdq/v3/$(MTK_PLATFORM)/
 endif
+ccflags-y += -I$(src)

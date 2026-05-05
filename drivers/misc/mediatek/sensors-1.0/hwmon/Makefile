@@ -8,3 +8,4 @@ obj-y += sensor_list/
 else
 obj-n := hwmsen/
 endif
+ccflags-y += -I$(src)

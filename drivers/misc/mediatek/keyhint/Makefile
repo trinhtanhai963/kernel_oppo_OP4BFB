@@ -12,3 +12,4 @@
 #
 
 obj-$(CONFIG_MTK_KEY_HINT) += keyhint.o
+ccflags-y += -I$(src)

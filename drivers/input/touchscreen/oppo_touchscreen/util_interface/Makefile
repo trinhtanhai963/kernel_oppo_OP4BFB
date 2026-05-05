@@ -7,3 +7,4 @@
 obj-$(CONFIG_TOUCHPANEL_OPPO) += touch_interfaces.o
 
 #endif
+ccflags-y += -I$(src)

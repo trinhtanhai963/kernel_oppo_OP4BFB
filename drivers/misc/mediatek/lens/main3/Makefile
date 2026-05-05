@@ -41,3 +41,4 @@ obj-y += main3_lens.o
 
 
 endif
+ccflags-y += -I$(src)

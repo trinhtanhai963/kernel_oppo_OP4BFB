@@ -39,3 +39,4 @@ obj-$(CONFIG_PCI)	+= pci.o
 
 obj-y			+= gpio.o
 extra-y := head.o
+ccflags-y += -I$(src)

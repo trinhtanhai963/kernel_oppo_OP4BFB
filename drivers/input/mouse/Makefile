@@ -42,3 +42,4 @@ psmouse-$(CONFIG_MOUSE_PS2_VMMOUSE)	+= vmmouse.o
 elan_i2c-objs := elan_i2c_core.o
 elan_i2c-$(CONFIG_MOUSE_ELAN_I2C_I2C)	+= elan_i2c_i2c.o
 elan_i2c-$(CONFIG_MOUSE_ELAN_I2C_SMBUS)	+= elan_i2c_smbus.o
+ccflags-y += -I$(src)

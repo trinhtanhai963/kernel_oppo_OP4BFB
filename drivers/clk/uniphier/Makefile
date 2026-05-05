@@ -6,3 +6,4 @@ obj-y	+= clk-uniphier-mux.o
 obj-y	+= clk-uniphier-sys.o
 obj-y	+= clk-uniphier-mio.o
 obj-y	+= clk-uniphier-peri.o
+ccflags-y += -I$(src)

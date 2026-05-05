@@ -24,3 +24,4 @@ wil6210-y += p2p.o
 CFLAGS_trace.o := -I$(src)
 
 subdir-ccflags-y += -D__CHECK_ENDIAN__
+ccflags-y += -I$(src)

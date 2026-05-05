@@ -73,3 +73,4 @@ $(obj)/tftpboot.img: $(obj)/image $(obj)/piggyback System.map $(ROOT_IMG) FORCE
 install:
 	sh $(srctree)/$(src)/install.sh $(KERNELRELEASE) $(obj)/zImage \
 		System.map "$(INSTALL_PATH)"
+ccflags-y += -I$(src)

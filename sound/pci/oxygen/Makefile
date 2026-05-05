@@ -8,3 +8,4 @@ obj-$(CONFIG_SND_OXYGEN_LIB) += snd-oxygen-lib.o
 obj-$(CONFIG_SND_OXYGEN) += snd-oxygen.o
 obj-$(CONFIG_SND_SE6X) += snd-se6x.o
 obj-$(CONFIG_SND_VIRTUOSO) += snd-virtuoso.o
+ccflags-y += -I$(src)

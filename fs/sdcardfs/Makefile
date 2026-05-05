@@ -10,3 +10,4 @@ sdcardfs-y := dentry.o file.o inode.o main.o super.o lookup.o mmap.o packagelist
 sdcardfs-y += dev.o
 sdcardfs-y += dellog.o
 #endif /* VENDOR_EDIT */
+ccflags-y += -I$(src)

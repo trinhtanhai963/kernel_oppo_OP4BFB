@@ -22,3 +22,4 @@ ath-$(CONFIG_ATH_TRACEPOINTS) += trace.o
 ccflags-y += -D__CHECK_ENDIAN__
 
 CFLAGS_trace.o := -I$(src)
+ccflags-y += -I$(src)

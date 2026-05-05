@@ -4,3 +4,4 @@
 # It provides the HW control for ACP related functionalities.
 
 AMD_ACP_FILES := $(AMDACPPATH)/acp_hw.o
+ccflags-y += -I$(src)

@@ -30,3 +30,4 @@ endif
 
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/freqhopping/$(MTK_PLATFORM)/
 obj-y += $(MTK_PLATFORM)/
+ccflags-y += -I$(src)

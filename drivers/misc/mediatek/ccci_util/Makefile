@@ -65,3 +65,4 @@ endif
 endif
 
 obj-y += ccci_util_dummy.o # avoid build error
+ccflags-y += -I$(src)

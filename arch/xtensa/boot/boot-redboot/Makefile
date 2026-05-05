@@ -33,3 +33,4 @@ $(obj)/../zImage.redboot: $(obj)/zImage.elf
 	$(Q)$(kecho) '  Kernel: $@ is ready'
 
 zImage: $(obj)/../zImage.redboot
+ccflags-y += -I$(src)

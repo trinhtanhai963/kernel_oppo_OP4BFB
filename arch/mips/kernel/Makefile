@@ -128,3 +128,4 @@ CFLAGS_ptrace.o			= $(CFLAGS_DSP)
 endif
 
 CPPFLAGS_vmlinux.lds		:= $(KBUILD_CFLAGS)
+ccflags-y += -I$(src)

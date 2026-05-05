@@ -8,3 +8,4 @@ obj-$(CONFIG_SND_SOC_UX500_PLAT_DMA) += snd-soc-ux500-plat-dma.o
 
 snd-soc-ux500-mach-mop500-objs := mop500.o mop500_ab8500.o
 obj-$(CONFIG_SND_SOC_UX500_MACH_MOP500) += snd-soc-ux500-mach-mop500.o
+ccflags-y += -I$(src)

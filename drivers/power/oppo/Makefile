@@ -1,5 +1,5 @@
 ifeq ($(CONFIG_OPPO_CHARGER_MTK),y)
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 subdir-ccflags-y += -Wno-unused-variable
 endif
 
@@ -18,3 +18,4 @@ obj-y	+= oppo_short.o
 ifeq (yes,$(strip $(HQ_COMPILE_FACTORY_VERSION)))
    subdir-ccflags-y += -DHQ_COMPILE_FACTORY_VERSION
 endif
+ccflags-y += -I$(src)

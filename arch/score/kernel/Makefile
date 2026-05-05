@@ -9,3 +9,4 @@ obj-y += entry.o irq.o process.o ptrace.o \
 	sys_call_table.o
 
 obj-$(CONFIG_MODULES) += module.o
+ccflags-y += -I$(src)

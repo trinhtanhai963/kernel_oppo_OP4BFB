@@ -19,3 +19,4 @@ ifneq (,$(filter $(CONFIG_MTK_PLATFORM), "mt6757" "mt6799" "kiboplus" "mt6759" "
   obj-y += v2/
 endif
 # EOF
+ccflags-y += -I$(src)

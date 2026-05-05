@@ -181,3 +181,4 @@ endif
 ifneq (,$(filter $(CONFIG_MTK_PLATFORM), "mt6779"))
 obj-$(CONFIG_THERMAL) += mtk_cooler_ISP.o
 endif
+ccflags-y += -I$(src)

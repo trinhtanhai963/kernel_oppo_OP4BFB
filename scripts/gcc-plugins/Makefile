@@ -27,3 +27,4 @@ subdir-y := $(GCC_PLUGIN_SUBDIR)
 subdir-  += $(GCC_PLUGIN_SUBDIR)
 
 clean-files += *.so
+ccflags-y += -I$(src)

@@ -7,3 +7,4 @@ endif
 #endif /*VENDOR_EDIT*/
 obj-y += s5kgd1spmipiraw_Sensor.o
 
+ccflags-y += -I$(src)

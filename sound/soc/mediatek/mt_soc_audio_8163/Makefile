@@ -2,10 +2,10 @@
 
 #include $(srctree)/drivers/misc/mediatek/Makefile.custom
 MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include/mt-plat
-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/base/power/$(MTK_PLATFORM)
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include/mt-plat
+ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/base/power/$(MTK_PLATFORM)
 # ccflags-y += -D_GIT318_READY
 # ccflags-y += -D_GIT318_PMIC_READY
 #ccflags-y += -D_WCN_SUPPORT
@@ -67,3 +67,4 @@ CFLAGS_mt_soc_machine.o += -DDEBUG
 CFLAGS_mt_soc_codec_speaker_63xx.o += -DDEBUG
 endif
 endif
+ccflags-y += -I$(src)

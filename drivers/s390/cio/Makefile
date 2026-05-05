@@ -17,3 +17,4 @@ obj-$(CONFIG_CCWGROUP) += ccwgroup.o
 
 qdio-objs := qdio_main.o qdio_thinint.o qdio_debug.o qdio_setup.o
 obj-$(CONFIG_QDIO) += qdio.o
+ccflags-y += -I$(src)

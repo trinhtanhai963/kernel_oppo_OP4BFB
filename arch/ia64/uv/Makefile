@@ -10,3 +10,4 @@
 #
 
 obj-y += kernel/
+ccflags-y += -I$(src)

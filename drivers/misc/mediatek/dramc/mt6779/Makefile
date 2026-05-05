@@ -20,3 +20,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/emi/submodule
 
 obj-$(CONFIG_MTK_DRAMC) := mtk_dramc.o
 ccflags-$(CONFIG_MTK_DRAMC) += -DDEBUG
+ccflags-y += -I$(src)

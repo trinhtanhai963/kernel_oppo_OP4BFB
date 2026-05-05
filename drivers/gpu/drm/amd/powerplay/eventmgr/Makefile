@@ -9,3 +9,4 @@ AMD_PP_EVENT = $(addprefix $(AMD_PP_PATH)/eventmgr/,$(EVENT_MGR))
 
 AMD_POWERPLAY_FILES += $(AMD_PP_EVENT)
 
+ccflags-y += -I$(src)

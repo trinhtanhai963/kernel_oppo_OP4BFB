@@ -36,3 +36,4 @@ ccflags-y += \
 obj-y += mtk_cm_mgr.o
 obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 
+ccflags-y += -I$(src)

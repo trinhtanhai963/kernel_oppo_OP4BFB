@@ -11,3 +11,4 @@ quiet_cmd_gen_mach = GEN     $@
 
 include/generated/mach-types.h: $(src)/gen-mach-types $(src)/mach-types FORCE
 	$(call if_changed,gen_mach)
+ccflags-y += -I$(src)

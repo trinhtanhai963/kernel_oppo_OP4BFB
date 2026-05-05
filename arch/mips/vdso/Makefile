@@ -174,3 +174,4 @@ endif
 
 # FIXME: Need install rule for debug.
 # Needs to deal with dependency for generation of dbg by cmd_genvdso...
+ccflags-y += -I$(src)

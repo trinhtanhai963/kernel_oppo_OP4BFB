@@ -83,3 +83,4 @@ ifeq ($(CONFIG_CB710_DEBUG),y)
 endif
 
 obj-$(CONFIG_MMC_MTK_PRO)		+= mediatek/
+ccflags-y += -I$(src)

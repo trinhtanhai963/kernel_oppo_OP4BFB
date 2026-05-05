@@ -36,3 +36,4 @@ else
 default:
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
 endif
+ccflags-y += -I$(src)

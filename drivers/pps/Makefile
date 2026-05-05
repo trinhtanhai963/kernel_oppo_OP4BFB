@@ -8,3 +8,4 @@ obj-$(CONFIG_PPS)		:= pps_core.o
 obj-y				+= clients/ generators/
 
 ccflags-$(CONFIG_PPS_DEBUG) := -DDEBUG
+ccflags-y += -I$(src)

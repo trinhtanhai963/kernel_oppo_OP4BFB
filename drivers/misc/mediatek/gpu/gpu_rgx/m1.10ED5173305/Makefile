@@ -252,3 +252,4 @@ ifeq ($(MTK_PLATFORM),mt6799)
 endif
 
 obj-y += pvrsrvkm.o
+ccflags-y += -I$(src)

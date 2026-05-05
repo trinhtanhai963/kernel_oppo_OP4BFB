@@ -20,3 +20,4 @@ run_fuse: build_fuse
 
 clean:
 	$(RM) memfd_test fuse_test
+ccflags-y += -I$(src)

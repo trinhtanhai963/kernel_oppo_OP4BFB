@@ -17,3 +17,4 @@ obj-y += cvmx-pko.o cvmx-spi.o cvmx-cmd-queue.o \
 	cvmx-interrupt-decodes.o cvmx-interrupt-rsl.o
 
 obj-y += cvmx-helper-errata.o cvmx-helper-jtag.o
+ccflags-y += -I$(src)

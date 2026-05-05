@@ -27,3 +27,4 @@ endif
 
 obj-$(CONFIG_MTK_TIMER_TIMESYNC)	+= mtk_sys_timer.o
 obj-$(CONFIG_MTK_ARCHCOUNTER_TIMESYNC)	+= archcounter_timesync.o
+ccflags-y += -I$(src)

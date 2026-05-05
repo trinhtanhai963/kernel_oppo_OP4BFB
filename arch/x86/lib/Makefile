@@ -47,3 +47,4 @@ else
         lib-y += copy_user_64.o
 	lib-y += cmpxchg16b_emu.o
 endif
+ccflags-y += -I$(src)

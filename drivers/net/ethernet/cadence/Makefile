@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_MACB) += macb.o
+ccflags-y += -I$(src)

@@ -28,3 +28,4 @@ install:
 	$(INSTALL) $(OUTPUT)powernow-k8-decode $(DESTDIR)${bindir}
 
 .PHONY: all default clean install
+ccflags-y += -I$(src)

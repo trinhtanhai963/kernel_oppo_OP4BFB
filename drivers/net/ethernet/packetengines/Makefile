@@ -4,3 +4,4 @@
 
 obj-$(CONFIG_HAMACHI) += hamachi.o
 obj-$(CONFIG_YELLOWFIN) += yellowfin.o
+ccflags-y += -I$(src)

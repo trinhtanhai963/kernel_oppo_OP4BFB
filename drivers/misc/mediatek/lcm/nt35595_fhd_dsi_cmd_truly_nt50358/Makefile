@@ -20,3 +20,4 @@ obj-y += nt35595_fhd_dsi_cmd_truly_nt50358.o
 
 
 ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
+ccflags-y += -I$(src)

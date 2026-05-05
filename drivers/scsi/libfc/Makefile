@@ -12,3 +12,4 @@ libfc-objs := \
 	fc_rport.o \
 	fc_fcp.o \
 	fc_npiv.o
+ccflags-y += -I$(src)

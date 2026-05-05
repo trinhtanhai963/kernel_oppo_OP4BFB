@@ -9,3 +9,4 @@ obj-$(CONFIG_SND_SOC_NUC900_AC97) += snd-soc-nuc900-ac97.o
 snd-soc-nuc900-audio-objs := nuc900-audio.o
 
 obj-$(CONFIG_SND_SOC_NUC900EVB) += snd-soc-nuc900-audio.o
+ccflags-y += -I$(src)

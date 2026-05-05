@@ -17,3 +17,4 @@ ccflags-y += -I$(srctree)/drivers/staging/android/ion
 
 obj-y += mlog.o
 mlog-y := mlog_dump.o mlog_logger.o
+ccflags-y += -I$(src)

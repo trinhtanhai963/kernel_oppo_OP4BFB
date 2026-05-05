@@ -11,3 +11,4 @@ include ../lib.mk
 
 clean:
 	rm -f $(test_objs)
+ccflags-y += -I$(src)

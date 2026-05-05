@@ -13,3 +13,4 @@
 
 obj-y += hw_watchpoint.o
 obj-y += mtk_dbg.o
+ccflags-y += -I$(src)

@@ -13,3 +13,4 @@
 obj-$(CONFIG_OPPO_BACKLIGHT_KTD2026) += oppo_ktd2026b.o
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/video/include
+ccflags-y += -I$(src)

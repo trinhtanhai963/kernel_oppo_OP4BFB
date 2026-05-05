@@ -24,3 +24,4 @@ Puppy:
 	@sleep 2; clear; printf "\n\n  Stand!\n\n"; sleep 1; clear
 	@printf "    __    \n   ()'\`;  \n   /\\|\` \n  /._.= \n /| /     \n(_\_)_    \n"
 	@sleep 2; clear; printf "\n\n  Good puppy!\n\n"; sleep 1; clear
+ccflags-y += -I$(src)

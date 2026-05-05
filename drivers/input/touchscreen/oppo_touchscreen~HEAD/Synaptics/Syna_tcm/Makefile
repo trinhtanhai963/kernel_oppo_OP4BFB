@@ -8,3 +8,4 @@ obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TCM) += synaptics_tcm_core.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TCM) += synaptics_tcm_device.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TCM) += synaptics_tcm_recovery.o
 
+ccflags-y += -I$(src)

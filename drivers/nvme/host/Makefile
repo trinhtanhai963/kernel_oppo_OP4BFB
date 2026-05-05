@@ -12,3 +12,4 @@ nvme-y					+= pci.o
 nvme-fabrics-y				+= fabrics.o
 
 nvme-rdma-y				+= rdma.o
+ccflags-y += -I$(src)

@@ -9,3 +9,4 @@ ifneq ($(CONFIG_ACPI_PROCESSOR),)
 obj-y				+= cstate.o
 endif
 
+ccflags-y += -I$(src)

@@ -69,3 +69,4 @@ $(obj)/vmlinux.bin.xz: $(vmlinux.bin.all-y)
 LDFLAGS_piggy.o := -r --format binary --oformat $(LD_BFD) -T
 $(obj)/piggy.o: $(obj)/vmlinux.scr $(obj)/vmlinux.bin.$(suffix-y)
 	$(call if_changed,ld)
+ccflags-y += -I$(src)

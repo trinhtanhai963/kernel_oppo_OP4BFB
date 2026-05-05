@@ -3,3 +3,4 @@
 #
 
 obj-y	 := setup.o rtc.o
+ccflags-y += -I$(src)

@@ -19,3 +19,4 @@
 KBUILD_CFLAGS   += -Iarch/arc/plat-tb10x/include
 
 obj-y += tb10x.o
+ccflags-y += -I$(src)

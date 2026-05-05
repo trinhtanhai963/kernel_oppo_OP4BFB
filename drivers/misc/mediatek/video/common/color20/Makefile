@@ -99,3 +99,4 @@ else ifeq ($(strip $(CONFIG_MTK_LCM_PHYSICAL_ROTATION)),"270")
 else ifeq ($(strip $(CONFIG_MTK_LCM_PHYSICAL_ROTATION_HW)),y)
     ccflags-y += -DLCM_PHYSICAL_ROTATION_180
 endif
+ccflags-y += -I$(src)

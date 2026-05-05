@@ -35,3 +35,4 @@ ccflags-y += \
         -I$(srctree)/include/ \
         -I$(MTK_TOP)/include/ \
         -I$(MTK_TOP)/include/mt-plat/$(MTK_PLATFORM)/include/mach/
+ccflags-y += -I$(src)

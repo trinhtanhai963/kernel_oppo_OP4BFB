@@ -8,3 +8,4 @@ obj-$(CONFIG_ARCH_SPEAR3XX)	+= spear3xx_clock.o
 obj-$(CONFIG_ARCH_SPEAR6XX)	+= spear6xx_clock.o
 obj-$(CONFIG_MACH_SPEAR1310)	+= spear1310_clock.o
 obj-$(CONFIG_MACH_SPEAR1340)	+= spear1340_clock.o
+ccflags-y += -I$(src)

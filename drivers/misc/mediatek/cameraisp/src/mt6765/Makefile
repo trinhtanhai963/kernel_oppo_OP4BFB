@@ -34,3 +34,4 @@ obj-y += camera_isp.o
 #obj-$(CONFIG_MTK_CAMERA_ISP_WPE_SUPPORT) += camera_wpe.o
 #obj-$(CONFIG_MTK_CAMERA_ISP_EAF_SUPPORT) += camera_eaf.o
 
+ccflags-y += -I$(src)

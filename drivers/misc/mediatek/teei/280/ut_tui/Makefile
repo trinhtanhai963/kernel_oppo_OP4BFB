@@ -11,3 +11,4 @@
 # GNU General Public License for more details.
 
 obj-$(CONFIG_MICROTRUST_TUI_DRIVER) += utr_tui_main.o
+ccflags-y += -I$(src)

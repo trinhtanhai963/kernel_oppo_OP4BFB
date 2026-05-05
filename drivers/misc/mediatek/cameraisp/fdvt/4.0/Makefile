@@ -20,3 +20,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/smi/
 
 obj-y += camera_fdvt.o
 
+ccflags-y += -I$(src)

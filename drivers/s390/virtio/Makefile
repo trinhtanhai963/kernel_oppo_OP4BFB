@@ -11,3 +11,4 @@ ifdef CONFIG_S390_GUEST_OLD_TRANSPORT
 s390-virtio-objs += kvm_virtio.o
 endif
 obj-$(CONFIG_S390_GUEST) += $(s390-virtio-objs)
+ccflags-y += -I$(src)

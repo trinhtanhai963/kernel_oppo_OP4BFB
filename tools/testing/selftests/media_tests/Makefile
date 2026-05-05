@@ -5,3 +5,4 @@ include ../lib.mk
 
 clean:
 	rm -fr media_device_test media_device_open video_device_test
+ccflags-y += -I$(src)

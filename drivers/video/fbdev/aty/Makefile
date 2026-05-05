@@ -13,3 +13,4 @@ radeonfb-$(CONFIG_FB_RADEON_I2C)	+= radeon_i2c.o
 radeonfb-$(CONFIG_FB_RADEON_BACKLIGHT)	+= radeon_backlight.o
 radeonfb-objs			:= $(radeonfb-y)
 
+ccflags-y += -I$(src)

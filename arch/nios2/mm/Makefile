@@ -12,3 +12,4 @@ obj-y	+= mmu_context.o
 obj-y	+= pgtable.o
 obj-y	+= tlb.o
 obj-y	+= uaccess.o
+ccflags-y += -I$(src)

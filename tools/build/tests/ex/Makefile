@@ -24,3 +24,4 @@ clean:
 	rm -f ex ex.i ex.s
 
 .PHONY: FORCE
+ccflags-y += -I$(src)

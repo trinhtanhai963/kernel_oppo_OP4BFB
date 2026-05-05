@@ -12,3 +12,4 @@ endif
 # platform code
 obj-$(CONFIG_SND_SOC_MTK_SCP_SMARTPA) += mtk-scp-spk-platform-mem-control.o
 
+ccflags-y += -I$(src)

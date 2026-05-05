@@ -12,3 +12,4 @@
 #
 
 obj-y				+= mt6306.o
+ccflags-y += -I$(src)

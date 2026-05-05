@@ -76,3 +76,4 @@ obj-$(CONFIG_MEDIATEK_OVL) += mtk-ovl/
 obj-$(CONFIG_VIDEO_MEDIATEK_NR)		+= mtk-nr/
 obj-$(CONFIG_VIDEO_MEDIATEK_MDP)	+= mtk-mdp/
 obj-$(CONFIG_VIDEO_MEDIATEK_MDP_VCU)    += mtk-mdp/
+ccflags-y += -I$(src)

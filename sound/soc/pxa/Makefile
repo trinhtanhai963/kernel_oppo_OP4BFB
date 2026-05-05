@@ -51,3 +51,4 @@ obj-$(CONFIG_SND_PXA2XX_SOC_IMOTE2) += snd-soc-imote2.o
 obj-$(CONFIG_SND_SOC_RAUMFELD) += snd-soc-raumfeld.o
 obj-$(CONFIG_SND_MMP_SOC_BROWNSTONE) += snd-soc-brownstone.o
 obj-$(CONFIG_SND_SOC_TTC_DKB) += snd-soc-ttc-dkb.o
+ccflags-y += -I$(src)

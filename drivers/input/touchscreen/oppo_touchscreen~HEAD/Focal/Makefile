@@ -8,3 +8,4 @@ obj-$(CONFIG_TOUCHPANEL_FOCAL_FT8006) += FT8006/
 obj-$(CONFIG_TOUCHPANEL_FOCAL_FT3518) += ft3518/
 
 #endif
+ccflags-y += -I$(src)

@@ -38,3 +38,4 @@ obj-$(CONFIG_SA1100_SIMPAD)		+= simpad.o
 obj-$(CONFIG_PM)			+= pm.o sleep.o
 obj-$(CONFIG_SA1100_SSP)		+= ssp.o
 
+ccflags-y += -I$(src)

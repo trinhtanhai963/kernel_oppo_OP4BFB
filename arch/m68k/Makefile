@@ -156,3 +156,4 @@ archclean:
 
 install:
 	sh $(srctree)/arch/m68k/install.sh $(KERNELRELEASE) vmlinux.gz System.map "$(INSTALL_PATH)"
+ccflags-y += -I$(src)

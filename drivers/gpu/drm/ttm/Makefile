@@ -9,3 +9,4 @@ ttm-y := ttm_memory.o ttm_tt.o ttm_bo.o \
 ttm-$(CONFIG_AGP) += ttm_agp_backend.o
 
 obj-$(CONFIG_DRM_TTM) += ttm.o
+ccflags-y += -I$(src)

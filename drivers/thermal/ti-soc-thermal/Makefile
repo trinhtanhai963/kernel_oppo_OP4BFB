@@ -5,3 +5,4 @@ ti-soc-thermal-$(CONFIG_DRA752_THERMAL)	+= dra752-thermal-data.o
 ti-soc-thermal-$(CONFIG_OMAP3_THERMAL)	+= omap3-thermal-data.o
 ti-soc-thermal-$(CONFIG_OMAP4_THERMAL)	+= omap4-thermal-data.o
 ti-soc-thermal-$(CONFIG_OMAP5_THERMAL)	+= omap5-thermal-data.o
+ccflags-y += -I$(src)

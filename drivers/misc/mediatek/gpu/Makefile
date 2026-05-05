@@ -25,3 +25,4 @@ else ifneq ($(word 1,$(MTK_GPU_VERSION)),)
 else
     obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 endif
+ccflags-y += -I$(src)

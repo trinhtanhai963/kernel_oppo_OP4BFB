@@ -12,3 +12,4 @@
 #
 
 obj-y	+= mtk_ram_console.o
+ccflags-y += -I$(src)

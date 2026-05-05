@@ -21,3 +21,4 @@ install: default
 	/sbin/depmod -a
 
 all:	default
+ccflags-y += -I$(src)

@@ -16,3 +16,4 @@ obj-$(CONFIG_MTK_AUDIO_TUNNELING_SUPPORT) += mp3/
 obj-$(CONFIG_SND_SOC_MTK_SCP_SMARTPA) += spkprotect/
 
 
+ccflags-y += -I$(src)

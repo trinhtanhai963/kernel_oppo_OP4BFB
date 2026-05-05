@@ -17,3 +17,4 @@ xpc-$(CONFIG_IA64_SGI_UV) 	+= xpc_uv.o
 xpc-$(CONFIG_X86_64)		+= xpc_uv.o
 
 obj-$(CONFIG_SGI_XP)		+= xpnet.o
+ccflags-y += -I$(src)

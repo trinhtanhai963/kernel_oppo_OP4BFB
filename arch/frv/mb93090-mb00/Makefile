@@ -13,3 +13,4 @@ endif
 endif
 
 obj-$(CONFIG_MTD) += flash.o
+ccflags-y += -I$(src)

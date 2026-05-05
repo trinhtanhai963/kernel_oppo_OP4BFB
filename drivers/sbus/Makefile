@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_SBUSCHAR) += char/
+ccflags-y += -I$(src)

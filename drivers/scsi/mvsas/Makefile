@@ -29,3 +29,4 @@ mvsas-y +=  mv_init.o  \
            mv_sas.o   \
            mv_64xx.o  \
            mv_94xx.o
+ccflags-y += -I$(src)

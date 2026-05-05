@@ -16,3 +16,4 @@ MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
 obj-$(CONFIG_MTK_EMI) += $(MTK_PLATFORM)/
 obj-$(CONFIG_MTK_EMI_BASIC) += $(MTK_PLATFORM)/
 
+ccflags-y += -I$(src)

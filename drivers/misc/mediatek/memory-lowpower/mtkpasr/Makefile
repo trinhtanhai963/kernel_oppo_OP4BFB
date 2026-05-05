@@ -10,3 +10,4 @@ ccflags-$(CONFIG_MACH_MT6799) += -DMTK_PASR_VCORE_DVFS_CONTROL
 ccflags-$(CONFIG_MACH_MT6763) += -DMTK_PASR_VCORE_DVFS_CONTROL
 ccflags-$(CONFIG_MACH_MT6758) += -DMTK_PASR_VCORE_DVFS_CONTROL
 obj-y += mtkpasr_drv.o mtkpasr_hw.o
+ccflags-y += -I$(src)

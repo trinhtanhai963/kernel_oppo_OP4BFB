@@ -10,3 +10,4 @@ endif
 
 obj-$(CONFIG_DISCONTIGMEM)	+= discontig.o
 
+ccflags-y += -I$(src)

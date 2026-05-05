@@ -15,3 +15,4 @@ vt6655_stage-y +=	device_main.o \
 	rf.o
 
 obj-$(CONFIG_VT6655) +=	vt6655_stage.o
+ccflags-y += -I$(src)

@@ -21,3 +21,4 @@ snd-soc-db1200-objs := db1200.o
 
 obj-$(CONFIG_SND_SOC_DB1000) += snd-soc-db1000.o
 obj-$(CONFIG_SND_SOC_DB1200) += snd-soc-db1200.o
+ccflags-y += -I$(src)

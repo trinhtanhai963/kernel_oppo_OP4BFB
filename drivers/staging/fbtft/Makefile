@@ -38,3 +38,4 @@ obj-$(CONFIG_FB_FLEX)            += flexfb.o
 
 # Device modules
 obj-$(CONFIG_FB_TFT_FBTFT_DEVICE) += fbtft_device.o
+ccflags-y += -I$(src)

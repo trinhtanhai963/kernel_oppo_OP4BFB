@@ -26,3 +26,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/$(MTK_PLATFORM)/
 # a tracker for performance index
 obj-$(CONFIG_MTK_PERF_TRACKER) += perf_tracker.o
 
+ccflags-y += -I$(src)

@@ -46,3 +46,4 @@ ifeq ($(CONFIG_MTK_GPU_SUPPORT), y)
 ccflags-y += -DHWGPU_SUPPORT
 endif
 
+ccflags-y += -I$(src)

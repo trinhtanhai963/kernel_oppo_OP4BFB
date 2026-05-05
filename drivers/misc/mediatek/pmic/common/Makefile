@@ -13,3 +13,4 @@ obj-y += upmu_lbat_service_v2.o
 else
 obj-y += upmu_lbat_service.o
 endif
+ccflags-y += -I$(src)

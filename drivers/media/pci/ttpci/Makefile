@@ -19,3 +19,4 @@ obj-$(CONFIG_DVB_AV7110) += dvb-ttpci.o
 
 ccflags-y += -Idrivers/media/dvb-core/ -Idrivers/media/dvb-frontends/
 ccflags-y += -Idrivers/media/tuners
+ccflags-y += -I$(src)

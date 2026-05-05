@@ -12,3 +12,4 @@
 #
 obj-$(CONFIG_AW2026_SLED) += aw2026_driver.o
 
+ccflags-y += -I$(src)

@@ -74,3 +74,4 @@ pxa2xx-obj-$(CONFIG_MACH_H4700)			+= pxa2xx_hx4700.o
 obj-$(CONFIG_PCMCIA_PXA2XX)			+= pxa2xx_base.o $(pxa2xx-obj-y)
 
 obj-$(CONFIG_PCMCIA_XXS1500)			+= xxs1500_ss.o
+ccflags-y += -I$(src)

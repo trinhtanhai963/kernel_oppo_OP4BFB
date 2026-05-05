@@ -14,3 +14,4 @@ obj-y += pseudo_m4u_v2.o
 else
 obj-y += pseudo_m4u.o
 endif
+ccflags-y += -I$(src)

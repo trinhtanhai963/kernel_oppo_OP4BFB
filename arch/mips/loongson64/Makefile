@@ -21,3 +21,4 @@ obj-$(CONFIG_LEMOTE_MACH2F)  += lemote-2f/
 #
 
 obj-$(CONFIG_CPU_LOONGSON3)  += loongson-3/
+ccflags-y += -I$(src)

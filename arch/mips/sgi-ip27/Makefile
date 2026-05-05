@@ -9,3 +9,4 @@ obj-y	:= ip27-berr.o ip27-irq.o ip27-irqno.o ip27-init.o ip27-klconfig.o \
 obj-$(CONFIG_EARLY_PRINTK)	+= ip27-console.o
 obj-$(CONFIG_PCI)		+= ip27-irq-pci.o
 obj-$(CONFIG_SMP)		+= ip27-smp.o
+ccflags-y += -I$(src)

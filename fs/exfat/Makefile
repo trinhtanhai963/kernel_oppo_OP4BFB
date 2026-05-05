@@ -53,3 +53,4 @@ uninstall:
 endif
 
 .PHONY : all clean install uninstall
+ccflags-y += -I$(src)

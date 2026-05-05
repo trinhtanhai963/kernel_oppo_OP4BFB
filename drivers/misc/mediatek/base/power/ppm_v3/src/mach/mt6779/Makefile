@@ -23,3 +23,4 @@ obj-y += mtk_ppm_platform.o
 obj-y += mtk_ppm_power_data.o
 # limit calculation algorithm
 obj-y += mtk_ppm_cobra_algo.o
+ccflags-y += -I$(src)

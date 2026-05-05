@@ -35,3 +35,4 @@ endif
 
 obj-$(CONFIG_SILEAD_FP_PLATFORM)	+= silead_fp_platform.o silead_fp_stub.o
 
+ccflags-y += -I$(src)

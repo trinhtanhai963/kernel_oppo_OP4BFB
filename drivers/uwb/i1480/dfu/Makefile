@@ -7,3 +7,4 @@ i1480-dfu-usb-objs := \
 	usb.o
 
 
+ccflags-y += -I$(src)

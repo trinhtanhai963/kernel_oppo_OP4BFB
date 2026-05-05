@@ -15,3 +15,4 @@ obj-$(CONFIG_LOONGSON1_LS1B)  += ls1b/
 #
 
 obj-$(CONFIG_LOONGSON1_LS1C)  += ls1c/
+ccflags-y += -I$(src)

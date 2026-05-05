@@ -37,3 +37,4 @@ initrd:
 	(echo You must specify INITRD; exit -1)
 
 subdir- := compressed
+ccflags-y += -I$(src)

@@ -21,3 +21,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(CONFIG_MTK_PLA
 obj-y += mtk_dcm_autogen.o
 obj-y += mtk_dcm_internal.o
 
+ccflags-y += -I$(src)

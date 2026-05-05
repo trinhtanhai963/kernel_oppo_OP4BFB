@@ -10,3 +10,4 @@ snd-opl3-synth-$(CONFIG_SND_SEQUENCER_OSS) += opl3_oss.o
 obj-$(CONFIG_SND_OPL3_LIB) += snd-opl3-lib.o
 obj-$(CONFIG_SND_OPL4_LIB) += snd-opl3-lib.o
 obj-$(CONFIG_SND_OPL3_LIB_SEQ) += snd-opl3-synth.o
+ccflags-y += -I$(src)

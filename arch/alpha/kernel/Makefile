@@ -109,3 +109,4 @@ obj-$(CONFIG_ALPHA_NAUTILUS)	+= err_ev6.o
 obj-$(CONFIG_ALPHA_TITAN)	+= err_ev6.o err_titan.o
 
 endif # GENERIC
+ccflags-y += -I$(src)

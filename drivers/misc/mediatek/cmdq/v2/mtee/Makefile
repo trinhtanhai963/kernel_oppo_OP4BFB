@@ -44,3 +44,4 @@ endif
 #endif
 
 obj-y += cmdq_sec.o
+ccflags-y += -I$(src)

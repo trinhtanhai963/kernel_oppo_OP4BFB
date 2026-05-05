@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_NFP_NETVF) += nfp/
+ccflags-y += -I$(src)

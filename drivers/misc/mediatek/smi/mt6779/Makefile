@@ -16,3 +16,4 @@ obj-y += mmdvfs_plat.o
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/$(MTK_PLATFORM)/
 
+ccflags-y += -I$(src)

@@ -32,3 +32,4 @@ obj-$(CONFIG_SND_INDIGOIO) += snd-indigoio.o
 obj-$(CONFIG_SND_INDIGODJ) += snd-indigodj.o
 obj-$(CONFIG_SND_INDIGOIOX) += snd-indigoiox.o
 obj-$(CONFIG_SND_INDIGODJX) += snd-indigodjx.o
+ccflags-y += -I$(src)

@@ -26,3 +26,4 @@ $(obj)/kernel.o: arch/arm/boot/zImage FORCE
 $(obj)/initrd.o: $(INITRD) FORCE
 
 PHONY += $(INITRD)
+ccflags-y += -I$(src)

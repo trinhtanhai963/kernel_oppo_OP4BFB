@@ -54,3 +54,4 @@ obj-y +=  \
     dpi_dvt_test.o \
     dpi_dvt_platform.o \
     ddp_dpi_ext.o
+ccflags-y += -I$(src)

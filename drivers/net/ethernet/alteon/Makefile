@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_ACENIC) += acenic.o
+ccflags-y += -I$(src)

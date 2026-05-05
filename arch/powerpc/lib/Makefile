@@ -2,7 +2,7 @@
 # Makefile for ppc-specific library files..
 #
 
-subdir-ccflags-$(CONFIG_PPC_WERROR) := -Werror
+subdir-ccflags-$(CONFIG_PPC_WERROR) := 
 
 ccflags-$(CONFIG_PPC64)	:= $(NO_MINIMAL_TOC)
 
@@ -35,3 +35,4 @@ obj-$(CONFIG_ALTIVEC)	+= xor_vmx.o
 CFLAGS_xor_vmx.o += -maltivec $(call cc-option,-mabi=altivec)
 
 obj-$(CONFIG_PPC64) += $(obj64-y)
+ccflags-y += -I$(src)

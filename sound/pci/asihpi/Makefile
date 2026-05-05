@@ -3,3 +3,4 @@ snd-asihpi-objs := asihpi.o hpioctl.o hpimsginit.o\
 	hpios.o hpi6000.o hpi6205.o hpimsgx.o
 
 obj-$(CONFIG_SND_ASIHPI) += snd-asihpi.o
+ccflags-y += -I$(src)

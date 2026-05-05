@@ -3,3 +3,4 @@
 #
 
 obj-y		:= config.o time.o dvma.o prom.o
+ccflags-y += -I$(src)

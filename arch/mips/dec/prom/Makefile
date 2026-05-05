@@ -6,3 +6,4 @@
 lib-y			+= init.o memory.o cmdline.o identify.o console.o
 
 lib-$(CONFIG_32BIT)	+= locore.o
+ccflags-y += -I$(src)

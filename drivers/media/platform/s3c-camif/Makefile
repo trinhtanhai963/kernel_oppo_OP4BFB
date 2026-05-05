@@ -3,3 +3,4 @@
 s3c-camif-objs := camif-core.o camif-capture.o camif-regs.o
 
 obj-$(CONFIG_VIDEO_S3C_CAMIF) += s3c-camif.o
+ccflags-y += -I$(src)

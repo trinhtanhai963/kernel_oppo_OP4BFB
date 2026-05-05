@@ -17,3 +17,4 @@ amdkfd-y	:= kfd_module.o kfd_device.o kfd_chardev.o kfd_topology.o \
 		kfd_dbgdev.o kfd_dbgmgr.o
 
 obj-$(CONFIG_HSA_AMD)	+= amdkfd.o
+ccflags-y += -I$(src)

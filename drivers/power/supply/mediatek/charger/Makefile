@@ -12,7 +12,7 @@
 #
 
 MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/include
@@ -44,3 +44,4 @@ ifeq (yes,$(strip $(HQ_COMPILE_FACTORY_VERSION)))
   ccflags-y += -DHQ_COMPILE_FACTORY_VERSION
 endif
 #endif #ODM_HQ_EDIT
+ccflags-y += -I$(src)

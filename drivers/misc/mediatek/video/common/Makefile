@@ -113,3 +113,4 @@ endif
 ifeq ($(CONFIG_MTK_DITHERING_SUPPORT), y)
 ccflags-y += -DDITHERING_SUPPORT
 endif
+ccflags-y += -I$(src)

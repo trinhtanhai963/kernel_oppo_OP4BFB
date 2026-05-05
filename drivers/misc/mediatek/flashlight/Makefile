@@ -36,3 +36,4 @@ subdir-ccflags-y += \
 	-I$(MTK_CUSTOM_PATH)/pmic/include \
 	-I$(MTK_CUSTOM_PATH)/pmic
 
+ccflags-y += -I$(src)

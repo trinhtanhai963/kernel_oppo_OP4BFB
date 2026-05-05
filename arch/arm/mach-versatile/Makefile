@@ -3,3 +3,4 @@
 #
 
 obj-y					:= versatile_dt.o
+ccflags-y += -I$(src)

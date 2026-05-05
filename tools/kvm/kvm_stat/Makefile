@@ -39,3 +39,4 @@ install-tools:
 
 install: install-tools install-man
 .PHONY: all clean man install-tools install-man install
+ccflags-y += -I$(src)

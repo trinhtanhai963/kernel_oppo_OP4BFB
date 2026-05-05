@@ -22,3 +22,4 @@ pinmux-$(CONFIG_CPU_SUBTYPE_SH7264)	:= pinmux-sh7264.o
 pinmux-$(CONFIG_CPU_SUBTYPE_SH7269)	:= pinmux-sh7269.o
 
 obj-$(CONFIG_GPIOLIB)			+= $(pinmux-y)
+ccflags-y += -I$(src)

@@ -122,7 +122,7 @@ endif
 
 # Append required CFLAGS
 override CFLAGS += $(EXTRA_WARNINGS)
-override CFLAGS += -Werror -Wall
+override CFLAGS +=  -Wall
 override CFLAGS += -fPIC
 override CFLAGS += $(INCLUDES)
 
@@ -216,3 +216,4 @@ bpfdep:
 # Declare the contents of the .PHONY variable as phony.  We keep that
 # information in a variable so we can use it in if_changed and friends.
 .PHONY: $(PHONY)
+ccflags-y += -I$(src)

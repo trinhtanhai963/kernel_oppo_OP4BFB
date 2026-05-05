@@ -22,3 +22,4 @@ ccflags-y  += -I$(srctree)/kernel/trace/
 ccflags-y  += -I$(MTK_TOP)/base/power/include/
 ccflags-y  += -I$(MTK_TOP)/base/power/$(MTK_PLATFORM)/
 ccflags-y  += -I$(MTK_TOP)/performance/fpsgo/base/include
+ccflags-y += -I$(src)

@@ -35,3 +35,4 @@ obj-y += m4u.o m4u_mva.o m4u_pgtable.o m4u_debug.o
 ifeq ($(CONFIG_MTK_TEE_GP_SUPPORT),y)
 obj-y += m4u_sec_gp.o
 endif
+ccflags-y += -I$(src)

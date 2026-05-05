@@ -7,3 +7,4 @@ s3fwrn5_i2c-objs = i2c.o
 
 obj-$(CONFIG_NFC_S3FWRN5) += s3fwrn5.o
 obj-$(CONFIG_NFC_S3FWRN5_I2C) += s3fwrn5_i2c.o
+ccflags-y += -I$(src)

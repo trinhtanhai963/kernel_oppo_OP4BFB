@@ -3,3 +3,4 @@
 #
 
 obj-y					+= eth.o
+ccflags-y += -I$(src)

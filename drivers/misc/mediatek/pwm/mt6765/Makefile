@@ -7,3 +7,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/pwm/$(PWM_PLAT_NAME)/include
 endif
 
 obj-$(CONFIG_MTK_PWM)	:= mtk_pwm_hal.o
+ccflags-y += -I$(src)

@@ -4,3 +4,4 @@
 #
 
 obj-$(CONFIG_SND) += vx/ pdaudiocf/
+ccflags-y += -I$(src)

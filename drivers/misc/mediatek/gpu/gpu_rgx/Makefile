@@ -22,3 +22,4 @@ else ifeq ($(word 2,$(MTK_GPU_VERSION)),clark)
 	obj-y += m1.10ED5130912/
 endif
 
+ccflags-y += -I$(src)

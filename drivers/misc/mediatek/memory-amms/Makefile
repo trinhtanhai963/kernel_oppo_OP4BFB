@@ -12,3 +12,4 @@
 #
 
 obj-y += memory-amms.o
+ccflags-y += -I$(src)

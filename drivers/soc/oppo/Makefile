@@ -23,3 +23,4 @@ endif
 #* wen.luo@PSW.BSP.kernel, 2019/6/25, Add for parsar powoff/powon */
 obj-y     +=  oppo_lastpmic/
 #endif /* VENDOR_EDIT */
+ccflags-y += -I$(src)

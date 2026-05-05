@@ -13,3 +13,4 @@
 
 obj-y += cpu_loading.o
 
+ccflags-y += -I$(src)

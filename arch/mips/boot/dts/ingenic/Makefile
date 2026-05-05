@@ -8,3 +8,4 @@ obj-				+= dummy.o
 
 always				:= $(dtb-y)
 clean-files			:= *.dtb *.dtb.S
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@
 #
 
 obj-$(CONFIG_ET131X) += et131x.o
+ccflags-y += -I$(src)

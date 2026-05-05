@@ -3,3 +3,4 @@
 #
 
 lib-$(CONFIG_FW_SNIPROM)	+= sniprom.o
+ccflags-y += -I$(src)

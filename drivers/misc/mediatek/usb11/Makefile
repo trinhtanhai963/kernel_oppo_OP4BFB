@@ -10,3 +10,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/usb11
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/usb11/$(CONFIG_MTK_PLATFORM)/
 ccflags-y += -I$(srctree)/include/linux/
 
+ccflags-y += -I$(src)

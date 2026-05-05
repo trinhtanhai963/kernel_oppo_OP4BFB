@@ -10,3 +10,4 @@ obj-y += switch_to.o entry.o vectors.o c6x_ksyms.o
 obj-y += soc.o dma.o
 
 obj-$(CONFIG_MODULES)           += module.o
+ccflags-y += -I$(src)

@@ -3,3 +3,4 @@
 #
 
 obj-y += irq.o reset.o
+ccflags-y += -I$(src)

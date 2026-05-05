@@ -4,3 +4,4 @@
 
 obj-y += LC898212XDAF_F.o LC89821x_STMV.o
 
+ccflags-y += -I$(src)

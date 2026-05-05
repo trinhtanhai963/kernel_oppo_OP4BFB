@@ -27,3 +27,4 @@ endef
 
 clean:
 	for DIR in $(SUBDIRS); do $(MAKE) -C $$DIR $@ ; done
+ccflags-y += -I$(src)

@@ -151,3 +151,4 @@ checkbin:
 		echo "the kernel." ; \
 		false ; \
 	fi
+ccflags-y += -I$(src)

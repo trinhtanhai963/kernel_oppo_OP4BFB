@@ -11,3 +11,4 @@ img-ir-$(CONFIG_IR_IMG_RC6)	+= img-ir-rc6.o
 img-ir-objs			:= $(img-ir-y)
 
 obj-$(CONFIG_IR_IMG)		+= img-ir.o
+ccflags-y += -I$(src)

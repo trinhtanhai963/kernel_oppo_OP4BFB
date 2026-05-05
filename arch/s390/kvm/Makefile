@@ -15,3 +15,4 @@ kvm-objs := $(common-objs) kvm-s390.o intercept.o interrupt.o priv.o sigp.o
 kvm-objs += diag.o gaccess.o guestdbg.o sthyi.o vsie.o
 
 obj-$(CONFIG_KVM) += kvm.o
+ccflags-y += -I$(src)

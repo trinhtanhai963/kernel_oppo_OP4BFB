@@ -25,3 +25,4 @@ include ../lib.mk
 
 clean:
 	rm -rf $(BINARIES) $(DEPS) subdir.moved execveat.moved xxxxx*
+ccflags-y += -I$(src)

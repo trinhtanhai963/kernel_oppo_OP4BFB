@@ -8,3 +8,4 @@ snd-cs5535audio-$(CONFIG_OLPC) += cs5535audio_olpc.o
 
 # Toplevel Module Dependency
 obj-$(CONFIG_SND_CS5535AUDIO) += snd-cs5535audio.o
+ccflags-y += -I$(src)

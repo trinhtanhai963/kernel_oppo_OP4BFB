@@ -19,3 +19,4 @@ obj-y += hx83112b_fhdp_dsi_cmd_auo_rt4801.o
 
 ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
 
+ccflags-y += -I$(src)

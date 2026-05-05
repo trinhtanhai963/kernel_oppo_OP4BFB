@@ -19,3 +19,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/scp/$(CONFIG_MTK_PLATFORM)
 endif
 
 obj-y += audio_ipi_platform.o
+ccflags-y += -I$(src)

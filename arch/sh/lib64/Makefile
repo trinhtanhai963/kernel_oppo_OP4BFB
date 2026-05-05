@@ -15,3 +15,4 @@ lib-y  := udelay.o panic.o memcpy.o memset.o \
 
 # Extracted from libgcc
 lib-y	+= udivsi3.o udivdi3.o sdivsi3.o
+ccflags-y += -I$(src)

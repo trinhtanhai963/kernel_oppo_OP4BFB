@@ -4,3 +4,4 @@
 #
 obj-$(CONFIG_MACH_PIC32) += common/
 obj-$(CONFIG_PIC32MZDA) += pic32mzda/
+ccflags-y += -I$(src)

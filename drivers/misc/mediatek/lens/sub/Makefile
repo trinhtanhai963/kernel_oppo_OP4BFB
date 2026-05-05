@@ -54,3 +54,4 @@ obj-y  += common/wv511aaf/
 obj-y  += common/ak7371af/
 
 endif
+ccflags-y += -I$(src)

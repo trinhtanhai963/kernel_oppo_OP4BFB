@@ -13,3 +13,4 @@
 
 obj-y += gc02m1b_cxt_mipi_Sensor.o
 
+ccflags-y += -I$(src)

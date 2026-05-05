@@ -25,3 +25,4 @@ obj-$(CONFIG_SPU_BASE)			+= spu_callbacks.o spu_base.o \
 					   spufs/
 
 obj-$(CONFIG_AXON_MSI)			+= axon_msi.o
+ccflags-y += -I$(src)

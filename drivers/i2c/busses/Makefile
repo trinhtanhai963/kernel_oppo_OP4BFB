@@ -128,3 +128,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat
 ccflags-y += -I$(srctree)/drivers/pinctrl/mediatek/
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/scp/$(CONFIG_MTK_PLATFORM)/
 ccflags-$(CONFIG_MACH_MT6761) += -I$(srctree)/drivers/misc/mediatek/scp/mt6765
+ccflags-y += -I$(src)

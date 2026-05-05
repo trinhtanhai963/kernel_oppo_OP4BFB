@@ -18,3 +18,4 @@ mc-bus-driver-objs := fsl-mc-bus.o \
 		      irq-gic-v3-its-fsl-mc-msi.o \
 		      dpmcp.o \
 		      dpbp.o
+ccflags-y += -I$(src)

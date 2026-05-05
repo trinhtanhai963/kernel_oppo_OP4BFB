@@ -18,3 +18,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/qos/$(MTK_PLATFORM)/
 
 obj-y += mtk_qos_main.o mtk_qos_bound.o mtk_qos_sram.o mtk_qos_ipi.o mtk_qos_sysfs.o
 # obj-y += $(MTK_PLATFORM)/
+ccflags-y += -I$(src)

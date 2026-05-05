@@ -9,3 +9,4 @@ snd-opl4-synth-objs := opl4_seq.o opl4_synth.o yrw801.o
 
 obj-$(CONFIG_SND_OPL4_LIB) += snd-opl4-lib.o
 obj-$(CONFIG_SND_OPL4_LIB_SEQ) += snd-opl4-synth.o
+ccflags-y += -I$(src)

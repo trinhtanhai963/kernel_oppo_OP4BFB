@@ -16,3 +16,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/scp/$(CONFIG_MTK_PLATFORM)
 endif
 
 obj-y += vow_hw.o
+ccflags-y += -I$(src)

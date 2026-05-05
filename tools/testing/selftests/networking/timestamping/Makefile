@@ -6,3 +6,4 @@ include ../../lib.mk
 
 clean:
 	rm -fr $(TEST_PROGS)
+ccflags-y += -I$(src)

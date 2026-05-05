@@ -30,3 +30,4 @@ else
 # dummy driver to avoid build error
 obj-y := mtk_swpm_dummy.o
 endif
+ccflags-y += -I$(src)

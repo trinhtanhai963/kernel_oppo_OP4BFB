@@ -3,3 +3,4 @@
 # Each configuration option enables a list of files.
 
 obj-$(CONFIG_ISDN_DRV_LOOP)	+= isdnloop.o
+ccflags-y += -I$(src)

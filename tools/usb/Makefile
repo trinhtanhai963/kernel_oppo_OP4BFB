@@ -12,3 +12,4 @@ all: testusb ffs-test
 
 clean:
 	$(RM) testusb ffs-test
+ccflags-y += -I$(src)

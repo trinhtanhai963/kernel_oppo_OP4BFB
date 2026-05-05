@@ -5,3 +5,4 @@ dtb-$(CONFIG_ARCH_VULCAN) += vulcan-eval.dtb
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
 clean-files	:= *.dtb
+ccflags-y += -I$(src)

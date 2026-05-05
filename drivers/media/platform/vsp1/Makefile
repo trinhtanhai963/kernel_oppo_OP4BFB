@@ -6,3 +6,4 @@ vsp1-y					+= vsp1_bru.o vsp1_sru.o vsp1_uds.o
 vsp1-y					+= vsp1_lif.o
 
 obj-$(CONFIG_VIDEO_RENESAS_VSP1)	+= vsp1.o
+ccflags-y += -I$(src)

@@ -11,3 +11,4 @@ ifeq ($(avx2_supported),yes)
 	sha1-mb-y := sha1_mb.o sha1_mb_mgr_flush_avx2.o \
 	     sha1_mb_mgr_init_avx2.o sha1_mb_mgr_submit_avx2.o sha1_x8_avx2.o
 endif
+ccflags-y += -I$(src)

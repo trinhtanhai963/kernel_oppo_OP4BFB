@@ -29,3 +29,4 @@ umc-objs :=		\
 	umc-bus.o	\
 	umc-dev.o	\
 	umc-drv.o
+ccflags-y += -I$(src)

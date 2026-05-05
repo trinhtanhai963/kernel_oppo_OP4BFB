@@ -19,3 +19,4 @@ quiet_cmd_eisaid = GEN     $@
 clean-files := devlist.h
 $(obj)/devlist.h: $(src)/eisa.ids include/linux/device.h
 	$(call cmd,eisaid)
+ccflags-y += -I$(src)

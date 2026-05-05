@@ -28,3 +28,4 @@ obj-$(CONFIG_MACH_MT6763) += mtk_dcm.o
 obj-$(CONFIG_MACH_MT6799) += mtk_dcm.o
 obj-$(CONFIG_MACH_MT6765) += mtk_dcm.o
 obj-$(CONFIG_MACH_MT6779) += mtk_dcm.o
+ccflags-y += -I$(src)

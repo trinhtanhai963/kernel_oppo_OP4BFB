@@ -16,3 +16,4 @@ include ../../lib.mk
 
 clean:
 	rm -f $(TEST_PROGS) *.o check-reversed.S
+ccflags-y += -I$(src)

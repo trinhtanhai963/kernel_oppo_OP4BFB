@@ -13,3 +13,4 @@ obj-y += light/
 obj-y += meter/
 obj-y += resolver/
 obj-y += trigger/
+ccflags-y += -I$(src)

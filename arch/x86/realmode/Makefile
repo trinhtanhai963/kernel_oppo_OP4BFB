@@ -18,3 +18,4 @@ $(obj)/rmpiggy.o: $(obj)/rm/realmode.bin
 
 $(obj)/rm/realmode.bin: FORCE
 	$(Q)$(MAKE) $(build)=$(obj)/rm $@
+ccflags-y += -I$(src)

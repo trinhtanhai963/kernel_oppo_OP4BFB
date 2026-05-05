@@ -8,3 +8,4 @@ ifeq ($(CONFIG_VIDEO_VIVID_CEC),y)
 endif
 
 obj-$(CONFIG_VIDEO_VIVID) += vivid.o
+ccflags-y += -I$(src)

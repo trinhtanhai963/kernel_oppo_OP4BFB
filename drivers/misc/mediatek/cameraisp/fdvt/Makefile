@@ -32,3 +32,4 @@ endif
 
 #$(info FDVT: makefile end)
 
+ccflags-y += -I$(src)

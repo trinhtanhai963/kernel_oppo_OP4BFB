@@ -23,3 +23,4 @@ wusb-wa-y :=		\
 	wa-nep.o	\
 	wa-rpipe.o	\
 	wa-xfer.o
+ccflags-y += -I$(src)

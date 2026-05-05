@@ -26,3 +26,4 @@ obj-$(CONFIG_SND_SSCAPE) += snd-sscape.o
 
 obj-$(CONFIG_SND) += ad1816a/ ad1848/ cs423x/ es1688/ galaxy/ gus/ msnd/ opti9xx/ \
 		     sb/ wavefront/ wss/
+ccflags-y += -I$(src)

@@ -29,3 +29,4 @@ obj-$(CONFIG_SUSPEND) += pm.o
 # Big Memory (SWIOTLB) Support
 #
 obj-$(CONFIG_SWIOTLB) += dma-swiotlb.o
+ccflags-y += -I$(src)

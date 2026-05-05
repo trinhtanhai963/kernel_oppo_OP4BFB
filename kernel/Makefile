@@ -2,7 +2,7 @@
 # Makefile for the linux kernel.
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/mtprof
@@ -147,3 +147,4 @@ $(obj)/config_data.h: $(obj)/config_data.gz FORCE
 #Liang.Zhang@PSW.TECH.BOOTUP, 2018/11/16, Add for panic recovery
 #ifdef HANG_OPPO_ALL
 obj-$(CONFIG_HANG_OPPO_ALL) += op_panic_recovery.o
+ccflags-y += -I$(src)

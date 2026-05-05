@@ -16,3 +16,4 @@ obj-y				+= setup.o bte.o bte_error.o irq.o mca.o idle.o \
 obj-$(CONFIG_IA64_GENERIC)      += machvec.o
 obj-$(CONFIG_SGI_TIOCX)		+= tiocx.o
 obj-$(CONFIG_PCI_MSI)		+= msi_sn.o
+ccflags-y += -I$(src)

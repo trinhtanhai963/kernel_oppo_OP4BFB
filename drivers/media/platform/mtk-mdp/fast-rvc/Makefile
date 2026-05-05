@@ -7,3 +7,4 @@ ccflags-y += \
     -I$(srctree)/drivers/misc/mediatek/cmdq/mt2701 \
     -I$(srctree)/drivers/misc/mediatek/include \
     -I$(srctree)/include/soc/mediatek
+ccflags-y += -I$(src)

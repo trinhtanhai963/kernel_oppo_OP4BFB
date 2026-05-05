@@ -25,3 +25,4 @@ acpidbg_uninstall acpidump_uninstall ec_uninstall:
 	$(call descend,tools/$(@:_uninstall=),uninstall)
 
 .PHONY: FORCE
+ccflags-y += -I$(src)

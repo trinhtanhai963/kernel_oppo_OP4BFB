@@ -80,3 +80,4 @@ msm-$(CONFIG_DRM_MSM_DSI_28NM_8960_PHY) += dsi/pll/dsi_pll_28nm_8960.o
 endif
 
 obj-$(CONFIG_DRM_MSM)	+= msm.o
+ccflags-y += -I$(src)

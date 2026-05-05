@@ -32,3 +32,4 @@ r8712u-y :=				\
 
 obj-$(CONFIG_R8712U)	:= r8712u.o
 
+ccflags-y += -I$(src)

@@ -19,3 +19,4 @@ lib-y			+= tbitimer.o
 
 lib-$(CONFIG_METAG_DSP)	+= tbidspram.o
 lib-$(CONFIG_METAG_FPU)	+= tbictxfpu.o
+ccflags-y += -I$(src)

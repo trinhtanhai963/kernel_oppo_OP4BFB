@@ -10,3 +10,4 @@ obj-$(CONFIG_TCG_TIS_ST33ZP24_I2C) += tpm_st33zp24_i2c.o
 
 tpm_st33zp24_spi-objs = spi.o
 obj-$(CONFIG_TCG_TIS_ST33ZP24_SPI) += tpm_st33zp24_spi.o
+ccflags-y += -I$(src)

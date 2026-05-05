@@ -32,3 +32,4 @@ ifeq ($(CONFIG_MACH_MT6779),y)
   obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 #  obj-y += fdvt/
 endif
+ccflags-y += -I$(src)

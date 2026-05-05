@@ -53,6 +53,7 @@
 #include <uapi/linux/if_bonding.h>
 #include <uapi/linux/pkt_cls.h>
 #include <linux/hashtable.h>
+#include <linux/stacktrace.h>
 
 struct netpoll_info;
 struct device;
@@ -3393,9 +3394,8 @@ void netdev_run_todo(void);
  *
  * Release reference to device to allow it to be freed.
  */
-#define REFCNT_DEBUG 1
-#define REFCNT_MEMORY_DEBUG 1
-#if defined (REFCNT_DEBUG) && defined (REFCNT_MEMORY_DEBUG)
+// #define REFCNT_DEBUG 1
+// #define REFCNT_MEMORY_DEBUG 1
 #include <linux/stacktrace.h>
 
 #define MAX_TRACE_DEPTH 10
@@ -3414,8 +3414,6 @@ struct refcnt_trace {
 
 extern struct refcnt_trace trace_array[MAX_TRACE_LEN];
 extern unsigned int trace_idx;
-
-#endif
 
 static inline void dev_put(struct net_device *dev)
 {

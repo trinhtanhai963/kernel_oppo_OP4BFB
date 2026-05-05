@@ -27,3 +27,4 @@ else
 obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 endif
 
+ccflags-y += -I$(src)

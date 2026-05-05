@@ -23,3 +23,4 @@ bridge-$(CONFIG_BRIDGE_VLAN_FILTERING) += br_vlan.o
 bridge-$(CONFIG_NET_SWITCHDEV) += br_switchdev.o
 
 obj-$(CONFIG_NETFILTER) += netfilter/
+ccflags-y += -I$(src)

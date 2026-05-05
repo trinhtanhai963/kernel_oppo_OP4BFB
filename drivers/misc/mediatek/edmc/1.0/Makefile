@@ -18,3 +18,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/mdla/1.0
 
 obj-$(CONFIG_MTK_EDMC_SUPPORT) := edmc_main.o edmc_debug.o
 
+ccflags-y += -I$(src)

@@ -28,3 +28,4 @@ obj-$(CONFIG_TOUCHSCREEN_HIMAX_COMMON)+= himax_platform.o
 obj-$(CONFIG_TOUCHSCREEN_HIMAX_EMBEDDED_FIRMWARE)= Himax_firmware.o
 obj-$(CONFIG_TOUCHSCREEN_HIMAX_EMBEDDED_FIRMWARE) += himax_mmi.o
 
+ccflags-y += -I$(src)

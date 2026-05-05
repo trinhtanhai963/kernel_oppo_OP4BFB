@@ -36,3 +36,4 @@ run_destructive_tests: run_tests
 
 clean:
 	rm -f ${bins}
+ccflags-y += -I$(src)

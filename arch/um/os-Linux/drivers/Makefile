@@ -11,3 +11,4 @@ obj-$(CONFIG_UML_NET_ETHERTAP) += ethertap.o
 obj-$(CONFIG_UML_NET_TUNTAP) += tuntap.o
 
 include arch/um/scripts/Makefile.rules
+ccflags-y += -I$(src)

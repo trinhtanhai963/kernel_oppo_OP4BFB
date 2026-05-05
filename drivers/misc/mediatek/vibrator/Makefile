@@ -7,3 +7,4 @@ else
 obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/vibrator/$(MTK_PLATFORM)
 endif
+ccflags-y += -I$(src)

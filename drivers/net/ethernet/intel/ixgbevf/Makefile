@@ -36,3 +36,4 @@ ixgbevf-objs := vf.o \
                 ethtool.o \
                 ixgbevf_main.o
 
+ccflags-y += -I$(src)

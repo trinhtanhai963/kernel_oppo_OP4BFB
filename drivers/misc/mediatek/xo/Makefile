@@ -15,3 +15,4 @@
 
 obj-$(CONFIG_MTK_XO) := xo.o
 
+ccflags-y += -I$(src)

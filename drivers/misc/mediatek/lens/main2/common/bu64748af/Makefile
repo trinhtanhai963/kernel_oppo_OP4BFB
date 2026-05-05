@@ -5,3 +5,4 @@
 obj-y += bu64748_function.o bu64748af.o
 
 
+ccflags-y += -I$(src)

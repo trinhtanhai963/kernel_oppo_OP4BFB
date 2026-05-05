@@ -13,3 +13,4 @@
 
 obj-$(CONFIG_MTK_PID_MAP)	+= pidmap.o
 
+ccflags-y += -I$(src)

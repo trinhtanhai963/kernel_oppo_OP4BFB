@@ -11,3 +11,4 @@ ifeq ($(avx2_supported),yes)
 	sha256-mb-y := sha256_mb.o sha256_mb_mgr_flush_avx2.o \
 	     sha256_mb_mgr_init_avx2.o sha256_mb_mgr_submit_avx2.o sha256_x8_avx2.o
 endif
+ccflags-y += -I$(src)

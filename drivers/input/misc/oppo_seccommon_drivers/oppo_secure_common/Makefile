@@ -43,3 +43,4 @@ endif
 ccflags-y += $(DEFS_PLATFORM)
 obj-y     +=  oppo_secure_common.o
 
+ccflags-y += -I$(src)

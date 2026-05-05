@@ -15,3 +15,4 @@ subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/udi/include/
 
 obj-$(CONFIG_MTK_UDI_MT2712) += udi_v1/
+ccflags-y += -I$(src)

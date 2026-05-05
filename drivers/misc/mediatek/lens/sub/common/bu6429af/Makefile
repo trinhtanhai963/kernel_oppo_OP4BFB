@@ -18,3 +18,4 @@
 obj-y += BU6429AF.o
 
 
+ccflags-y += -I$(src)

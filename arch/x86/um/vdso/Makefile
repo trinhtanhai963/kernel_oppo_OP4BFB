@@ -91,3 +91,4 @@ $(vdso-install-y): %.so: $(obj)/%.so.dbg FORCE
 
 PHONY += vdso_install $(vdso-install-y)
 vdso_install: $(vdso-install-y)
+ccflags-y += -I$(src)

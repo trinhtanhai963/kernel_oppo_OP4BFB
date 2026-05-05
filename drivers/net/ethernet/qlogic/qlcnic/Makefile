@@ -13,3 +13,4 @@ qlcnic-y := qlcnic_hw.o qlcnic_main.o qlcnic_init.o \
 qlcnic-$(CONFIG_QLCNIC_SRIOV) += qlcnic_sriov_pf.o
 
 qlcnic-$(CONFIG_QLCNIC_DCB) += qlcnic_dcb.o
+ccflags-y += -I$(src)

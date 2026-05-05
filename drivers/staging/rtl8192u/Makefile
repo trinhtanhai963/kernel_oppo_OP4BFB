@@ -27,3 +27,4 @@ r8192u_usb-y := r8192U_core.o r8180_93cx6.o r8192U_wx.o		\
 		  ieee80211/dot11d.o
 
 obj-$(CONFIG_RTL8192U) += r8192u_usb.o
+ccflags-y += -I$(src)

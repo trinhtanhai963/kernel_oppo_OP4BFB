@@ -27,3 +27,4 @@ endif
 ccflags-y += -DMET_USER_EVENT_SUPPORT
 
 obj-y += cmdq_mdp.o
+ccflags-y += -I$(src)

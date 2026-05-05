@@ -69,3 +69,4 @@ $(obj)/uImage: $(obj)/uImage.$(suffix-y)
 
 install:
 	sh $(srctree)/$(src)/install.sh $(KERNELRELEASE) $(BOOTIMAGE) System.map "$(INSTALL_PATH)"
+ccflags-y += -I$(src)

@@ -19,3 +19,4 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/include/srclken_rc_v1
 obj-y += mtk_srclken_rc.o
 obj-y += $(subst ",,$(CONFIG_MTK_PLATFORM))/
 
+ccflags-y += -I$(src)

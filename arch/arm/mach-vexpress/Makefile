@@ -17,3 +17,4 @@ obj-$(CONFIG_SMP)			+= platsmp.o
 obj-$(CONFIG_HOTPLUG_CPU)		+= hotplug.o
 
 obj-$(CONFIG_ARCH_MPS2)			+= v2m-mps2.o
+ccflags-y += -I$(src)

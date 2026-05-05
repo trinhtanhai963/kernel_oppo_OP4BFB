@@ -10,3 +10,4 @@ endif
 
 # platform code
 obj-$(CONFIG_MTK_VOW_BARGE_IN_SUPPORT) += mtk-scp-vow-platform.o
+ccflags-y += -I$(src)

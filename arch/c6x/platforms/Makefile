@@ -10,3 +10,4 @@ obj-y += dscr.o
 # SoC objects
 obj-$(CONFIG_SOC_TMS320C6455)   += emif.o
 obj-$(CONFIG_SOC_TMS320C6457)   += emif.o
+ccflags-y += -I$(src)

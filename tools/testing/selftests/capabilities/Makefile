@@ -13,3 +13,4 @@ clean:
 
 include ../lib.mk
 
+ccflags-y += -I$(src)

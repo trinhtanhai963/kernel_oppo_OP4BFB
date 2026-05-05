@@ -14,3 +14,4 @@
 obj-y += imx386mipi_sensor.o
 
 
+ccflags-y += -I$(src)

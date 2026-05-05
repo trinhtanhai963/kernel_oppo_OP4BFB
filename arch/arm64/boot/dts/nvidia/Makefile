@@ -6,3 +6,4 @@ dtb-$(CONFIG_ARCH_TEGRA_210_SOC) += tegra210-smaug.dtb
 
 always		:= $(dtb-y)
 clean-files	:= *.dtb
+ccflags-y += -I$(src)

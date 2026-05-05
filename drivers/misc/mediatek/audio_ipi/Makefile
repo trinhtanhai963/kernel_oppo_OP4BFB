@@ -25,3 +25,4 @@ else
 obj-y += audio_ipi_dummy.o
 endif
 
+ccflags-y += -I$(src)

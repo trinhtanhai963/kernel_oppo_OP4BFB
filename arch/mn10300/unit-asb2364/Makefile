@@ -10,3 +10,4 @@
 obj-y   := unit-init.o leds.o irq-fpga.o
 
 obj-$(CONFIG_SMSC911X) += smsc911x.o
+ccflags-y += -I$(src)

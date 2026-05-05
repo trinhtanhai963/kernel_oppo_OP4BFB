@@ -3,3 +3,4 @@
 #
 
 obj-y		:= irq.o jazzdma.o reset.o setup.o
+ccflags-y += -I$(src)

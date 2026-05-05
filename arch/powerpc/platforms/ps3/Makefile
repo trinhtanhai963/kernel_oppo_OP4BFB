@@ -6,3 +6,4 @@ obj-$(CONFIG_PS3GELIC_UDBG) += gelic_udbg.o
 obj-$(CONFIG_SMP) += smp.o
 obj-$(CONFIG_SPU_BASE) += spu.o
 obj-y += device-init.o
+ccflags-y += -I$(src)

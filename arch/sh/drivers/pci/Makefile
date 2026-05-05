@@ -26,3 +26,4 @@ obj-$(CONFIG_SH_TITAN)			+= fixups-titan.o
 obj-$(CONFIG_SH_LANDISK)		+= fixups-landisk.o
 obj-$(CONFIG_SH_LBOX_RE2)		+= fixups-rts7751r2d.o
 obj-$(CONFIG_SH_CAYMAN)			+= fixups-cayman.o
+ccflags-y += -I$(src)

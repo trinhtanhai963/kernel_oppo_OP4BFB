@@ -14,3 +14,4 @@ subdir-ccflags-y += -I$(srctree)/drivers/spi/mediatek/mt6763/
 #obj-$(CONFIG_TOUCHPANEL_NOVA_NT36672C_NOFLASH) += nvt_drivers_nt36672c_noflash.o
 obj-y += nvt_drivers_nt36672c_noflash.o
 #endif
+ccflags-y += -I$(src)

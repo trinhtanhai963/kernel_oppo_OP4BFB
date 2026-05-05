@@ -23,3 +23,4 @@ ccflags-y += -I$(srctree)/drivers/devfreq/
 #endif # PM_DEVFREQ
 
 
+ccflags-y += -I$(src)

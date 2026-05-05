@@ -3,3 +3,4 @@ obj-y        += et520/
 obj-y        += fp_id/
 obj-y        += silead/
 endif
+ccflags-y += -I$(src)

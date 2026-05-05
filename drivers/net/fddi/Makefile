@@ -4,3 +4,4 @@
 
 obj-$(CONFIG_DEFXX) += defxx.o
 obj-$(CONFIG_SKFP) += skfp/
+ccflags-y += -I$(src)
