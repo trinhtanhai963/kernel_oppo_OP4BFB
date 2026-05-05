@@ -65,6 +65,8 @@ static struct wakeup_source et512_wake_lock;
 //#include <mt-plat/mt_gpio.h>
 #include "et520.h"
 #include "ets_navi_input.h"
+#include <linux/proc_fs.h>
+#include <linux/seq_file.h>
 
 #define EGIS_NAVI_INPUT 1 // 1:open ; 0:close
 
@@ -1046,6 +1048,25 @@ static int egistec_remove(struct platform_device *pdev)
 }
 extern char* saved_command_line;
 
+static int fp_id_show(struct seq_file *m, void *v)
+{
+	seq_printf(m, "et520\n");
+	return 0;
+}
+
+static int fp_id_open(struct inode *inode, struct file *file)
+{
+	return single_open(file, fp_id_show, NULL);
+}
+
+static const struct file_operations fp_id_fops = {
+	.owner = THIS_MODULE,
+	.open = fp_id_open,
+	.read = seq_read,
+	.llseek = seq_lseek,
+	.release = single_release,
+};
+
 static int egistec_probe(struct platform_device *pdev)
 {
 	struct device *dev = &pdev->dev;
@@ -1236,9 +1257,12 @@ static int __init egis520_init(void)
 	int status = 0;
 	int rc = 0;
 	pr_err("[%s] save_command_line =%s.\n", __func__, saved_command_line);
+/*
 	if(!strstr(saved_command_line,"fingerprint=egis")){
 		return -7;
 	}
+*/
+	proc_create("fp_id", 0644, NULL, &fp_id_fops);
 //liukangping@huaqin.com add fp id gpio 20180716 begin
    //  int sim_gpio = -1;
      // int sim_val = 1;
@@ -1327,9 +1351,9 @@ static int __init egis520_init(void)
 
 static void __exit egis520_exit(void)
 {
-
-      platform_driver_unregister(&egistec_driver);
-      spi_unregister_driver(&spi_driver);
+	remove_proc_entry("fp_id", NULL);
+	platform_driver_unregister(&egistec_driver);
+	spi_unregister_driver(&spi_driver);
 }
 
 module_init(egis520_init);

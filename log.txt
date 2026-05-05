@@ -15,28 +15,58 @@ fi
   CHK     include/generated/asm-offsets.h
   CALL    scripts/checksyscalls.sh
   CHK     include/generated/compile.h
+  LD      kernel/bpf/built-in.o
+  LD      net/802/built-in.o
 drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
 drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+  LD      drivers/gpio/built-in.o
+  LD      kernel/trace/built-in.o
   CHK     kernel/config_data.h
+  LD      kernel/built-in.o
+  LD      drivers/iio/industrialio.o
 drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
 drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+  CC      drivers/input/fingerprint/egis_et520/et520.o
+  LD      drivers/iio/built-in.o
+  LD      net/built-in.o
 drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
 drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
-drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
-drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+  LD      drivers/mmc/host/mediatek/ComboA/msdc.o
+  LD      drivers/mmc/host/mediatek/ComboA/built-in.o
+  LD      drivers/mmc/host/mediatek/built-in.o
+  LD      drivers/mmc/host/built-in.o
+  LD      drivers/mmc/built-in.o
+  LD      drivers/input/fingerprint/egis_et520/built-in.o
 .
+  LD      drivers/input/fingerprint/built-in.o
 FDVT: Drv use 4.0 folder
+  LD      drivers/input/built-in.o
 .
 .
 .
+  LD      drivers/tty/serial/8250/8250_base.o
+  LD      drivers/tty/serial/8250/built-in.o
+  LD      drivers/tty/serial/built-in.o
+  LD      drivers/video/fbdev/core/built-in.o
 PLATFORM = mt6765
 DEVAPC platform code exists...
+  LD      drivers/tty/built-in.o
+  LD      drivers/video/fbdev/built-in.o
+  LD      drivers/video/built-in.o
+  LD      drivers/misc/mediatek/emi/mt6765/built-in.o
+  LD      drivers/misc/mediatek/emi/built-in.o
 *MTK_GPU_VERSION 2 = doma
 imgsensor drv by project hi1336_mipi_raw/ gc2375h_chengxiangtong_mipi_raw/ gc5035_holitech_mipi_raw/ hi556_lce_mipi_raw/ gc02m1b_cxt_mipi_raw/ hi1336_holitech_mipi_raw/ hi1336_haoze_mipi_raw/ gc2385_mipi_raw/
 drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
 drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+  LD      drivers/misc/mediatek/masp/sec.o
+  LD      drivers/misc/mediatek/masp/built-in.o
+  LD      drivers/misc/mediatek/mddp/ctrl/ctrl.o
+  LD      drivers/misc/mediatek/mddp/ctrl/built-in.o
+  LD      drivers/misc/mediatek/mddp/built-in.o
 drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
 drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
+  LD      drivers/misc/mediatek/sspm/built-in.o
 build trng...
 TCORE_UT_FWK_SUPPORT = n
 TCORE_PROFILING_SUPPORT = n
@@ -45,7 +75,6 @@ PMEM_MOCK_OBJECT_SUPPORT = n
 TCORE_MEMORY_LEAK_DETECTION_SUPPORT = n
 drivers/misc/mediatek/gud/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6765""
 drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "400b""
-  LD      drivers/misc/mediatek/sspm/built-in.o
   LD      drivers/misc/mediatek/built-in.o
   LD      drivers/misc/built-in.o
   LD      drivers/built-in.o
@@ -61,9 +90,9 @@ drivers/misc/mediatek/gud/Makefile.include:3: "CONFIG_TRUSTONIC_TEE_VERSION: "40
   LD      vmlinux
   SORTEX  vmlinux
   SYSMAP  System.map
+  Building modules, stage 2.
   OBJCOPY arch/arm64/boot/Image
   DTC     arch/arm64/boot/dts/mediatek/mt6765.dtb
-  Building modules, stage 2.
-  MODPOST 4 modules
   GZIP    arch/arm64/boot/Image.gz
+  MODPOST 4 modules
   CAT     arch/arm64/boot/Image.gz-dtb
